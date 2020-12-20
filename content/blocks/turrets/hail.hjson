@@ -1,0 +1,8 @@
+targetAir: true
+targetGround: true
+
+requirements: [
+   copper/40
+   graphite/17
+   lead/40
+]

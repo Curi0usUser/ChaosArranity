@@ -2,7 +2,6 @@ type: flying
 name: Nightmare
 speed: 1
 drag: 20
-armor: 10
 engineOffset: 30
 engineSize: 10
 flying: true
@@ -13,6 +12,7 @@ mineTier: 8
 itemCapacity: 250
 faceTarget: true
 health: 42000
+armor: 14
 weapons: [
 {
   name: heavy-cannon

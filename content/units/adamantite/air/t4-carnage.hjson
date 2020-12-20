@@ -2,7 +2,6 @@ type: flying
 name: Carnage
 speed: 2
 drag: 20
-armor: 0.1
 flying: true
 commandLimit: 18
 buildSpeed: 4
@@ -10,6 +9,7 @@ mineSpeed: 10
 mineTier: 6
 itemCapacity: 150
 health: 32000
+armor: 12
 weapons: [
 {
   name: carnage-rockets
