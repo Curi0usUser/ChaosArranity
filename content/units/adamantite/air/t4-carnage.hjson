@@ -9,7 +9,7 @@ mineSpeed: 10
 mineTier: 6
 itemCapacity: 150
 health: 32000
-armor: 18
+armor: 26
 weapons: [
 {
   name: carnage-rockets

@@ -10,7 +10,7 @@ hitSize: 50
 accel: 10
 flying: false
 health: 50000
-armor: 23
+armor: 45
 weapons: [
 {
   name: main-laser
@@ -29,6 +29,7 @@ weapons: [
       damage: 3000
       length: 120
       lifetime: 285
+      shootEffect: lancerLaserCharge
       status: {
          name: obliterating
          damage: 1.666666666666666666
@@ -40,7 +41,6 @@ weapons: [
    }
    shootSound: laserbig
    chargeSound: lasercharge
-   shootEffect: lancerLaserCharge
 }
 {
   name: nightmare-turret
