@@ -2,7 +2,7 @@ type: ItemTurret
 name: Catalyst
 description: An extremely powerful high-range sniper. Can use most items for ammo.
 health: 4000
-size: 3
+size: 4
 reloadTime: 300
 range: 600
 targetAir: true
