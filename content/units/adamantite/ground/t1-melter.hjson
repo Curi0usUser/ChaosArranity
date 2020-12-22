@@ -9,7 +9,7 @@ hitSize: 20
 accel: 10
 flying: false
 health: 15000
-armor: 7
+armor: 12
 weapons: [
 {
   name: melter-weapon

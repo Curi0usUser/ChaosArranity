@@ -10,7 +10,7 @@ hitSize: 50
 accel: 10
 flying: false
 health: 50000
-armor: 17
+armor: 23
 weapons: [
 {
   name: main-laser

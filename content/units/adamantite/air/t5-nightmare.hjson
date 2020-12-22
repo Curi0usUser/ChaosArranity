@@ -12,7 +12,7 @@ mineTier: 8
 itemCapacity: 250
 faceTarget: true
 health: 42000
-armor: 14
+armor: 20
 weapons: [
 {
   name: heavy-cannon

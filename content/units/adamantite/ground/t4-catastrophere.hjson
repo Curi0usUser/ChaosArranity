@@ -9,7 +9,7 @@ hitSize: 25
 accel: 10
 flying: false
 health: 35000
-armor: 15
+armor: 21
 weapons: [
 {
   name: catastrophere-cannon
