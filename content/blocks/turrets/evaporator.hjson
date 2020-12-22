@@ -27,7 +27,7 @@ coolantMultiplier: 5
 targetAir: true
 targetGround: true
 requirements: [
-   adamantite/800
+   adamantite/500
    surge-alloy/1000
    silicon/2500
    thorium/1000
@@ -42,7 +42,7 @@ consumes: {
 }
 shootType: {
    type: ContinuousLaserBulletType
-   damage: 1666.6666666666
+   damage: 83.3333333333333333333333
 }
 group: turrets
 category: turret
