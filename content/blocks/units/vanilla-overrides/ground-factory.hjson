@@ -30,5 +30,5 @@ plans: [
             silicon/10
         ]
         time: 480
-    },
+    }
 ]

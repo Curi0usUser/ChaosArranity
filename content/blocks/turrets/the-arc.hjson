@@ -1,5 +1,5 @@
 type: PowerTurret
-name: The Arc
+name: ARC
 description: Fires a deathly wave of arcs.
 health: 25000
 size: 14
@@ -23,20 +23,20 @@ coolantMultiplier: 30
 targetAir: true
 targetGround: true
 requirements: [
-  adamantite/1000
-  surge-alloy/2000
-  silicon/4000
-  plastanium/2000
-  thorium/4000
-  titanium/3000
-  lead/3000
+   adamantite/10000
+   silicon/12000
+   graphite/12000
+   surge-alloy/15000
+   phase-fabric/8000
+   plastanium/10000
+   lead/15000
 ]
 consumes: {
   power: 300000
 }
 shootType: {
    type: LightningBulletType
-   damage: 120
+   damage: 240
    lightningLength:200
 }
 group: turrets

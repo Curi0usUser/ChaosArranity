@@ -3,13 +3,13 @@ name: Hyperwall
 description: Has phase, surge, and plastanium properties, but can only be this size otherwise the properties are lost. Very durable, but relatively expensive.
 variants: 3
 size: 2
-health: 4200
+health: 4800
 outlineColor: c30d40
 canOverdrive: false
 lightningChance: 1
-lightningDamage: 2
+lightningDamage: 14
 lightningLength: 8
-chanceDeflect: 25
+chanceDeflect: 35
 insulated: true
 absorbLasers: true
 requirements: [
