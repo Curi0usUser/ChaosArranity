@@ -3,7 +3,7 @@ name: Fireburster Fighter
 description: Has a mini flamethrower to burn anything in range.
 speed: 0.4
 flying: true
-health: 100
+health: 80
 engineOffset: 5.5
 range: 20
 weapons: [
