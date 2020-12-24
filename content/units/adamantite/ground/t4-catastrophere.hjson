@@ -9,7 +9,7 @@ hitSize: 25
 accel: 10
 flying: false
 health: 35000
-armor: 42
+armor: 52
 weapons: [
 {
   name: catastrophere-cannon
@@ -52,7 +52,7 @@ weapons: [
       homingRange: 36
       status: {
          name: heated
-         damage: 0.1666666666666666666
+         damage: 0.16666666666666666
          color: FFAA5F
          effect: mine
       }

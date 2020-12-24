@@ -9,7 +9,6 @@ hasPower: true
 hasLiquids: false
 hasItems: true
 craftTime: 240
-updateEffect: smeltsmoke
 consumes: {
      power: 3
 }

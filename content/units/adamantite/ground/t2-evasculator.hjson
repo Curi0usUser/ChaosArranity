@@ -9,7 +9,7 @@ hitSize: 20
 accel: 10
 flying: false
 health: 20000
-armor: 36
+armor: 46
 weapons: [
 {
   name: evasculator-weapon

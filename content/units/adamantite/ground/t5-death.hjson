@@ -10,7 +10,7 @@ hitSize: 50
 accel: 10
 flying: false
 health: 50000
-armor: 45
+armor: 55
 weapons: [
 {
   name: main-laser
@@ -32,9 +32,9 @@ weapons: [
       shootEffect: lancerLaserCharge
       status: {
          name: obliterating
-         damage: 1.666666666666666666
-         speedMultiplier: 0.5
+         damage: 0.1666666666666666
          damageMultiplier: 0.8
+         speedMultiplier: 0.5
          color: FFFFFF
          effect: mineHuge
       }

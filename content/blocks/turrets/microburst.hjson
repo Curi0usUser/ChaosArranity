@@ -23,8 +23,6 @@ ammoTypes: {
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 4
-    hitEffect: explosion
-    hitSound: boom
   }
  pyratite: {
     speed: 6

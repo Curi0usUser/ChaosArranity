@@ -11,7 +11,7 @@ mineSpeed: 10
 mineTier: 5
 itemCapacity: 125
 health: 25000
-armor: 24
+armor: 34
 weapons: [
 {
   name: decimator-cannon

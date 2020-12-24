@@ -6,7 +6,7 @@ health: 1000
 speed: 0.25
 itemCapacity: 25
 outlineColor: c30d40
-canOverdrive: false
+canOverdrive: true
 requirements: [
      adamantite/1
      lead/10

@@ -1,0 +1,17 @@
+type: Conveyor
+name: Adamantite Conveyor
+description: An Adamantite Conveyor with extra armor. extremely durable, but can't hold as many items.
+size: 1
+health: 2500
+speed: 0.25
+itemCapacity: 14
+outlineColor: c30d40
+canOverdrive: true
+requirements: [
+     adamantite/1
+     lead/20
+     thorium/15
+]
+group: transportation
+category: distribution
+research: adamantite-conveyor

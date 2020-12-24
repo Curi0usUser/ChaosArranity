@@ -17,30 +17,30 @@ coolantMultiplier: 6
 ammoTypes: {
  copper: {
     speed: 6
-    damage: 25
+    damage: 15
     reloadMultiplier: 1
-    width: 4
-    height: 4
+    width: 7
+    height: 7
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 1
    }
  graphite: {
     speed: 8
-    damage: 24
+    damage: 15
     reloadMultiplier: 1.6
-    width: 4
-    height: 4
+    width: 8
+    height: 8
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 3
    }
  silicon: {
     speed: 4
-    damage: 24
+    damage: 15
     reloadMultiplier: 1.3
-    width: 4
-    height: 4
+    width: 6
+    height: 6
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     homingPower: 0.1

@@ -10,7 +10,7 @@ commandLimit: 8
 flying: true
 range: 120
 health: 10000
-armor: 19
+armor: 29
 weapons: [
 {
   name: reliavent-bombs

@@ -9,7 +9,7 @@ hitSize: 20
 accel: 10
 flying: false
 health: 28000
-armor: 40
+armor: 50
 weapons: [
 {
   name: heavy-cannon
@@ -29,8 +29,8 @@ weapons: [
          name: barraged
          damage: 0.25
          damageMultiplier: 0.9
-         speedMultiplier: 0.5
-         color: ff4000
+         speedMutiplier: 0.5
+         color: FF4000
          effect: steam
       }
    }

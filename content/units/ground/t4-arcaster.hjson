@@ -4,6 +4,7 @@ description: Fires arcs at nearby threats.
 speed: 0.3
 flying: false
 health: 7500
+armor: 6
 engineOffset: 5.5
 range: 80
 hitSize: 15

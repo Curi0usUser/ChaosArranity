@@ -215,6 +215,7 @@ requirements: [
   thorium/800
   plastanium/600
   surge-alloy/400
+  adamantite/300
 ]
 category: turret
 research: foreshadow
