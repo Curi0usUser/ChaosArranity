@@ -12,8 +12,8 @@ plans: [
     {
         unit: fireburster
         requirements: [
-            silicon/15
-            coal/10
+            silicon/30
+            lead/20
         ]
         time: 1200
     }
