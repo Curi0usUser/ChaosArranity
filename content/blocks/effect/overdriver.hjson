@@ -20,7 +20,7 @@
   speedBoost: 1.25
   phaseRangeBoost: 32
   speedBoostPhase: 0.25
-  useTime: 120
+  useTime: 600
   category: effect
   requirements: [
       lead/100

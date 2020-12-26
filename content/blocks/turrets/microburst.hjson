@@ -16,6 +16,7 @@ spread: 10
 ammoTypes: {
  graphite: {
     speed: 6
+    lifetime: 20
     damage: 22
     width: 8
     height: 8
@@ -26,6 +27,7 @@ ammoTypes: {
   }
  pyratite: {
     speed: 6
+    lifetime: 20
     damage: 19
     width: 10
     height: 10
@@ -36,6 +38,7 @@ ammoTypes: {
    }
  silicon: {
     speed: 6
+    lifetime: 20
     reloadMultiplier: 1.4
     damage: 15
     width: 5
@@ -48,6 +51,7 @@ ammoTypes: {
    }
   copper: {
     speed: 6
+    lifetime: 20
     reloadMultiplier: 1
     damage: 17
     width: 6
@@ -58,6 +62,7 @@ ammoTypes: {
    }
   metaglass: {
     speed: 6
+    lifetime: 20
     reloadMultiplier: 1.2
     damage: 15
     width: 6

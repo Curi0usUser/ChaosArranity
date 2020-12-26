@@ -8,7 +8,7 @@ hasLiquids: true
 hasPower: true
 liquidCapacity: 80
 buildCostMultiplier:0.5
-powerUse: 83.33333333333333333333
+powerUse: 100
 range: 256
 reloadTime: 180
 spread: 0
@@ -37,12 +37,12 @@ consumes: {
   power: 7
   liquid: {
     liquid: cryogenic-fluid
-    amount: 0.666666666666666666
+    amount: 1.3333333333333333333333
   }
 }
 shootType: {
    type: ContinuousLaserBulletType
-   damage: 83.3333333333333333333333
+   damage: 166.66666666666666666666666666
 }
 group: turrets
 category: turret

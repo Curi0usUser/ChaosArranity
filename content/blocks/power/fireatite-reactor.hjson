@@ -8,7 +8,7 @@ hasItems: true
 hasLiquids: true
 itemDuration: 60
 powerProduction: 583.3333333333333
-explosionDamage: 5000
+explosionDamage: 45000
 consumes: {
   power: 83.333333333333
   items: {

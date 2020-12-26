@@ -1,9 +1,0 @@
-upgrades: [
-    [nova, pulsar],
-    [dagger, mace],
-    [crawler, atrax],
-    [flare, horizon],
-    [mono, poly],
-    [risso, minke],
-    [t1-dalish, t2-marginator]
-]

@@ -29,7 +29,7 @@ weapons: [
          name: barraged
          damage: 0.25
          damageMultiplier: 0.9
-         speedMutiplier: 0.5
+         speedMultiplier: 0.5
          color: FF4000
          effect: steam
       }

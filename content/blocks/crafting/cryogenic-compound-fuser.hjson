@@ -1,6 +1,6 @@
-type: GenericCrafter
-name: Cryogenic Compound Mixer
-description: Cools cryofluid even further using ice.
+type: GenericSmelter
+name: Cryogenic Compound Fuser
+description: Fuses cryofluid and ice together to make an extremely cold liquid.
 liquidCapacity: 90
 itemCapacity: 30
 size: 3

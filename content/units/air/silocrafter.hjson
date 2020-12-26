@@ -3,15 +3,35 @@ name:  Silocrafter
 description: Fires a barrage of missles.
 speed: 0.2
 flying: true
-health: 60
+health: 240
 engineOffset: 5.5
-range: 200
+range: 100
 weapons: [
 {
   name: missile-launcher
-  y: 5
-  reload: 300
+  y: 1
+  reload: 60
+  inaccuracy: 2
+  shots: 2
+  rotate: false
   alternate: false
-  bullet: missileExplosive 
+  bullet: {
+      type: MissileBulletType
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      speed: 2
+      damage: 0
+      splashDamage: 20
+      splashDamageRadius: 16
+      homingPower: 0.05
+      homingRange: 32
+      status: blasted
+      statusDuration: 60
+      shrinkY: 0
+      width: 6
+      height: 6
+      weaveScale: 0
+      weaveMag: -1
+  }
 }
 ]

@@ -1,3 +1,4 @@
+//type: GenericCrafter
 name: Advanced Plastanium Compressor
 description: A much more efficient Plastanium Compressor.
 liquidCapacity: 120
@@ -7,7 +8,7 @@ health: 480
 hasPower: true
 hasLiquids: true
 hasItems: true
-craftTime: 30
+craftTime: 60
 outputItem: plastanium/4
 consumes: {
   power: 5.3333333333333333333333
@@ -18,7 +19,7 @@ consumes: {
   }
   liquid: {
     liquid: oil
-    amount: 0.41666666666666666
+    amount: 0.666666666666666
   }
 }
 requirements: [

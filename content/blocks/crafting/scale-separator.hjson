@@ -7,19 +7,19 @@ health: 330
 hasPower: true
 hasLiquids: true
 hasItems: true
-craftTime: 20
+craftTime: 6
 results: [
-copper/1
-lead/1
-coal/1
-sand/1
-titanium/1
+   thorium/1
+   lead/1
+   coal/1
+   sand/1
+   titanium/1
 ]
  consumes: {
      power: 10
       liquid: {
        liquid: scale
-       amount: 0.4
+       amount: 0.1
     }
 }
 requirements: [

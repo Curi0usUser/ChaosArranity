@@ -11,7 +11,7 @@ health: 225
 hasPower: true
 hasLiquids: true
 hasItems: true
-craftTime: 30
+craftTime: 20
 updateEffect: smeltsmoke
 consumes: {
    power: 1
