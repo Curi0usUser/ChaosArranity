@@ -1,5 +1,6 @@
 type: flying
 name: Decimation
+description: Fires extremely high damaging lancer lasers.
 speed: 3
 drag: 20
 flying: true

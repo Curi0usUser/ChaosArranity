@@ -1,5 +1,6 @@
 type: mech
 name: Catastrophere
+description: Fires a massive barrage of high damaging bullets, and has two heavily enhanced salvos that fire high damaging incendiary rounds.
 speed: 0.25
 buildSpeed: 3
 mineSpeed: 6

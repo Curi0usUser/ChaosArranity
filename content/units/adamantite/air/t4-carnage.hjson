@@ -1,5 +1,6 @@
 type: flying
 name: Carnage
+description: Fires a massive barrage of rockets, and has two fuses in the front for flanking forces.
 speed: 2
 drag: 20
 flying: true
@@ -56,7 +57,7 @@ weapons: [
   shootSound: bang
 }
 {
-  name: carnage-blaster
+  name: adamantite-fuse
   x: 20
   y: 20
   shots: 3

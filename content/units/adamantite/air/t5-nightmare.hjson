@@ -1,5 +1,6 @@
 type: flying
 name: Nightmare
+description: Has a large amount of weaponry aswell as a built in meltdown laser to melt anything in its short range.
 speed: 1
 drag: 20
 engineOffset: 30
@@ -57,12 +58,13 @@ weapons: [
   shootSound: bang
 }
 {
-  name: nightmare-laser
+  name: vaporizer
   x: 0
-  y: -5
+  y: 10
   recoil: 6
   reload: 180
-  rotate: true
+  rotate: false
+  shootCone: 20
   rotateSpeed: 10
   continuous: true
   mirror: false
@@ -108,6 +110,63 @@ weapons: [
       weaveMag: -1
    }
   shootSound: missile
+}
+{
+  name: nightmare-launcher
+  x: 12
+  y: 26
+  recoil: 3
+  reload: 60
+  rotate: true
+  rotateSpeed: 1
+  alternate: false
+  mirror: true
+  bullet: {
+      speed: 4
+      width: 15
+      height: 15
+      lifetime: 60
+      damage: 250
+      status: burning
+      splashDamage: 100
+      splashDamageRadius: 64
+      fragBullets: 8
+      fragBullet: fireball
+   }
+  shootSound: shootBig
+}
+{
+  name: nightmare-lancer
+  x: 20
+  y: 0
+  reload: 60
+  rotate: true
+  alternate: false
+  bullet: {
+      type: LaserBulletType
+      lifetime: 10
+      damage: 50
+      length: 100
+      lightColor: C40D30
+   }
+  shootSound: laser
+}
+{
+  name: nightmare-lancer
+  x: 0
+  y: 0
+  reload: 60
+  rotate: true
+  alternate: false
+  mirror: false
+  bullet: {
+      type: LaserBulletType
+      lifetime: 10
+      damage: 50
+      length: 100
+      lightColor: C40D30
+   }
+  shootSound: laser
 }
 ]
 

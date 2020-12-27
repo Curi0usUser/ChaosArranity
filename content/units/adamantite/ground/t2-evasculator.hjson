@@ -1,5 +1,6 @@
 type: mech
 name: Evacsulator
+description: Fires large high damaging shells at anything in range.
 speed: 0.3
 buildSpeed: 3
 mineSpeed: 6
