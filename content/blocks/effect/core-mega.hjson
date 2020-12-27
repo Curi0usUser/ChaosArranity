@@ -1,5 +1,5 @@
 type: CoreBlock
-name: Core: Fragment
+name: Core: Mega
 description: Core of the base. Unbelievably armored. Stores more than a Nucleus.
 size: 6
 health: 16000

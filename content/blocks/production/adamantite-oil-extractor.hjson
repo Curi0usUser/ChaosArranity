@@ -3,7 +3,7 @@ name: Adamantite Oil Extractor
 description: A significantly more efficent oil extractor, using adamantite to drill even faster and extract more oil.
 result: oil
 liquidCapacity: 100
-pumpAmount: 0.6666666666666666
+pumpAmount: 0.75
 size: 3
 health: 800
 attribute: oil

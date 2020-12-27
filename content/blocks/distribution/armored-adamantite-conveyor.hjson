@@ -9,8 +9,8 @@ outlineColor: c30d40
 canOverdrive: true
 requirements: [
      adamantite/1
-     lead/20
-     thorium/15
+     lead/10
+     thorium/10
 ]
 group: transportation
 category: distribution

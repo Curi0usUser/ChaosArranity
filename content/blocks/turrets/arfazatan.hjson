@@ -77,6 +77,17 @@ ammoTypes: {
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 1
    }
+ spore-pod: {
+    speed: 5
+    reloadMultiplier: 0.9
+    damage: 20
+    width: 10
+    height: 10
+    shootEffect: shootSmall
+    status: sporeSlowed
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1
+   }
  ice: {
     speed: 5
     reloadMultiplier: 1.0

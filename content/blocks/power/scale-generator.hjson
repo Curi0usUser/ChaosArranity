@@ -14,7 +14,7 @@ consumes: {
   }
   liquid: {
     liquid: scale
-    amount: 0.03333333333333333333
+    amount: 27.333333333333333333
   }
 }
 requirements: [
