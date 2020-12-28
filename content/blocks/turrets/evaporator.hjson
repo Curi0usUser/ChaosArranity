@@ -2,7 +2,7 @@ type: LaserTurret
 name: The Evaporator
 description: Turret which uses the radioactivity of adamantite to create a powerful laser beam. Needs lots of time to charge. Requires coolant.
 health: 12000
-size: 4
+size: 8
 hasItems: false
 hasLiquids: true
 hasPower: true
@@ -17,7 +17,7 @@ cooldown: 0.05
 restitution: 0.05
 rotateSpeed: 5
 shootCone: 5
-shootShake: 0
+shootShake: 3
 shootSound: vaporizerShoot
 loopSound: vaporizerLoop
 loopSoundVolume: 2
@@ -43,6 +43,7 @@ consumes: {
 shootType: {
    type: ContinuousLaserBulletType
    damage: 166.66666666666666666666666666
+   width: 15
 }
 group: turrets
 category: turret
