@@ -1,4 +1,4 @@
-//type: GenericSmelter
+type: GenericSmelter
 name: Scale Melter
 description: Mixes oil and thorium to produce scale.
 liquidCapacity: 50
