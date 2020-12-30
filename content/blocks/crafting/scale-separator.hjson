@@ -1,5 +1,5 @@
 type: Separator
-name: Scale Seperator
+name: Scale Separator
 description: Splits scale into several materials, however this process requires immense amounts of power.
 liquidCapacity: 50
 size: 3

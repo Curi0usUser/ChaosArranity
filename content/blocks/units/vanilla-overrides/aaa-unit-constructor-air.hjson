@@ -1,5 +1,5 @@
 type: UnitFactory
-name: Chos Unit Constructor: Air
+name: Chaos Unit Constructor: Air
 description: Produces units from chaos arranity and avoids conflict with other mods.
 health: 360
 size: 3
