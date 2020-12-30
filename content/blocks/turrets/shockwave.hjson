@@ -7,7 +7,7 @@ reloadTime: 180
 shots: 12
 burstSpacing: 3
 xRand: 8
-range: 110
+range: 90
 recoilAmount: 1.5
 targetAir: true
 targetGround: true

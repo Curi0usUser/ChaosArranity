@@ -12,4 +12,5 @@ damageTaken: 0
 drownTime: 180
 isLiquid: true
 liquidDrop: scale
+liquidMultiplier: 0.5
 playerUnmineable: true

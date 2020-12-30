@@ -6,7 +6,7 @@ buildSpeed: 3
 mineSpeed: 8
 mineTier: 3
 legCount: 4
-legLength: 14
+legLength: 18
 legBaseOffset: 11
 legMoveSpace: 1.5
 allowLegStep: true

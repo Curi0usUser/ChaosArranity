@@ -2,7 +2,7 @@ type: PowerTurret
 name: ARC
 description: Fires a deathly wave of arcs.
 health: 25000
-size: 14
+size: 16
 hasItems: true
 hasLiquids: true
 hasPower: true

@@ -22,7 +22,7 @@ weapons: [
   recoil: 3
   reload: 15
   rotate: true
-  rotateSpeed: 0.005
+  rotateSpeed: 0.001
   shootCone: 30
   alternate: true
   mirror: true
@@ -31,7 +31,7 @@ weapons: [
       width: 11
       height: 14
       lifetime: 60
-      damage: 200
+      damage: 270
    }
   shootSound: shootBig
 }
@@ -70,7 +70,7 @@ weapons: [
   mirror: false
   bullet: {
       type: ContinuousLaserBulletType
-      damage: 1000
+      damage: 900
       length: 100
       lifetime: 285
    }
@@ -97,7 +97,7 @@ weapons: [
       hitEffect: blastExplosion
       speed: 5
       lifetime: 60
-      damage: 80
+      damage: 75
       splashDamage: 100
       splashDamageRadius: 32
       homingPower: 1
@@ -118,22 +118,35 @@ weapons: [
   recoil: 3
   reload: 60
   rotate: true
-  rotateSpeed: 1
   alternate: false
   mirror: true
   bullet: {
+      sprite: chaos-arranity-energy-orb
+      frontColor: 665C9F
+      backColor: BF92F9
       speed: 4
       width: 15
       height: 15
-      lifetime: 60
-      damage: 250
+      lifetime: 50
+      damage: 200
       status: burning
       splashDamage: 100
       splashDamageRadius: 64
-      fragBullets: 8
-      fragBullet: fireball
+      fragBullets: 6
+      fragBullet: {
+         sprite: chaos-arranity-energy-orb
+         frontColor: 665C9F
+         backColor: BF92F9
+         speed: 4
+         width: 10
+         height: 10
+         lifetime: 25
+         damage: 100
+         lightning: 4
+         lightningLength: 12
+      }
    }
-  shootSound: shootBig
+  shootSound: catalystShort
 }
 {
   name: nightmare-lancer

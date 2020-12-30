@@ -67,10 +67,11 @@ blast-compound: {
     }
 }
 requirements: [
-  surge-alloy/200
-  adamantite/5
-  plastanium/100
-  graphite/100
+   lead/800
+   silicon/300
+   plastanium/280
+   surge-alloy/250
+   metaglass/180
 ]
 category: turret
 research: scatter-mk2

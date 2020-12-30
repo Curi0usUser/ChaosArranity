@@ -6,7 +6,7 @@ size: 4
 reloadTime: 15
 shots: 2
 spread: 4
-range: 210
+range: 420
 alternate: true
 targetAir: true
 targetGround: true

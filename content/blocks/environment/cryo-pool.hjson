@@ -14,4 +14,5 @@ status: freezing
 statusDuration: 120
 isLiquid: true
 liquidDrop: cryofluid
+liquidMultiplier: 0.75
 playerUnmineable: true

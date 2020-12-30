@@ -6,10 +6,11 @@ health: 3000
 laserRange: 40
 maxNodes: 50
 requirements: [
-     adamantite/5
-     silicon/25
+     adamantite/15
+     silicon/225
      titanium/50
      lead/50
+     surge-alloy/120
 ]
 category: power
 research: surge-tower
