@@ -146,7 +146,7 @@ weapons: [
          lightningLength: 12
       }
    }
-  shootSound: catalystShort
+  shootSound: catalyst
 }
 {
   name: nightmare-lancer
