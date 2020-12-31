@@ -27,7 +27,7 @@ weapons: [
       hitEffect: blastExplosion
       speed: 5
       damage: 0
-      splashDamage: 50
+      splashDamage: 70
       splashDamageRadius: 24
       homingPower: 0.1
       homingRange: 64

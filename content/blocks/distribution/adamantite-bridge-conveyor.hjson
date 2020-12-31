@@ -14,7 +14,7 @@ requirements: [
      phase-fabric/10
 ]
 range: 20
-transportTime: 1
+transportTime: 2
 group: transportation
 category: distribution
 research: phase-conveyor

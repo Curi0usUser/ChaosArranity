@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Ridge
-description: Fires from dual barrels.
+description: A better, larger advanced duo.
 health: 1600
 size: 2
 reloadTime: 15
@@ -49,7 +49,7 @@ ammoTypes: {
    }
 }
 requirements: [
-   copper/80
+   copper/220
 ]
 category: turret
 research: duo

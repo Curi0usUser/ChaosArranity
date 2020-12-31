@@ -5,7 +5,7 @@ size: 2
 hasPower: true
 hasItems: false
 hasLiquids: true
-powerProduction: 13.6666666666666
+powerProduction: 27.333333333333333333
 consumes: {
   items: {
     items: [
@@ -14,7 +14,7 @@ consumes: {
   }
   liquid: {
     liquid: scale
-    amount: 0.2583333333333333
+    amount: 0.03333333333333
   }
 }
 requirements: [

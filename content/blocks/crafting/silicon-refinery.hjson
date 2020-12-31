@@ -12,7 +12,7 @@ craftTime: 30
 updateEffect: smeltsmoke
 outputItem: silicon/10
 consumes: {
-  power: 5
+  power: 10
   items: {
     items: [
      sand/8
@@ -20,11 +20,11 @@ consumes: {
   }
 }
 requirements: [
-  copper/150
-  metaglass/50
-  thorium/30
-  silicon/100
-  surge-alloy/80
+  copper/600
+  metaglass/200
+  thorium/120
+  silicon/400
+  surge-alloy/640
 ]
 category: crafting
 research: silicon-crucible
