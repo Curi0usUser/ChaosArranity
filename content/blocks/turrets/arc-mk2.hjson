@@ -21,6 +21,7 @@ shootCone: 2
 inaccuracy: 0
 shootShake: 2
 coolantMultiplier: 9
+coolantUsage: 0.5
 targetAir: true
 targetGround: true
 requirements: [

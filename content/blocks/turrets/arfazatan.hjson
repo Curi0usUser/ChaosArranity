@@ -11,6 +11,7 @@ ammoUseEffect: casing1
 inaccuracy: 0
 rotateSpeed: 6
 coolantMultiplier: 16
+coolantUsage: 0.5
 ammoTypes: {
   lead: {
     speed: 6

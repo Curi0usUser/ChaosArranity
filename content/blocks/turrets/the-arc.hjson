@@ -20,6 +20,7 @@ rotateSpeed: 5
 shootCone: 5
 shootShake: 5
 coolantMultiplier: 30
+coolantUsage: 5
 targetAir: true
 targetGround: true
 requirements: [
