@@ -12,7 +12,7 @@ mineSpeed: 16
 mineTier: 8
 itemCapacity: 250
 faceTarget: true
-health: 42000
+health: 40000
 armor: 38
 weapons: [
 {
@@ -70,7 +70,7 @@ weapons: [
   mirror: false
   bullet: {
       type: ContinuousLaserBulletType
-      damage: 900
+      damage: 800
       length: 100
       lifetime: 285
    }

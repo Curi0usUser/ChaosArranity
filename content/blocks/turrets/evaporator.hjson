@@ -42,7 +42,7 @@ consumes: {
 }
 shootType: {
    type: ContinuousLaserBulletType
-   damage: 333.33333333333333333333
+   damage: 250
    width: 15
 }
 group: turrets
