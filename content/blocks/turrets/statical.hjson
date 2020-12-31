@@ -19,7 +19,7 @@ ammoTypes: {
     speed: 6
     reloadMultiplier: 1.0
     damage: 20
-    lifetime: 50
+    lifetime: 60
     width: 12
     height: 12
     shootEffect: shootSmall
@@ -31,7 +31,7 @@ ammoTypes: {
  fireatite: {
     speed: 6
     damage: 40
-    lifetime: 50
+    lifetime: 60
     width: 12
     height: 12
     shootEffect: shootSmall
@@ -45,7 +45,7 @@ ammoTypes: {
     speed: 6
     reloadMultiplier: 1
     damage: 20
-    lifetime: 50
+    lifetime: 60
     fragBullets: 8
     fragBullet: fragPlasticFrag 
     width: 12
@@ -58,7 +58,7 @@ ammoTypes: {
     speed: 6
     reloadMultiplier: 1
     damage: 10
-    lifetime: 50
+    lifetime: 60
     fragBullets: 4
     fragBullet: fragPlasticFrag 
     width: 10
@@ -71,7 +71,7 @@ ammoTypes: {
     speed: 6
     reloadMultiplier: 1
     damage: 15
-    lifetime: 50
+    lifetime: 60
     fragBullets: 8
     fragBullet: fragGlassFrag 
     width: 10
@@ -97,7 +97,7 @@ ammoTypes: {
     speed: 6
     reloadMultiplier: 1.0
     damage: 5
-    lifetime: 50
+    lifetime: 60
     width: 12
     height: 12
     shootEffect: shootSmall
