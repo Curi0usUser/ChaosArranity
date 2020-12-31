@@ -1,7 +1,7 @@
 //type: flying
 name:  Defender
 description: Defends the Mega core from enemies. Builds structures.
-speed: 3.5
+speed: 4
 flying: true
 health: 500
 armor: 8
@@ -10,7 +10,7 @@ payloadCapacity: 800
 buildSpeed: 3
 mineSpeed: 10
 mineTier: 3
-itemCapacity: 75
+itemCapacity: 300
 engineOffset: 10.5
 engineSize: 3
 hitSize: 15
