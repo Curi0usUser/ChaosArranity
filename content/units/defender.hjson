@@ -1,0 +1,53 @@
+//type: flying
+name:  Defender
+description: Defends the Mega core from enemies. Builds structures.
+speed: 3.5
+flying: true
+health: 500
+armor: 8
+commandLimit: 8
+payloadCapacity: 800
+buildSpeed: 3
+mineSpeed: 10
+mineTier: 3
+itemCapacity: 75
+engineOffset: 10.5
+engineSize: 3
+hitSize: 15
+weapons: [
+{
+  name: heal-launcher
+  y: 0
+  x: 9
+  reload: 30
+  inaccuracy: 2
+  shots: 2
+  rotate: false
+  alternate: true
+  shootSound: missile
+  ejectEffect: none
+  bullet: {
+      type: MissileBulletType
+      sprite: chaos-arranity-missile-small
+      frontColor: 98ffa9
+      backColor: 98ffa9
+      trailColor: 98ffa9
+      hitEffect: hitLaser
+      despawnEffect: none
+      speed: 4
+      damage: 20
+      homingPower: 0.1
+      homingRange: 32
+      healPercent: 10
+      collidesTeam: true
+      shrinkY: 0
+      width: 10
+      height: 10
+      weaveScale: 4
+      weaveMag: 4
+      shootEffect: shootHeal
+      smokeEffect: hitLaser
+      hitSound: none
+  }
+}
+]
