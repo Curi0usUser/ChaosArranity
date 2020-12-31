@@ -28,7 +28,7 @@ consumes: {
 }
 requirements: [
   thorium/200
-  titanium/101
+  titanium/100
   graphite/100
   silicon/75
 ]
