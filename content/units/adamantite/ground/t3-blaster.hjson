@@ -19,13 +19,14 @@ weapons: [
   reload: 20
   alternate: true
   recoil: 3
-  ejectEffect: none
+  ejectEffect: casing3
+  shootSound: bang
   bullet: {
       speed: 6
       width: 10
       height: 12
       lifetime: 50
-      damage: 260
+      damage: 520
       status: {
          name: barraged
          damage: 0.25
@@ -50,7 +51,7 @@ weapons: [
       width: 15
       height: 15
       lifetime: 40
-      damage: 90
+      damage: 180
       fragBullet: fireball
       fragBullets: 4
       splashDamage: 10

@@ -3,7 +3,7 @@ name: Graphite Factory
 description: A large graphite press design, using water as coolant, and using surge to press graphite faster than ever before.
 liquidCapacity: 30
 itemCapacity: 50
-size: 4
+size: 5
 health: 1000
 hasPower: true
 hasLiquids: true

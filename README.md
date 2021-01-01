@@ -1,7 +1,7 @@
 # ChaosArranity
 A mod that adds a few items and liquids, and a whole new tier of upgrades, along with arc. Made by Chickenloser and Oreo. 
 
-Adds 74 new blocks, 3 items, 2 liquids, and 18 units, with plans to add even more.
+Adds 75 new blocks, 3 items, 2 liquids, and 18 units, with plans to add even more.
 
 # Credits
 Ideas and JSON by Oreo

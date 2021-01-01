@@ -11,6 +11,7 @@ buildSpeed: 5
 mineSpeed: 16
 mineTier: 8
 itemCapacity: 250
+hitSize: 50
 faceTarget: true
 health: 40000
 armor: 38
