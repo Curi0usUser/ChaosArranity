@@ -33,7 +33,8 @@ weapons: [
   bullet: {
       type: ContinuousLaserBulletType
       damage: 10000
-      length: 120
+      length: 60
+      width:18
       lifetime: 285
       shootEffect: lancerLaserCharge
       status: {

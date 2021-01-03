@@ -1,4 +1,4 @@
-//type: GenericCrafter
+type: GenericCrafter
 name: Advanced Plastanium Compressor
 description: A much more efficient Plastanium Compressor.
 liquidCapacity: 300

@@ -22,7 +22,6 @@ ammoTypes: {
     lifetime: 120
     width: 10
     height: 10
-    ammoMultiplier: 2
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
    }
@@ -32,7 +31,6 @@ ammoTypes: {
     lifetime: 120
     width: 10
     height: 10
-    ammoMultiplier: 2
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
    }
@@ -42,7 +40,6 @@ ammoTypes: {
     lifetime: 220
     width: 10
     height: 10
-    ammoMultiplier: 2
     fragBullets: 12
     fragBullet: fragGlassFrag
     shootEffect: shootBig
@@ -54,7 +51,6 @@ ammoTypes: {
     lifetime: 120
     width: 10
     height: 10
-    ammoMultiplier: 2
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
    }
@@ -64,7 +60,6 @@ ammoTypes: {
     lifetime: 120
     width: 10
     height: 10
-    ammoMultiplier: 2
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
    }
@@ -74,7 +69,6 @@ ammoTypes: {
     lifetime: 120
     width: 10
     height: 10
-    ammoMultiplier: 2
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
    }
@@ -84,7 +78,6 @@ ammoTypes: {
     lifetime: 120
     width: 10
     height: 10
-    ammoMultiplier: 2
     fragBullets: 10
     fragBullet: fragPlasticFrag
     shootEffect: shootBig
@@ -96,7 +89,6 @@ ammoTypes: {
     lifetime: 120
     width: 10
     height: 10
-    ammoMultiplier: 2
     homingPower: 1
     homingRange: 80
     shootEffect: shootBig
@@ -108,7 +100,6 @@ ammoTypes: {
     lifetime: 120
     width: 10
     height: 10
-    ammoMultiplier: 2
     fragBullets: 12
     fragBullet: fragPlasticFrag
     shootEffect: shootBig
@@ -121,22 +112,8 @@ ammoTypes: {
     lifetime: 120
     width: 10
     height: 10
-    ammoMultiplier: 2
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-   }
- surge-alloy: {
-    speed: 6
-    damage: 600
-    lifetime: 120
-    lightning: 6
-    lightningLength: 16
-    status: shocked
-    width: 10
-    height: 10
-    shootEffect: shootSmall
-    smokeEffect: shootSmallSmoke
-    ammoMultiplier: 2
    }
    blast-compound: {
     speed: 6
@@ -144,7 +121,6 @@ ammoTypes: {
     lifetime: 120
     width: 10
     height: 10
-    ammoMultiplier: 2
     status: burning
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
@@ -157,7 +133,6 @@ ammoTypes: {
     lifetime: 120
     width: 10
     height: 10
-    ammoMultiplier: 2
     status: burning
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
@@ -170,7 +145,6 @@ ammoTypes: {
     pierce: true
     width: 10
     height: 10
-    ammoMultiplier: 2
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
    }
@@ -180,7 +154,6 @@ ammoTypes: {
     lifetime: 120
     width: 10
     height: 10
-    ammoMultiplier: 2
     status: burning
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
@@ -206,7 +179,6 @@ ammoTypes: {
         backColor: 9db5e5
     }
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 2
    }
 }
 requirements: [

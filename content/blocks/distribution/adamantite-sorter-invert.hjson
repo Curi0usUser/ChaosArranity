@@ -1,0 +1,17 @@
+type: Sorter
+name: Inverted Adamantite Sorter
+description: A Sorter made out of adamantite. Very durable, but also expensive.
+invert: true
+size: 1
+health: 1500
+outlineColor: c30d40
+canOverdrive: true
+requirements: [
+     adamantite/1
+     copper/30
+     lead/30
+     thorium/30
+]
+group: transportation
+category: distribution
+research: adamantite-sorter

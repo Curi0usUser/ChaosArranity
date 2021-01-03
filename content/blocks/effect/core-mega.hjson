@@ -10,7 +10,8 @@ itemCapacity: 20000
 unitType: defender
 unitCapModifier: 50
 requirements: [
-     plastanium/10000
+     copper/10000
+     lead/10000
      thorium/8000
      silicon/12000
      adamantite/1000

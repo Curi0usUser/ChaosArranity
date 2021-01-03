@@ -23,7 +23,7 @@
   useTime: 60
   category: effect
   requirements: [
-    adamantite/30
+    adamantite/60
     surge-alloy/250
     plastanium/500
     silicon/100

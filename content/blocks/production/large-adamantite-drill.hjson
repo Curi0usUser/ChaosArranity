@@ -6,7 +6,7 @@ liquidCapacity: 12
 size: 4
 tier: 30
 rotateSpeed: 4
-drillTime: 40
+drillTime: 20
 liquidBoostIntensity: 2
 consumes: {
   power: 7
@@ -18,10 +18,10 @@ consumes: {
   }
 }
 requirements: [
-  adamantite/40
-  surge-alloy/100
-  metaglass/250
-  plastanium/250
+  adamantite/80
+  surge-alloy/200
+  metaglass/500
+  plastanium/500
 ]
 category: production
 research: adamantite-drill
