@@ -5,7 +5,7 @@ variants: 1
 placeableOn: true
 targetable: false
 canOverdrive: false
-cacheLayer: water
+cacheLayer: tar
 hasShadow: false
 destructible: false
 speedMultiplier: 0.6
