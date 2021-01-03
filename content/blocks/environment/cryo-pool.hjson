@@ -4,8 +4,8 @@ solid: false
 variants: 1
 placeableOn: true
 targetable: false
-cacheLayer: slag
 canOverdrive: false
+cacheLayer: water
 hasShadow: false
 destructible: false
 speedMultiplier: 0.6
