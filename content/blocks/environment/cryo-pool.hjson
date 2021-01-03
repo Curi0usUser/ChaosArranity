@@ -4,6 +4,7 @@ solid: false
 variants: 1
 placeableOn: true
 targetable: false
+cacheLayer: slag
 canOverdrive: false
 hasShadow: false
 destructible: false
