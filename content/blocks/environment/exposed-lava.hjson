@@ -1,0 +1,12 @@
+//type: Floor
+name: Exposed Lava
+variants: 3
+emitLight: true
+lightRadius: 45
+lightColor: FFA500
+blendGroup: basalt
+solid: false
+placeableOn: true
+isLiquid: false
+status: burning
+statusDuration: 15
