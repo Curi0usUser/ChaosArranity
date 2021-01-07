@@ -1,0 +1,18 @@
+type: StorageBlock
+name: Mega Vault
+description: A vault capable of storing an immense amount of items. Uses phase fabric to shrink items, making the Mega Vault extremely compact.
+size: 2
+health: 4000
+hasLiquids: false
+hasItems: true
+hasPower: false
+itemCapacity: 5000
+outlineColor: c30d40
+requirements: [
+     copper/100
+     titanium/500
+     adamantite/25
+     phase-fabric/10
+]
+category: effect
+research: vault
