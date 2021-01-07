@@ -1,0 +1,17 @@
+type: Conveyor
+name: Armored Adamantite Conveyor
+description: Transports items like an armored conveyor. Very durable, but has less throughput than a standard adamantite conveyor.
+size: 1
+health: 2500
+speed: 0.25
+itemCapacity: 14
+outlineColor: c30d40
+canOverdrive: true
+requirements: [
+     adamantite/1
+     lead/10
+     thorium/10
+]
+group: transportation
+category: distribution
+research: adamantite-conveyor

@@ -1,0 +1,16 @@
+type: router
+name: Adamantite Router
+description: A router made out of adamantite. Very durable, but also expensive.
+size: 1
+health: 1500
+outlineColor: c30d40
+canOverdrive: true
+requirements: [
+     adamantite/1
+     copper/30
+     lead/30
+     thorium/30
+]
+group: transportation
+category: distribution
+research: router
