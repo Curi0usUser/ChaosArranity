@@ -9,10 +9,9 @@ hasPower: false
 itemCapacity: 5000
 outlineColor: c30d40
 requirements: [
-     copper/100
      titanium/500
-     adamantite/25
-     phase-fabric/10
+     phase-fabric/300
+     adamantite/100
 ]
 category: effect
 research: vault
