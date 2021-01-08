@@ -1,7 +1,6 @@
 type: Reconstructor
 name: Tetrative Chaos Reconstructor
-description: Upgrades Chaos Arranity's units to the fifth and final tier. avoids conflict with other mods
-health: 3240
+description: Upgrades Chaos Arranity's units to the fifth and final tier. Avoids conflict with other mods in the process.
 size: 9
 constructTime: 14400
 liquidCapacity: 180
