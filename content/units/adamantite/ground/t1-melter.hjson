@@ -1,0 +1,52 @@
+type: mech
+name: Melter
+description: Melts anything within range.
+speed: 0.4
+buildSpeed: 3
+mineSpeed: 6
+mineTier: 3
+itemCapacity: 75
+commandLimit: 8
+hitSize: 20
+accel: 10
+flying: false
+health: 15000
+armor: 44
+weapons: [
+{
+  name: melter-weapon
+  y: 0
+  x: 12
+  shootY: 10
+  reload: 10
+  alternate: false
+  recoil: 4
+  ejectEffect: none
+  shootSound: spray
+  bullet: {
+      type: LiquidBulletType
+      liquid: slag
+      damage: 400
+      drag: 0.03
+      statusDuration: 720
+      status: {
+         name: overheating
+         damage: 0.533333333333333
+         color: FF8800
+         effect: fire
+      }
+  }
+}
+]
+
+research: {
+    parent: t1-adamantite-unit-constructor
+    requirements:
+    [
+        {item: surge-alloy, amount: 5000},
+        {item: plastanium, amount: 10000},
+        {item: adamantite, amount: 50},
+        {item: thorium, amount: 10000},
+        {item: silicon, amount: 10000}
+    ]
+}
