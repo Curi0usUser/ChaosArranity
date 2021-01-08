@@ -1,2 +1,2 @@
-require("defenderShield");
-require("lavaFloor");
+require("defenderScript");
+require("nightmareScript");
