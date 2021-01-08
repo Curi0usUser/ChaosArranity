@@ -1,0 +1,38 @@
+type: GenericSmelter
+name: Adamantite Forge
+description: Forges adamantite by melting down metaglass, plastanium, surge, then fuses it together with phase and silicon. Requires cryogenic fluid as coolant.
+liquidCapacity: 300
+itemCapacity: 500
+size: 5
+health: 3000
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 600
+updateEffect: smeltsmoke
+consumes: {
+  power: 50
+items: {
+    items: [
+      metaglass/20
+      plastanium/18
+      surge-alloy/24
+      phase-fabric/30
+      silicon/18
+  ]
+}
+  liquid: {
+    liquid: cryogenic-fluid
+    amount: 0.3
+  }
+}
+requirements: [
+  plastanium/600
+  surge-alloy/800
+  silicon/1800
+  graphite/2000
+  thorium/2000
+]
+category: crafting
+research: alloy-smelter
+outputItem: adamantite/1
