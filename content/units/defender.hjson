@@ -1,8 +1,7 @@
 type: flying
 name:  Defender
 description: Defends the Mega core from enemies. Builds structures. Capable of picking up large payloads. Able to heal itself and nearby allies.
-speed: 4
-defaultController: 
+speed: 4 
 flying: true
 health: 400
 armor: 8
