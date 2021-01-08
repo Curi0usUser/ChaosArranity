@@ -1,6 +1,6 @@
 type: Reconstructor
 name: Additive Chaos Reconstructor
-description: Upgrades Chaos Arranity's units to the second tier. avoids conflict with other mods
+description: Upgrades Chaos Arranity's units to the second tier. Avoids conflict with other mods in the process.
 health: 360
 size: 3
 constructTime: 600
