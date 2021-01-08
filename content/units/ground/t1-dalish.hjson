@@ -1,28 +1,29 @@
 type: mech
 name: Dalish
-description: High rate of fire, but low health.
-speed: 0.6
+description: An annoying fast tiny ground unit. Very weak, but extremely high rate of fire.
+speed: 0.8
 accel: 1.75
 drag: 0.4
 flying: false
-health: 40
+health: 20
+canBoost: true
 engineOffset: 5.5
-range: 80
+range: 60
 hitSize: 5
 weapons: [
 {
-  name: mini-blaster
+  name: mini-cannon
   y: 0
   x: 4
-  reload: 3
+  reload: 1
   shootSound: pew
   alternate: true
-  inaccuracy: 10
+  inaccuracy: 15
   bullet: {
     speed: 4
     damage: 3
-    width: 6
-    height: 6
+    width: 5
+    height: 5
 }
 }
 ]
