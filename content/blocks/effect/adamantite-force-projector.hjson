@@ -6,18 +6,18 @@ liquidCapacity: 12
 health: 10000
 outlineColor: c30d40
 phaseRadiusBoost: 120
+cooldownLiquid: 4
 radius: 96
 shieldHealth: 10000
 consumes: {
    power: 4
-   items: {
-      items: [
-         surge-alloy/1
-      ]
-      optional: true
-      booster: true
-   }
-}
+    liquid: {
+       liquid: scale
+       amount: 0.2
+       optional: true
+       booster: true
+     }
+  }
 requirements: [
      adamantite/100
      lead/200
