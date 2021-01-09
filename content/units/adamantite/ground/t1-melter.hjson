@@ -1,4 +1,4 @@
-//type: mech
+type: mech
 name: Melter
 description: Melts anything within range. Extremely armored
 speed: 0.4
