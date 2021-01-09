@@ -14,7 +14,7 @@ consumes: {
   power: 8
   liquid: {
     liquid: scale
-    amount: 0.083333333333
+    amount: 1
   }
 }
 requirements: [
