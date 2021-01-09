@@ -1,4 +1,4 @@
-//type: legs
+type: legs
 name: Death
 description: Fires an absurdly powerful laser that heavily weakens and slows down attacking forces. Has two fuses to prevent close range combat, and has a cyclone on the back to prevent air units from damaging it.
 speed: 0.4
@@ -17,7 +17,7 @@ hitSize: 50
 accel: 10
 flying: false
 health: 50000
-armor: 55
+armor: 110
 weapons: [
 {
   name: main-laser
@@ -63,10 +63,10 @@ weapons: [
       speed: 5
       width: 9
       height: 12
-      lifetime: 35
+      lifetime: 80
       damage: 40
       fragBullets: 12
-      fragBullet: fragPlasticFrag
+      fragBullet: fragSurge
       splashDamage: 10
       splashDamageRadius: 16
    }
@@ -80,7 +80,7 @@ weapons: [
   shots: 3
   recoil: 3
   spacing: 18
-  reload: 60
+  reload: 30
   rotate: true
   alternate: false
   mirror:true
