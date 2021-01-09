@@ -1,6 +1,6 @@
-//type: mech
+type: mech
 name: Evacsulator
-description: Fires large high damaging shells at anything in range.
+description: Fires a large amount of high damaging shells at any threat within range.
 speed: 0.3
 buildSpeed: 3
 mineSpeed: 6
@@ -11,7 +11,7 @@ hitSize: 20
 accel: 10
 flying: false
 health: 20000
-armor: 46
+armor: 67
 weapons: [
 {
   name: evasculator-weapon
@@ -26,10 +26,10 @@ weapons: [
   ejectEffect: none
   bullet: {
       speed: 6
-      width: 8
-      height: 8
+      width: 10
+      height: 10
       lifetime: 50
-      damage: 90
+      damage: 100
    }
 }
 ]
