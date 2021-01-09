@@ -27,6 +27,8 @@ weapons: [
       hitEffect: blastExplosion
       speed: 5
       damage: 0
+      pierce: true
+      pierceCap: 2
       splashDamage: 80
       splashDamageRadius: 24
       homingPower: 0.1
