@@ -6,29 +6,3 @@ flying: true
 health: 320
 engineOffset: 5.5
 range: 20
-weapons: [
-{
-  name: flamethrower
-  y: 0
-  reload: 14
-  alternate: true
-  ejectEffect: none
-  shootSound: flame
-  recoil: 1
-  bullet: {
-     ammoMultiplier: 3
-     speed: 4
-     hitSize: 7
-     damage: 30
-     lifetime: 12
-     pierce: true
-     statusDuration: 240
-     shootEffect: shootSmallFlame
-     hitEffect: hitSmallFlame
-     despawnEffect: none
-     status: burning
-     keepVelocity: false
-     hittable: false
-  }
-}
-]
