@@ -15,7 +15,7 @@ weapons: [{
   name: rocket-gun
   y: 2
   x: 8
-  reload: 30
+  reload: 28
   shootSound: bigshot
   alternate: true
   bullet: {
@@ -26,13 +26,13 @@ weapons: [{
      shrinkY: 0
      drag: -0.01
      splashDamageRadius: 30
-     splashDamage: 30
+     splashDamage: 32
      ammoMultiplier: 4
      hitEffect: blastExplosion
      despawnEffect: blastExplosion
      status: blasted
      statusDuration: 60
-     fragBullets: 6
+     fragBullets: 8
      fragBullet: {
         type: LiquidBulletType
         damage: 10
