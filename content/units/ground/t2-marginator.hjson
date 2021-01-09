@@ -6,6 +6,7 @@ accel: 1.75
 drag: 0.4
 flying: false
 health: 450
+armor: 1
 engineOffset: 5.5
 range: 80
 hitSize: 10
