@@ -1,10 +1,10 @@
 type: GenericSmelter
 name: Silicon Refinery
-description: Refines sand with power to make large amounts of silicon.
+description: Refines sand with hot copper bars using power. Requires water as coolant.
 liquidCapacity: 0
 itemCapacity: 30
-size: 3
-health: 660
+size: 4
+health: 680
 hasPower: true
 hasLiquids: false
 hasItems: true
@@ -12,17 +12,20 @@ craftTime: 30
 updateEffect: smeltsmoke
 outputItem: silicon/10
 consumes: {
-  power: 10
+  power: 13.333333333333
   items: {
     items: [
-     sand/8
+     sand/10
     ]
+  }
+  liquid: {
+    liquid: water
+    amount: 0.2
   }
 }
 requirements: [
   copper/600
   metaglass/200
-  thorium/120
   silicon/400
   surge-alloy/640
 ]
