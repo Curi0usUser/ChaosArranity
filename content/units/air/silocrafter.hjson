@@ -25,7 +25,6 @@ weapons: [
       splashDamageRadius: 16
       homingPower: 0.05
       homingRange: 32
-      status: blasted
       statusDuration: 60
       shrinkY: 0
       width: 6
