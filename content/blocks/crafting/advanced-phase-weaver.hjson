@@ -8,10 +8,10 @@ health: 440
 hasPower: true
 hasLiquids: true
 hasItems: true
-craftTime: 30
-outputItem: phase-fabric/2
+craftTime: 60
+outputItem: phase-fabric/1
  consumes: {
-     power: 7.5
+     power: 10
   items: {
     items: [
      thorium/8
