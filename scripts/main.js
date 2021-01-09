@@ -1,2 +1,1 @@
-require("defenderScript");
-require("nightmareScript");
+require("abilities");

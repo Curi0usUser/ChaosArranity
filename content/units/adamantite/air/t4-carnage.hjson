@@ -1,4 +1,4 @@
-type: flying
+//type: flying
 name: Carnage
 description: Fires a massive barrage of rockets, and has two fuses in the front for flanking forces.
 speed: 2

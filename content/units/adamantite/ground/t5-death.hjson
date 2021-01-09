@@ -1,4 +1,4 @@
-type: legs
+//type: legs
 name: Death
 description: Fires an absurdly powerful laser that heavily weakens and slows down attacking forces. Has two fuses to prevent close range combat, and has a cyclone on the back to prevent air units from damaging it.
 speed: 0.4
@@ -34,7 +34,7 @@ weapons: [
   bullet: {
       type: ContinuousLaserBulletType
       damage: 10000
-      length: 60
+      length: 120
       width:18
       lifetime: 285
       shootEffect: lancerLaserCharge

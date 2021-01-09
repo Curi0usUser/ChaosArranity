@@ -1,4 +1,4 @@
-type: flying
+//type: flying
 name: Silo Array
 description: Based on the silocrafter, now fires a massive barrage of incendiary missles to destroy anything within range.
 speed: 3

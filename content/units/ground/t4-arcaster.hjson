@@ -4,6 +4,8 @@ description: Fires arcs at nearby threats.
 speed: 0.3
 flying: false
 health: 7500
+canBoost: true
+boostMultiplier: 1.5
 armor: 6
 engineOffset: 5.5
 range: 80
@@ -19,7 +21,8 @@ weapons: [
   bullet: {
      type: LightningBulletType
      damage: 35
-     lightningLength: 10
+     lightningLength: 16
+     buildingDamageMultiplier: 0.25
    }
 }
 ]
