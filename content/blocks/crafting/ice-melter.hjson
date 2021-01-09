@@ -5,6 +5,7 @@ liquidCapacity: 10
 size: 2
 health: 80
 attribute: heat
+boostScale: 30
 hasPower: true
 hasLiquids: true
 hasItems:true
