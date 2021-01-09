@@ -4,7 +4,7 @@ description: A conveyor made out of adamantite. Very durable and fast, but also 
 size: 1
 health: 1000
 speed: 0.25
-displayedSpeed: 325
+displayedSpeed: 300
 itemCapacity: 25
 outlineColor: c30d40
 canOverdrive: true
