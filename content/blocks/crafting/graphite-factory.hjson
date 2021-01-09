@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Graphite Factory
-description: A large graphite press design, using water as coolant, and using surge to press graphite faster than ever before.
+description: A large graphite press design, uses surge alloy to press coal into graphite in mass. Requires cryofluid as coolant.
 liquidCapacity: 30
 itemCapacity: 50
 size: 5
@@ -19,8 +19,8 @@ consumes: {
     ]
   }
   liquid: {
-    liquid: water
-    amount: 0.4
+    liquid: cryofluid
+    amount: 0.133333333333333333
   }
 }
 requirements: [
