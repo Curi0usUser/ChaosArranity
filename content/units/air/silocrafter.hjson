@@ -1,9 +1,9 @@
 type: flying
 name:  Silocrafter
 description: Fires a barrage of missles.
-speed: 0.2
+speed: 0.5
 flying: true
-health: 240
+health: 390
 engineOffset: 5.5
 range: 100
 weapons: [
@@ -11,8 +11,8 @@ weapons: [
   name: missile-launcher
   y: 1
   reload: 60
-  inaccuracy: 2
-  shots: 2
+  inaccuracy: 6
+  shots: 4
   rotate: false
   alternate: false
   bullet: {
