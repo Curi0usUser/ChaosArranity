@@ -1,9 +1,11 @@
 type: flying
-name: Garmr Miner Drone
-description: A miner drone that can mine most ores.
-speed: 0.5
+name: Altrope
+description: Mines copper, lead, and titanium, then deposits it into the core.
+speed: 2
+drag: 0.6
+accel: 0.3
 flying: true
-health: 30
+health: 220
 itemCapacity: 50
 engineOffset: 5.5
 range: 80
