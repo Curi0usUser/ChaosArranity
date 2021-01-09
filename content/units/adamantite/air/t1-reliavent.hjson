@@ -1,4 +1,4 @@
-//type: flying
+type: flying
 name: Reliavent
 description: Drops a massive payload of incendiary bombs that start massive fires.
 speed: 1.80
@@ -6,7 +6,6 @@ buildSpeed: 3
 mineSpeed: 8
 mineTier: 4
 itemCapacity: 75
-faceTarget: false
 circleTarget: true
 rotateShooting: false
 commandLimit: 8
@@ -33,7 +32,7 @@ weapons: [
    status: burning
    despawnEffect: explosion
    splashDamage: 50
-   splashDamageRadius: 96
+   splashDamageRadius: 24
    hitSound: explosion
    fragBullets: 8
    fragBullet: fireball
