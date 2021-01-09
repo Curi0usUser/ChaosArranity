@@ -67,8 +67,6 @@ weapons: [
       damage: 40
       fragBullets: 2
       fragBullet: fragGlass
-      splashDamage: 10
-      splashDamageRadius: 16
    }
   shootSound: bang
 }
