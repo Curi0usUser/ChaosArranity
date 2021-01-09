@@ -11,14 +11,3 @@ engineOffset: 5.5
 range: 80
 mineTier: 3
 mineSpeed: 5
-weapons: [
-{
-  name: minergun
-  reload: 90
-  alternate: false
-  bullet: {
-   type: LightningBulletType
-   damage: 8
-}
-}
-]
