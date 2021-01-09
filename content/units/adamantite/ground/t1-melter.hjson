@@ -1,6 +1,6 @@
 type: mech
 name: Melter
-description: Melts anything within range. Extremely armored.
+description: Melts anything within range. Heavily armored.
 speed: 0.4
 buildSpeed: 3
 mineSpeed: 6
