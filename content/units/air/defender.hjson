@@ -21,7 +21,6 @@ weapons: [
   y: 0
   x: 9
   reload: 7.5
-  inaccuracy: 1
   shots: 2
   rotate: false
   alternate: true
