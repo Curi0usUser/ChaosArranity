@@ -65,7 +65,7 @@ weapons: [
       height: 12
       lifetime: 80
       damage: 40
-      fragBullets: 3
+      fragBullets: 2
       fragBullet: fragGlass
       splashDamage: 10
       splashDamageRadius: 16
