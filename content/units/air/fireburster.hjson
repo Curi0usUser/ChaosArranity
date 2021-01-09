@@ -23,8 +23,8 @@ weapons: [
      lifetime: 12
      pierce: true
      statusDuration: 240
-     //shootEffect: shootSmallFlame
-     //hitEffect: hitSmallFlame
+     shootEffect: shootSmallFlame
+     hitEffect: hitSmallFlame
      despawnEffect: none
      status: burning
      keepVelocity: false
