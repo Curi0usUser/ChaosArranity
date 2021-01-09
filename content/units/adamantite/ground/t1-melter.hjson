@@ -1,6 +1,6 @@
 //type: mech
 name: Melter
-description: Melts anything within range.
+description: Melts anything within range. Extremely armored
 speed: 0.4
 buildSpeed: 3
 mineSpeed: 6
@@ -11,14 +11,14 @@ hitSize: 20
 accel: 10
 flying: false
 health: 15000
-armor: 44
+armor: 80
 weapons: [
 {
   name: melter-weapon
   y: 0
   x: 12
   shootY: 10
-  reload: 10
+  reload: 8
   alternate: false
   recoil: 4
   ejectEffect: none
