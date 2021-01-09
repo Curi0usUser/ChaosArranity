@@ -1,6 +1,6 @@
 type: flying
 name: Nightmare
-description: Has a large amount of weaponry aswell as a built in meltdown laser to melt anything in its short range.
+description: Has a large amount of weaponry aswell as a built in meltdown laser to melt anything in its short range. Constructs zeniths.
 speed: 2
 drag: 20
 engineOffset: 30
