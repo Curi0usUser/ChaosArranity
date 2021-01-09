@@ -27,7 +27,7 @@ items: {
 requirements: [
   plastanium/600
   surge-alloy/800
-  silicon/1800
+  silicon/2000
   graphite/2000
   thorium/2000
 ]    
