@@ -1,4 +1,4 @@
-//type: flying
+type: flying
 name: Nightmare
 description: Has a large amount of weaponry aswell as a built in meltdown laser to melt anything in its short range.
 speed: 2
@@ -133,7 +133,7 @@ weapons: [
       status: burning
       splashDamage: 100
       splashDamageRadius: 64
-      fragBullets: 6
+      fragBullets: 12
       fragBullet: {
          sprite: chaos-arranity-energy-orb
          frontColor: 665C9F
@@ -143,8 +143,7 @@ weapons: [
          height: 10
          lifetime: 25
          damage: 100
-         lightning: 4
-         lightningLength: 12
+      
       }
    }
   shootSound: catalyst
