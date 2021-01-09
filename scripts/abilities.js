@@ -1,8 +1,16 @@
+//Core and Support
 const defender = extendContent(UnitType, "defender", {});
 defender.constructor = function(){
   return extend(PayloadUnit, {});
 };
 defender.abilities.add(new ForceFieldAbility(80, 5, 1000, 300), new RepairFieldAbility(25, 60, 80));
+defender.defaultController = BuilderAI;
+
+const altrope = extendContent(UnitType, "altrope", {});
+altrope.constructor = function(){
+  return extend(PayloadUnit, {});
+};
+altrope.defaultController = MinerAI;
 
 //Adamantite Air
 const reliavent = extendContent(UnitType, "t1-reliavent", {});
