@@ -1,6 +1,6 @@
 type: LaserTurret
 name: The Evaporator
-description: Turret which uses the radioactivity of adamantite to create a powerful laser beam. Needs lots of time to charge. Requires coolant.
+description: Turret which uses the radioactivity of adamantite to create a powerful laser beam. Needs lots of time to charge. Requires cryogenic fluid.
 health: 12000
 size: 8
 hasItems: false
