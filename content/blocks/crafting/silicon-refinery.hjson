@@ -24,10 +24,10 @@ consumes: {
   }
 }
 requirements: [
-  copper/600
   metaglass/200
   silicon/400
-  surge-alloy/640
+  copper/600
+  surge-alloy/600
 ]
 category: crafting
 research: silicon-crucible
