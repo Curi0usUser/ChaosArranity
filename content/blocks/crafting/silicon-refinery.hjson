@@ -1,6 +1,6 @@
 type: GenericSmelter
 name: Silicon Refinery
-description: Refines sand with hot copper bars using power. Requires water as coolant.
+description: Refines sand using raw power. Requires water as coolant.
 liquidCapacity: 100
 itemCapacity: 80
 size: 4
