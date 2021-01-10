@@ -9,7 +9,7 @@ hasPower: true
 liquidCapacity: 80
 buildCostMultiplier:0.5
 powerUse: 100
-range: 256
+range: 260
 reloadTime: 180
 spread: 0
 recoilAmount: 1
@@ -23,7 +23,7 @@ loopSound: vaporizerLoop
 loopSoundVolume: 2
 firingMoveFract: 0.5
 shootDuration: 480
-coolantMultiplier: 5
+coolantMultiplier: 2
 targetAir: true
 targetGround: true
 requirements: [
@@ -42,7 +42,7 @@ consumes: {
 }
 shootType: {
    type: ContinuousLaserBulletType
-   damage: 333.3333333333333333
+   damage: 350
    width: 15
 }
 group: turrets
