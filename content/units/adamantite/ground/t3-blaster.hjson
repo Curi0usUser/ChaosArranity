@@ -2,6 +2,7 @@ type: mech
 name: Blaster
 description: Uses two heavily modified reign type cannons to fire shells that weaken and slow enemy forces. Also has two heavily enhanced hail type cannons to start massive fires to burn anything nearby.
 speed: 0.2
+canDrown: false
 buildSpeed: 3
 mineSpeed: 6
 mineTier: 3
