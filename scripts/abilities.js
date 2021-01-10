@@ -13,11 +13,6 @@ defender.constructor = function(){
 };
 defender.abilities.add(new ForceFieldAbility(80, 5, 1000, 300), new RepairFieldAbility(25, 60, 80));
 
-const altrope = extendContent(UnitType, "altrope", {});
-altrope.constructor = function(){
-  return extend(PayloadUnit, {});
-};
-
 //Adamantite Air
 const reliavent = extendContent(UnitType, "t1-reliavent", {});
 reliavent.constructor = function(){
