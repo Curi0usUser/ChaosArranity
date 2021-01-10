@@ -1,7 +1,7 @@
 type: flying
 name:  Silocrafter
 description: Fires a barrage of missles.
-speed: 0.5
+speed: 1.5
 flying: true
 health: 390
 engineOffset: 5.5
