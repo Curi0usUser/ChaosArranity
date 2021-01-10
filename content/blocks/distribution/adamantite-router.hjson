@@ -2,7 +2,6 @@ type: router
 name: Adamantite Router
 description: A router made out of adamantite. Very durable, but also expensive.
 size: 1
-itemCapacity: 10
 health: 1500
 outlineColor: c30d40
 canOverdrive: true
