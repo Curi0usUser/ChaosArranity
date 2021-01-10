@@ -7,7 +7,7 @@ health: 7500
 canBoost: true
 engineSize: 6
 boostMultiplier: 2
-armor: 6
+armor: 7
 engineOffset: 5.5
 range: 80
 hitSize: 15
