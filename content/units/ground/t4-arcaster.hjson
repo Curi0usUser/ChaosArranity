@@ -8,7 +8,7 @@ canBoost: true
 engineSize: 6
 boostMultiplier: 2
 armor: 7
-engineOffset: 5.5
+engineOffset: 6.5
 range: 80
 hitSize: 15
 weapons: [
