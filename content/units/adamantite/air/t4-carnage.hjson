@@ -1,4 +1,4 @@
-//type: flying
+type: flying
 name: Carnage
 description: Fires a massive barrage of rockets, and has two fuses in the front for flanking forces.
 speed: 2
@@ -11,7 +11,7 @@ mineTier: 6
 itemCapacity: 150
 hitSize: 60
 health: 32000
-armor: 36
+armor: 50
 weapons: [
 {
   name: carnage-rockets
