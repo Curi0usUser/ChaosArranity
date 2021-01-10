@@ -1,16 +1,22 @@
+const incinerating = new StatusEffect("incinerating");
+incinerating.damage = 60;
+incinerating.effect = Fx.melting;
+
+const lava = extend(Floor, "lava", {});
+lava.status = incinerating;
+
+
 //Core and Support
 const defender = extendContent(UnitType, "defender", {});
 defender.constructor = function(){
   return extend(PayloadUnit, {});
 };
 defender.abilities.add(new ForceFieldAbility(80, 5, 1000, 300), new RepairFieldAbility(25, 60, 80));
-defender.defaultController = BuilderAI;
 
 const altrope = extendContent(UnitType, "altrope", {});
 altrope.constructor = function(){
   return extend(PayloadUnit, {});
 };
-altrope.defaultController = MinerAI;
 
 //Adamantite Air
 const reliavent = extendContent(UnitType, "t1-reliavent", {});
@@ -49,27 +55,32 @@ melter.constructor = function(){
   return extend(UnitEntity, {});
 };
 melter.abilities.add(new RepairFieldAbility(100, 300, 16));
+melter.immunities.add(incinerating);
 
 const evasculator = extendContent(UnitType, "t2-evasculator", {});
 evasculator.constructor = function(){
   return extend(UnitEntity, {});
 };
 evasculator.abilities.add(new RepairFieldAbility(100, 240, 16));
+evasculator.immunities.add(incinerating);
 
 const blaster = extendContent(UnitType, "t3-blaster", {});
 blaster.constructor = function(){
   return extend(UnitEntity, {});
 };
 blaster.abilities.add(new RepairFieldAbility(100, 180, 16));
+blaster.immunities.add(incinerating);
 
 const catastrophere = extendContent(UnitType, "t4-catastrophere", {});
 catastrophere.constructor = function(){
   return extend(UnitEntity, {});
 };
 catastrophere.abilities.add(new RepairFieldAbility(100, 120, 16));
+catastrophere.immunities.add(incinerating);
 
 const death = extendContent(UnitType, "t5-death", {});
 death.constructor = function(){
   return extend(UnitEntity, {});
 };
 death.abilities.add(new RepairFieldAbility(100, 60, 16));
+death.immunities.add(incinerating);
