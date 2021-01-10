@@ -1,4 +1,4 @@
-type: Floor
+//type: Floor
 name: Lava
 variants: 1
 emitLight: true
@@ -11,9 +11,9 @@ placeableOn: false
 isLiquid: true
 drownTime: 600
 speedMultiplier: 0.8
-status: {
-   name: incinerating
-   damage: 60
-   effect: melting
-}
+//status: {
+//   name: incinerating
+//   damage: 60
+//   effect: melting
+//}
 statusDuration: 300
