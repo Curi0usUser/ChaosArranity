@@ -1,6 +1,6 @@
 type: mech
 name: Dalish
-description: An annoying extremely fast tiny ground unit. Very weak, but extremely high rate of fire.
+description: An annoying extremely fast tiny ground unit. Very weak, but extremely high rate of fire. Capable of flight.
 speed: 3
 accel: 1.75
 drag: 0.4
