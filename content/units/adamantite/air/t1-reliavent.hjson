@@ -28,13 +28,13 @@ weapons: [
    keepVelocity: false
    speed: 0
    lifetime: 60
-   damage: 50
+   damage: 0
    status: burning
    despawnEffect: explosion
-   splashDamage: 50
+   splashDamage: 80
    splashDamageRadius: 24
    hitSound: explosion
-   fragBullets: 8
+   fragBullets: 12
    fragBullet: fireball
 }
   shootSound: none
