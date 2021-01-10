@@ -20,7 +20,7 @@ ammoTypes: {
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 2
-  
+  }
 }
 requirements: [
   lead/200
