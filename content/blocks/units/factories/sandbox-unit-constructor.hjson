@@ -27,7 +27,7 @@ plans: [
         time: 180
     }
     {
-        unit: t5-nightmare
+        unit: t5-destruction
         requirements: [ ]
         time: 180
     }

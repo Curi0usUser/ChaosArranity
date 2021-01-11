@@ -6,7 +6,7 @@ size: 9
 itemCapacity: 2000
 constructTime: 50400
 upgrades: [
-    [t4-carnage, t5-nightmare],
+    [t4-carnage, t5-destruction],
     [t4-catastrophere, t5-death],
 ]
 consumes: {
