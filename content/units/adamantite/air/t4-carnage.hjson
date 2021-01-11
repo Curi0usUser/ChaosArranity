@@ -11,7 +11,7 @@ mineTier: 6
 itemCapacity: 150
 hitSize: 60
 health: 32000
-armor: 50
+armor: 88
 weapons: [
 {
   name: carnage-rockets
