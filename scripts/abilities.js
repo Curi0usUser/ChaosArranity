@@ -1,5 +1,5 @@
 const incinerating = new StatusEffect("incinerating");
-incinerating.damage = 60;
+incinerating.damage = 65;
 incinerating.effect = Fx.melting;
 
 const lava = extend(Floor, "lava", {});
@@ -12,6 +12,11 @@ defender.constructor = function(){
   return extend(PayloadUnit, {});
 };
 defender.abilities.add(new ForceFieldAbility(80, 5, 1000, 300), new RepairFieldAbility(25, 60, 80));
+
+const fireburster = extendContent(UnitType, "fireburster", {});
+fireburster.constructor = function(){
+  return extend(PayloadUnit, {});
+};
 
 
 //Adamantite Air
@@ -200,3 +205,19 @@ ravager.immunities.add(StatusEffects.sporeSlowed);
 ravager.immunities.add(StatusEffects.tarred);
 ravager.immunities.add(StatusEffects.shocked);
 ravager.immunities.add(StatusEffects.corroded);
+
+const abolisher = extendContent(UnitType, "t3-abolisher", {});
+abolisher.constructor = function(){
+  return extend(UnitWaterMove, {});
+};
+abolisher.abilities.add(new RepairFieldAbility(100, 180, 16), new UnitSpawnAbility(fireburster, 1200, 0, 14));
+abolisher.immunities.add(incinerating);
+abolisher.immunities.add(StatusEffects.wet);
+abolisher.immunities.add(StatusEffects.melting);
+abolisher.immunities.add(StatusEffects.burning);
+abolisher.immunities.add(StatusEffects.muddy);
+abolisher.immunities.add(StatusEffects.sapped);
+abolisher.immunities.add(StatusEffects.sporeSlowed);
+abolisher.immunities.add(StatusEffects.tarred);
+abolisher.immunities.add(StatusEffects.shocked);
+abolisher.immunities.add(StatusEffects.corroded);
