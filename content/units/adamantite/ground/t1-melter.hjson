@@ -27,7 +27,7 @@ weapons: [
   bullet: {
       type: LiquidBulletType
       liquid: slag
-      damage: 400
+      damage: 500
       drag: 0.03
       statusDuration: 720
       status: {
