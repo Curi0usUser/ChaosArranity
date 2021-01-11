@@ -20,7 +20,7 @@ weapons: [
   reload: 2
   alternate: false
   rotate: true
-  inaccuracy: 20
+  inaccuracy: 0
   bullet: {
    type: BombBulletType
    width: 16
@@ -31,10 +31,10 @@ weapons: [
    damage: 0
    status: burning
    despawnEffect: explosion
-   splashDamage: 80
+   splashDamage: 120
    splashDamageRadius: 24
    hitSound: explosion
-   fragBullets: 12
+   fragBullets: 18
    fragBullet: fireball
 }
   shootSound: none
