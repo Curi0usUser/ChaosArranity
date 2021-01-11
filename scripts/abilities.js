@@ -85,21 +85,21 @@ carnage.immunities.add(StatusEffects.tarred);
 carnage.immunities.add(StatusEffects.shocked);
 carnage.immunities.add(StatusEffects.corroded);
 
-const nightmare = extendContent(UnitType, "t5-nightmare", {});
-nightmare.constructor = function(){
+const destruction = extendContent(UnitType, "t5-destruction", {});
+destruction.constructor = function(){
   return extend(UnitEntity, {});
 };
-nightmare.abilities.add(new UnitSpawnAbility(UnitTypes.zenith, 1800, 0, 0), new UnitSpawnAbility(UnitTypes.zenith, 1800, 0, 0), new RepairFieldAbility(25, 60, 80));
-nightmare.immunities.add(incinerating);
-nightmare.immunities.add(StatusEffects.wet);
-nightmare.immunities.add(StatusEffects.melting);
-nightmare.immunities.add(StatusEffects.burning);
-nightmare.immunities.add(StatusEffects.muddy);
-nightmare.immunities.add(StatusEffects.sapped);
-nightmare.immunities.add(StatusEffects.sporeSlowed);
-nightmare.immunities.add(StatusEffects.tarred);
-nightmare.immunities.add(StatusEffects.shocked);
-nightmare.immunities.add(StatusEffects.corroded);
+destruction.abilities.add(new UnitSpawnAbility(UnitTypes.zenith, 1800, 0, 0), new UnitSpawnAbility(UnitTypes.zenith, 1800, 0, 0), new RepairFieldAbility(25, 60, 80));
+destruction.immunities.add(incinerating);
+destruction.immunities.add(StatusEffects.wet);
+destruction.immunities.add(StatusEffects.melting);
+destruction.immunities.add(StatusEffects.burning);
+destruction.immunities.add(StatusEffects.muddy);
+destruction.immunities.add(StatusEffects.sapped);
+destruction.immunities.add(StatusEffects.sporeSlowed);
+destruction.immunities.add(StatusEffects.tarred);
+destruction.immunities.add(StatusEffects.shocked);
+destruction.immunities.add(StatusEffects.corroded);
 
 //Adamantite Ground
 const melter = extendContent(UnitType, "t1-melter", {});

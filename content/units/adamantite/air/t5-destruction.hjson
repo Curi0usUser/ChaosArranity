@@ -1,5 +1,5 @@
 type: flying
-name: Nightmare
+name: Destruction
 description: Has a large amount of weaponry aswell as a built in meltdown laser to melt anything in its short range. Constructs zeniths.
 speed: 3
 drag: 20
@@ -37,7 +37,7 @@ weapons: [
   shootSound: shootBig
 }
 {
-  name: nightmare-turret
+  name: destruction-turret
   x: 15
   y: 15
   recoil: 3
@@ -78,7 +78,7 @@ weapons: [
    shootSound: laserbig
 }
 {
-  name: nightmare-rockets
+  name: destruction-rockets
   x: 20
   y: -33
   recoil: 2
@@ -113,7 +113,7 @@ weapons: [
   shootSound: missile
 }
 {
-  name: nightmare-launcher
+  name: destruction-launcher
   x: 12
   y: 26
   recoil: 3
@@ -149,7 +149,7 @@ weapons: [
   shootSound: catalyst
 }
 {
-  name: nightmare-lancer
+  name: destruction-lancer
   x: 20
   y: 0
   reload: 60
@@ -165,7 +165,7 @@ weapons: [
   shootSound: laser
 }
 {
-  name: nightmare-lancer
+  name: destruction-lancer
   x: 0
   y: 0
   reload: 60
