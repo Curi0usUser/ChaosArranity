@@ -105,13 +105,13 @@ weapons: [
 ]
 
 research: {
-    parent: t1-adamantite-unit-constructor
+    parent: t2-additive-adamantite-reconstructor
     requirements:
     [
-        {item: surge-alloy, amount: 5000},
-        {item: plastanium, amount: 10000},
-        {item: adamantite, amount: 50},
-        {item: thorium, amount: 10000},
-        {item: silicon, amount: 10000}
+        {item: surge-alloy, amount: 7000},
+        {item: plastanium, amount: 15000},
+        {item: adamantite, amount: 100},
+        {item: thorium, amount: 15000},
+        {item: silicon, amount: 15000}
     ]
 }
