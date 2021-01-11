@@ -14,7 +14,7 @@ itemCapacity: 250
 hitSize: 50
 faceTarget: true
 health: 40000
-armor: 68
+armor: 98
 weapons: [
 {
   name: heavy-cannon
