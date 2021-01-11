@@ -29,7 +29,7 @@ weapons: [
       damage: 0
       pierce: true
       pierceCap: 2
-      splashDamage: 95
+      splashDamage: 120
       splashDamageRadius: 24
       homingPower: 0.1
       homingRange: 64
