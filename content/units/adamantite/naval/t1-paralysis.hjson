@@ -1,6 +1,6 @@
 type: naval
 name: Paralysis
-description: Fires a large barrage of missles and bullets. Able to withstand the heat of lava.
+description: Fires a large barrage of missles and bullets.
 speed: 1.3
 buildSpeed: 3
 mineSpeed: 8
@@ -26,7 +26,7 @@ weapons: [
    height: 10
    speed: 5
    lifetime: 40
-   damage: 50
+   damage: 90
   }
 }
 {
@@ -48,7 +48,7 @@ weapons: [
    speed: 5
    lifetime: 40
    damage: 0
-   splashDamage: 80
+   splashDamage: 200
    splashDamageRadius: 24
    homingPower: 0.1
    homingRange: 24
