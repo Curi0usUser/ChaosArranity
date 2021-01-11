@@ -31,7 +31,7 @@ weapons: [
    speed: 5
    lifetime: 40
    damage: 0
-   splashDamage: 110
+   splashDamage: 380
    splashDamageRadius: 40
    homingPower: 0.1
    homingRange: 24
@@ -67,7 +67,7 @@ weapons: [
    height: 7
    speed: 5
    lifetime: 45
-   damage: 40
+   damage: 90
   }
 }
 {
@@ -99,7 +99,7 @@ weapons: [
    height: 7
    speed: 5
    lifetime: 50
-   damage: 40
+   damage: 90
   }
 }
 ]
