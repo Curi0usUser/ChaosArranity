@@ -42,7 +42,7 @@ weapons: [
   name: ravager-laser
   y: 0
   x: 5
-  reload: 50
+  reload: 25
   shots: 2
   shotDelay: 6
   alternate: true
@@ -74,7 +74,7 @@ weapons: [
   name: ravager-laser
   y: -8
   x: 0
-  reload: 60
+  reload: 50
   shots: 2
   shotDelay: 6
   alternate: true
