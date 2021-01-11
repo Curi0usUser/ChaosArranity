@@ -19,7 +19,7 @@ cooldown: 0.01
 rotateSpeed: 5
 shootCone: 5
 shootShake: 5
-coolantMultiplier: 30
+coolantMultiplier: 8
 coolantUsage: 5
 targetAir: true
 targetGround: true
@@ -37,8 +37,8 @@ consumes: {
 }
 shootType: {
    type: LightningBulletType
-   damage: 240
-   lightningLength:200
+   damage: 400
+   lightningLength: 200
 }
 group: turrets
 category: turret
