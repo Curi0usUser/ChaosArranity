@@ -8,9 +8,9 @@ Ideas and JSON by Oreo
 
 Sprites and JSON by CoinCaribou2070/Chickenloser
 
-Sprites made by T3FT
+Sprites made by Duvent/T3FT
 
-Special Thanks to Skared Kat
+Special Thanks to Skared Kat/LostCause
 
 # Extras
 Join our Discord to report bugs, be notified of updates, or make suggestions.
