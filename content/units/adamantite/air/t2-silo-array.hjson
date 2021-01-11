@@ -9,7 +9,7 @@ mineSpeed: 9
 mineTier: 4
 itemCapacity: 100
 health: 18000
-armor: 36
+armor: 60
 weapons: [
 {
   name: missile-array
