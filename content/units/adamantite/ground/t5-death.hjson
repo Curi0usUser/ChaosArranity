@@ -22,7 +22,8 @@ weapons: [
 {
   name: main-laser
   x: 0
-  y: 20
+  y: 8
+  shootY: 12
   recoil: 6
   reload: 420
   rotate: false
@@ -51,7 +52,7 @@ weapons: [
    chargeSound: lasercharge
 }
 {
-  name: nightmare-turret
+  name: adamantite-cyclone
   x: 0
   y: -10
   recoil: 3

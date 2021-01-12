@@ -1,0 +1,56 @@
+type: mech
+name: Titan
+speed: 0.2
+flying: false
+health: 20000
+armor:10
+engineOffset: 5.5
+range: 500
+hitSize: 30
+accel: 10
+weapons: [
+{
+  name: titan-weapon
+  y: 6
+  x: 20
+  shootY: 10
+  reload: 120
+  alternate: false
+  continuous: true
+  bullet: {
+      type: ContinuousLaserBulletType
+      lifetime: 120
+      damage: 25
+      length: 125
+      width: 8
+  }
+  shootSound: laserbig
+}
+{
+  name: titan-mortar
+  y: 2
+  x: 0
+  reload: 60
+  mirror: false
+  rotate: true
+  bullet: {
+      type: ArtilleryBulletType
+      speed: 5
+      lifetime: 60
+      damage: 20
+  }
+  shootSound: bang
+}
+]
+
+research: {
+    parent: t4-arcaster
+    requirements:
+    [
+        {item: copper, amount: 3000},
+        {item: thorium, amount: 2500},
+        {item: surge-alloy, amount: 1000},
+        {item: silicon, amount: 2800},
+        {item: graphite, amount: 2000}
+    ]
+}

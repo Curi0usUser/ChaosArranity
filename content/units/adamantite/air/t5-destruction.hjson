@@ -37,7 +37,7 @@ weapons: [
   shootSound: shootBig
 }
 {
-  name: destruction-turret
+  name: adamantite-cyclone
   x: 15
   y: 15
   recoil: 3
@@ -61,7 +61,7 @@ weapons: [
 {
   name: vaporizer
   x: 0
-  y: 10
+  y: 6
   recoil: 6
   reload: 180
   rotate: false
@@ -72,7 +72,7 @@ weapons: [
   bullet: {
       type: ContinuousLaserBulletType
       damage: 800
-      length: 100
+      length: 110
       lifetime: 285
    }
    shootSound: laserbig
@@ -180,6 +180,57 @@ weapons: [
       lightColor: C40D30
    }
   shootSound: laser
+}
+{
+  name: destruction-peashooter
+  x: 0
+  y: -20
+  reload: 60
+  rotate: true
+  alternate: false
+  mirror: false
+  bullet: {
+      speed: 5
+      width: 10
+      height: 10
+      lifetime: 60
+      damage: 10
+   }
+  shootSound: bang
+}
+{
+  name: destruction-peashooter
+  x: 18
+  y: -20
+  reload: 120
+  rotate: true
+  alternate: false
+  mirror: false
+  bullet: {
+      speed: 5
+      width: 10
+      height: 10
+      lifetime: 60
+      damage: 10
+   }
+  shootSound: bang
+}
+{
+  name: destruction-peashooter
+  x: -18
+  y: -20
+  reload: 30
+  rotate: true
+  alternate: false
+  mirror: false
+  bullet: {
+      speed: 5
+      width: 10
+      height: 10
+      lifetime: 60
+      damage: 5
+   }
+  shootSound: bang
 }
 ]
 
