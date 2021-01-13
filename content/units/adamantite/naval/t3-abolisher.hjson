@@ -29,6 +29,7 @@ weapons: [
    lifetime: 80
    damage: 0
    splashDamage: 500
+   shootShake: 400
    splashDamageRadius: 48
    fragBullet: fireball
    fragBullets: 32
