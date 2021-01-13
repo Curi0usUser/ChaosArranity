@@ -1,0 +1,86 @@
+type: naval
+name: Warmonger
+description: Fires Stuff.
+speed: 0.5
+commandLimit: 18
+buildSpeed: 4
+mineSpeed: 10
+mineTier: 6
+itemCapacity: 150
+flying: false
+hitSize: 20
+health: 38000
+armor: 100
+weapons: [
+{
+  name: warmonger-guns
+  y: 10
+  x: 14
+  reload: 60
+  alternate: true
+  rotate: true
+  mirror: true
+  shootSound: artillery
+  shootShake: 2
+  bullet: {
+   width: 10
+   height: 10
+   speed: 4
+   lifetime: 85
+   pierce: true
+   pierceCap: 5
+   damage: 90
+  }
+}
+{
+  name: warmonger-guns
+  y: 15
+  x: 7
+  reload: 30
+  alternate: true
+  rotate: true
+  mirror: true
+  shootSound: bang
+  shootShake: 2
+  bullet: {
+   width: 10
+   height: 10
+   speed: 4
+   lifetime: 85
+   pierce: true
+   pierceCap: 5
+   damage: 90
+  }
+}
+{
+  name: destruction-lancer
+  y: 0
+  x: 0
+  reload: 15
+  alternate: true
+  mirror: true
+  rotate: true
+  inaccuracy: 1
+  ejectEffect: none
+  shootSound: lasershoot
+  bullet: {
+   width: 12
+   height: 12
+   speed: 5
+   lifetime: 32
+   damage: 160
+  }
+}
+]
+
+research: {
+    parent: t4-exponential-adamantite-reconstructor
+    requirements:
+    [
+        {item: surge-alloy, amount: 12000},
+        {item: plastanium, amount: 20000},
+        {item: adamantite, amount: 200},
+        {item: thorium, amount: 20000},
+        {item: silicon, amount: 20000}
+    ]
+}

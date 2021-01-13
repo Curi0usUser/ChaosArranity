@@ -32,6 +32,7 @@ weapons: [
   shotDelay: 120
   continuous: true
   mirror: false
+  cooldownTime: 40
   bullet: {
       type: ContinuousLaserBulletType
       damage: 10000

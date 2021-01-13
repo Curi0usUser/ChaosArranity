@@ -15,7 +15,7 @@ weapons: [
   x: 20
   shootY: 10
   reload: 120
-  alternate: false
+  alternate: true
   continuous: true
   bullet: {
       type: ContinuousLaserBulletType

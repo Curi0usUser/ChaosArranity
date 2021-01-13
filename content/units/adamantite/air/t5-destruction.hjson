@@ -4,7 +4,7 @@ description: Has a large amount of weaponry aswell as a built in meltdown laser 
 speed: 3
 drag: 20
 engineOffset: 30
-engineSize: 10
+engineSize: 12
 flying: true
 commandLimit: 20
 buildSpeed: 5
@@ -69,6 +69,7 @@ weapons: [
   rotateSpeed: 10
   continuous: true
   mirror: false
+  cooldownTime: 30
   bullet: {
       type: ContinuousLaserBulletType
       damage: 800
