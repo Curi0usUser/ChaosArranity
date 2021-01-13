@@ -3,7 +3,7 @@ name: Titan
 speed: 0.2
 flying: false
 health: 20000
-armor:10
+armor: 10
 engineOffset: 5.5
 range: 500
 hitSize: 30
@@ -15,12 +15,11 @@ weapons: [
   x: 20
   shootY: 10
   reload: 120
-  alternate: true
   continuous: true
   bullet: {
       type: ContinuousLaserBulletType
       lifetime: 120
-      damage: 25
+      damage: 30
       length: 125
       width: 8
   }
