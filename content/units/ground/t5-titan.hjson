@@ -20,6 +20,7 @@ weapons: [
       type: ContinuousLaserBulletType
       lifetime: 120
       damage: 30
+      buildingDamageMultiplier: 2.5
       length: 125
       width: 8
   }
