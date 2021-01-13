@@ -1,6 +1,6 @@
 type: naval
 name: Abolisher
-description: Fires Stuff.
+description: Has a massive fire mortar that launches a shell that causes massive fires and has small little weapons to defend itself aswell. Constructs firebursters.
 speed: 0.9
 commandLimit: 15
 buildSpeed: 4
