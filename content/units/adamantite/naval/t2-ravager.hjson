@@ -1,6 +1,6 @@
 type: naval
 name: Ravager
-description: Fires eletrical bolts that damage enemies and repair allied structures.
+description: Fires eletrical bolts that damage enemies and repair allied structures. Shielded.
 speed: 1.1
 commandLimit: 12
 buildSpeed: 3
