@@ -1,6 +1,6 @@
 type: naval
 name: Warmonger
-description: Fires high damaging peircing bullets at enemies. Has an enhanced lancer.
+description: Fires high damaging peircing bullets at enemies. Has an enhanced lancer to start fires.
 speed: 0.5
 commandLimit: 18
 buildSpeed: 4
