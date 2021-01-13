@@ -71,6 +71,16 @@ plans: [
         requirements: [ ]
         time: 180
     }
+    {
+        unit: t4-warmonger
+        requirements: [ ]
+        time: 180
+    }
+    {
+        unit: t5-demise
+        requirements: [ ]
+        time: 180
+    }
 ]
 
 

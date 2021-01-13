@@ -8,6 +8,7 @@ constructTime: 50400
 upgrades: [
     [t4-carnage, t5-destruction],
     [t4-catastrophere, t5-death],
+    [t4-warmonger, t5-demise],
 ]
 consumes: {
     power: 166.66666666666666

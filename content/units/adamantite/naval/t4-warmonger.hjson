@@ -60,13 +60,19 @@ weapons: [
   mirror: false
   rotate: true
   ejectEffect: none
-  shootSound: lasershoot
+  shootSound: laser
   bullet: {
   type: LaserBulletType
    width: 24
    length: 80
    lifetime: 30
    damage: 300
+   status: burning
+   makeFire: true
+   incendChance: 1
+   incendSpread: 5
+   incendAmount: 1
+   colors: [ED922A, FFAF32, FFCC3B]
   }
 }
 ]

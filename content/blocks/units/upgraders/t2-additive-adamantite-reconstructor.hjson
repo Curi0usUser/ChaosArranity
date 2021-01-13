@@ -8,6 +8,7 @@ constructTime: 21600
 upgrades: [
     [t1-reliavent, t2-silo-array],
     [t1-melter, t2-evasculator],
+    [t1-paralysis, t2-ravager],
 ]
 consumes: {
     power: 66.6666666666666666666

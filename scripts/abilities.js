@@ -226,7 +226,7 @@ const warmonger = extendContent(UnitType, "t4-warmonger", {});
 warmonger.constructor = function(){
   return extend(UnitWaterMove, {});
 };
-warmonger.abilities.add(new RepairFieldAbility(100, 180, 16), new UnitSpawnAbility(fireburster, 1200, 0, 14));
+warmonger.abilities.add(new RepairFieldAbility(100, 120, 16));
 warmonger.immunities.add(incinerating);
 warmonger.immunities.add(StatusEffects.wet);
 warmonger.immunities.add(StatusEffects.melting);
@@ -237,3 +237,19 @@ warmonger.immunities.add(StatusEffects.sporeSlowed);
 warmonger.immunities.add(StatusEffects.tarred);
 warmonger.immunities.add(StatusEffects.shocked);
 warmonger.immunities.add(StatusEffects.corroded);
+
+const demise = extendContent(UnitType, "t5-demise", {});
+demise.constructor = function(){
+  return extend(UnitWaterMove, {});
+};
+demise.abilities.add(new RepairFieldAbility(100, 60, 16), new UnitSpawnAbility(UnitTypes.horizon, 300, 0, -7));
+demise.immunities.add(incinerating);
+demise.immunities.add(StatusEffects.wet);
+demise.immunities.add(StatusEffects.melting);
+demise.immunities.add(StatusEffects.burning);
+demise.immunities.add(StatusEffects.muddy);
+demise.immunities.add(StatusEffects.sapped);
+demise.immunities.add(StatusEffects.sporeSlowed);
+demise.immunities.add(StatusEffects.tarred);
+demise.immunities.add(StatusEffects.shocked);
+demise.immunities.add(StatusEffects.corroded);

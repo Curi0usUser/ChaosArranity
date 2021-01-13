@@ -8,6 +8,7 @@ constructTime: 23400
 upgrades: [
     [t2-silo-array, t3-decimation],
     [t2-evasculator, t3-blaster],
+    [t2-ravager, t3-abolisher],
 ]
 consumes: {
     power: 100
