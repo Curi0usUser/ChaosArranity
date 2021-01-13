@@ -34,7 +34,7 @@ weapons: [
 }
 {
   name: warmonger-guns
-  y: 15
+  y: -15
   x: 7
   reload: 30
   alternate: true
@@ -57,18 +57,16 @@ weapons: [
   y: 0
   x: 0
   reload: 15
-  alternate: true
-  mirror: true
+  mirror: false
   rotate: true
-  inaccuracy: 1
   ejectEffect: none
   shootSound: lasershoot
   bullet: {
-   width: 12
-   height: 12
-   speed: 5
-   lifetime: 32
-   damage: 160
+  type: LaserBulletType
+   width: 24
+   length: 80
+   lifetime: 30
+   damage: 300
   }
 }
 ]

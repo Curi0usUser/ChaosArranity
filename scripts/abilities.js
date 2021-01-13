@@ -221,3 +221,19 @@ abolisher.immunities.add(StatusEffects.sporeSlowed);
 abolisher.immunities.add(StatusEffects.tarred);
 abolisher.immunities.add(StatusEffects.shocked);
 abolisher.immunities.add(StatusEffects.corroded);
+
+const warmonger = extendContent(UnitType, "t4-warmonger", {});
+warmonger.constructor = function(){
+  return extend(UnitWaterMove, {});
+};
+warmonger.abilities.add(new RepairFieldAbility(100, 180, 16), new UnitSpawnAbility(fireburster, 1200, 0, 14));
+warmonger.immunities.add(incinerating);
+warmonger.immunities.add(StatusEffects.wet);
+warmonger.immunities.add(StatusEffects.melting);
+warmonger.immunities.add(StatusEffects.burning);
+warmonger.immunities.add(StatusEffects.muddy);
+warmonger.immunities.add(StatusEffects.sapped);
+warmonger.immunities.add(StatusEffects.sporeSlowed);
+warmonger.immunities.add(StatusEffects.tarred);
+warmonger.immunities.add(StatusEffects.shocked);
+warmonger.immunities.add(StatusEffects.corroded);
