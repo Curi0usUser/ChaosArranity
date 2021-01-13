@@ -1,6 +1,6 @@
 type: naval
 name: Demise
-description: Fires lots of things probably.
+description: Armed with dual Cyclones and a Powerful fuse to shred through opponents.
 speed: 0.4
 commandLimit: 20
 buildSpeed: 5
