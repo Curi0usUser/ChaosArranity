@@ -1,5 +1,6 @@
 type: mech
 name: Titan
+description: A heavily enhanced reign, with two vela cannons to destroy enemy fortifacations with ease. Not so great for fighting enemy units.
 speed: 0.2
 flying: false
 health: 20000
