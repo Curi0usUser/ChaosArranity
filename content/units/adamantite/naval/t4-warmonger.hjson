@@ -21,7 +21,7 @@ weapons: [
   rotate: true
   mirror: true
   shootSound: artillery
-  shootShake: 2
+  shake: 2
   bullet: {
    width: 10
    height: 10
@@ -41,7 +41,7 @@ weapons: [
   rotate: true
   mirror: true
   shootSound: bang
-  shootShake: 2
+  shake: 2
   bullet: {
    width: 10
    height: 10

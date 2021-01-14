@@ -1,3 +1,4 @@
+type: GenericSmelter
 name: Adamantite Forge
 description: Forges adamantite by melting down metaglass, plastanium, surge, then fuses it together with phase and silicon. Requires cryogenic fluid as coolant.    
 itemCapacity: 500

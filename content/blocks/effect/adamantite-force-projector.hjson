@@ -11,12 +11,13 @@ radius: 96
 shieldHealth: 10000
 consumes: {
    power: 4
-    liquid: {
-       liquid: scale
-       amount: 0.2
-       optional: true
-       booster: true
-     }
+   items: {
+      items: [
+         phase-fabric/1
+      ]
+      optional: true
+      booster: true
+   }
   }
 requirements: [
      adamantite/100

@@ -15,7 +15,7 @@ range: 912
 reloadTime: 0.1
 spread: 0
 recoilAmount: 5
-cooldownTime: 40
+cooldown: 40
 rotateSpeed: 5
 shootCone: 5
 shootShake: 5

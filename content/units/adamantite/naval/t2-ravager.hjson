@@ -22,7 +22,7 @@ weapons: [
   alternate: false
   rotate: true
   mirror: false
-  spread: 2
+  spacing: 2
   shootSound: missile
   bullet: {
    type: MissileBulletType

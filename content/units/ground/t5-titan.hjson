@@ -38,8 +38,8 @@ weapons: [
   bullet: {
       type: ArtilleryBulletType
       speed: 5
-      x: 11
-      y: 11
+      width: 11
+      height: 11
       lifetime: 60
       damage: 0
       splashDamageRadius: 30
