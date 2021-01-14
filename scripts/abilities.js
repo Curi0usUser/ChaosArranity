@@ -18,6 +18,12 @@ fireburster.constructor = function(){
   return extend(PayloadUnit, {});
 };
 
+//Ground
+const titan = extendContent(UnitType, "t5-titan", {});
+titan.constructor = function(){
+  return extend(UnitEntity, {});
+};
+titan.immunities.add(StatusEffects.burning);
 
 //Adamantite Air
 const reliavent = extendContent(UnitType, "t1-reliavent", {});
@@ -139,7 +145,16 @@ blaster.constructor = function(){
   return extend(UnitEntity, {});
 };
 blaster.abilities.add(new RepairFieldAbility(100, 180, 16));
-
+blaster.immunities.add(incinerating);
+blaster.immunities.add(StatusEffects.wet);
+blaster.immunities.add(StatusEffects.melting);
+blaster.immunities.add(StatusEffects.burning);
+blaster.immunities.add(StatusEffects.muddy);
+blaster.immunities.add(StatusEffects.sapped);
+blaster.immunities.add(StatusEffects.sporeSlowed);
+blaster.immunities.add(StatusEffects.tarred);
+blaster.immunities.add(StatusEffects.shocked);
+blaster.immunities.add(StatusEffects.corroded);
 
 const catastrophere = extendContent(UnitType, "t4-catastrophere", {});
 catastrophere.constructor = function(){
@@ -242,7 +257,7 @@ const demise = extendContent(UnitType, "t5-demise", {});
 demise.constructor = function(){
   return extend(UnitWaterMove, {});
 };
-demise.abilities.add(new RepairFieldAbility(100, 60, 16), new UnitSpawnAbility(UnitTypes.horizon, 300, 0, -7));
+demise.abilities.add(new RepairFieldAbility(100, 60, 16), new UnitSpawnAbility(UnitTypes.horizon, 300, 0, -7), new ForceFieldAbility(101.7, 16, 10000, 600));
 demise.immunities.add(incinerating);
 demise.immunities.add(StatusEffects.wet);
 demise.immunities.add(StatusEffects.melting);

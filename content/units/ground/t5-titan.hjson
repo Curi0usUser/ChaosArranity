@@ -1,6 +1,6 @@
 type: mech
 name: Titan
-description: A heavily enhanced reign, with two vela cannons to destroy enemy fortifacations with ease. Not so great for fighting enemy units.
+description: A heavily enhanced reign, with two vela cannons to destroy enemy fortifications with ease. Not so great for fighting enemy units.
 speed: 0.2
 flying: false
 health: 20000
@@ -22,7 +22,7 @@ weapons: [
       type: ContinuousLaserBulletType
       lifetime: 120
       damage: 30
-      buildingDamageMultiplier: 2.5
+      buildingDamageMultiplier: 3
       length: 125
       width: 8
   }
@@ -38,8 +38,12 @@ weapons: [
   bullet: {
       type: ArtilleryBulletType
       speed: 5
+      x: 11
+      y: 11
       lifetime: 60
-      damage: 20
+      damage: 0
+      splashDamageRadius: 30
+      splashDamage: 24
   }
   shootSound: bang
 }

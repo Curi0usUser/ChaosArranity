@@ -1,7 +1,7 @@
 type: naval
 name: Demise
 description: Armed with dual Cyclones and a Powerful fuse to shred through opponents.
-speed: 0.4
+speed: 2
 commandLimit: 20
 buildSpeed: 5
 mineSpeed: 16
@@ -14,10 +14,10 @@ armor: 110
 weapons: [
 {
   name: adamantite-cyclone
-  y: 18
-  x: -6
-  reload: 6
-  alternate: false
+  y: -6
+  x: 18
+  reload: 3
+  alternate: true
   rotate: true
   inaccuracy: 10
   bullet: {
@@ -29,13 +29,14 @@ weapons: [
    fragBullets: 5
    fragBullet: fragPlasticFrag
    lifetime: 40
-   damage: 120
+   damage: 250
   }
+  shootSound: bang
 }
 {
   name: adamantite-fuse
-  x: 20
-  y: 0
+  x: 0
+  y: 20
   shootY: 8
   shots: 3
   recoil: 3
@@ -51,7 +52,7 @@ weapons: [
       speed: 0.01
       lifetime: 16
       pierce: true
-      damage: 450
+      damage: 2500
       toColor: C40D30
    }
   shootSound: shotgun
