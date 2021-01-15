@@ -1,6 +1,6 @@
 type: naval
 name: Demise
-description: Armed with dual Cyclones and a Powerful fuse to shred through opponents.
+description: A naval battleship armed to the brim wth adamantite armor and weapons. Constructs Horizons at an extreme rate.
 speed: 2
 commandLimit: 20
 buildSpeed: 5
@@ -9,8 +9,8 @@ mineTier: 8
 itemCapacity: 250
 flying: false
 range: 400
-health: 48000
-armor: 110
+health: 90000
+armor: 230
 weapons: [
 {
   name: adamantite-cyclone
@@ -29,7 +29,7 @@ weapons: [
    fragBullets: 5
    fragBullet: fragPlasticFrag
    lifetime: 40
-   damage: 250
+   damage: 330
   }
   shootSound: bang
 }
@@ -52,7 +52,7 @@ weapons: [
       speed: 0.01
       lifetime: 16
       pierce: true
-      damage: 250
+      damage: 600
       toColor: C40D30
    }
   shootSound: shotgun
@@ -62,7 +62,7 @@ weapons: [
   x: 0
   y: -8
   shootY: 23
-  reload: 180
+  reload: 2000
   shake: 4
   rotate: true
   alternate: false
@@ -71,14 +71,14 @@ weapons: [
   bullet: {
       type: RailBulletType
       length: 400
-      damage: 3000
+      damage: 3800
       shootEffect: railShoot
       updateEffectSeg: 60
       pierceEffect: railHit
       updateEffect: railTrail
       hitEffect: massiveExplosion
       smokeEffect: shootBig2
-      pierceDamageFactor: 0.6
+      pierceDamageFactor: 0
    }
   shootSound: catalyst
 }
