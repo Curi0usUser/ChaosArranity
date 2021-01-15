@@ -257,7 +257,7 @@ const demise = extendContent(UnitType, "t5-demise", {});
 demise.constructor = function(){
   return extend(UnitWaterMove, {});
 };
-demise.abilities.add(new RepairFieldAbility(100, 60, 16), new UnitSpawnAbility(UnitTypes.horizon, 300, 0, -7), new ForceFieldAbility(101.7, 16, 10000, 600));
+demise.abilities.add(new RepairFieldAbility(100, 60, 16), new UnitSpawnAbility(UnitTypes.horizon, 300, 0, -26), new ForceFieldAbility(101.7, 16, 10000, 600));
 demise.immunities.add(incinerating);
 demise.immunities.add(StatusEffects.wet);
 demise.immunities.add(StatusEffects.melting);

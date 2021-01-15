@@ -3,6 +3,8 @@ A mod that adds a few items and liquids, and a whole new tier of upgrades, along
 
 Adds 80 new blocks, 3 items, 2 liquids, and 20 units, with plans to add even more.
 
+The mod is not done yet and we are aware of the spriting issues.
+
 # Credits
 Ideas and JSON by Oreo
 

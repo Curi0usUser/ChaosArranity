@@ -8,7 +8,7 @@ mineSpeed: 16
 mineTier: 8
 itemCapacity: 250
 flying: false
-range: 120
+range: 400
 health: 48000
 armor: 110
 weapons: [
@@ -52,10 +52,35 @@ weapons: [
       speed: 0.01
       lifetime: 16
       pierce: true
-      damage: 2500
+      damage: 250
       toColor: C40D30
    }
   shootSound: shotgun
+}
+{
+  name: demise-rail
+  x: 0
+  y: -8
+  shootY: 23
+  reload: 180
+  shake: 4
+  rotate: true
+  alternate: false
+  mirror:false
+  shadow: 50
+  bullet: {
+      type: RailBulletType
+      length: 400
+      damage: 3000
+      shootEffect: railShoot
+      updateEffectSeg: 60
+      pierceEffect: railHit
+      updateEffect: railTrail
+      hitEffect: massiveExplosion
+      smokeEffect: shootBig2
+      pierceDamageFactor: 0.6
+   }
+  shootSound: catalyst
 }
 ]
 

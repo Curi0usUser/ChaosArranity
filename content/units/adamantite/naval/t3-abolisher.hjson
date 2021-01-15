@@ -28,6 +28,7 @@ weapons: [
    speed: 4
    lifetime: 80
    damage: 0
+   buildingDamageMultiplier: 2.5
    splashDamage: 1000
    splashDamageRadius: 48
    fragBullet: fireball
@@ -51,7 +52,7 @@ weapons: [
    height: 12
    speed: 5
    lifetime: 32
-   damage: 160
+   damage: 320
   }
 }
 ]
