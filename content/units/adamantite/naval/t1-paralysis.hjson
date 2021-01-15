@@ -5,7 +5,7 @@ speed: 1.3
 buildSpeed: 3
 mineSpeed: 8
 mineTier: 4
-itemCapacity: 75
+itemCapacity: 80
 commandLimit: 8
 flying: false
 range: 120
