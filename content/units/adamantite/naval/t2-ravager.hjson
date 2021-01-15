@@ -9,8 +9,8 @@ mineTier: 4
 itemCapacity: 100
 flying: false
 range: 120
-health: 20000
-armor: 32
+health: 36000
+armor: 140
 weapons: [
 {
   name: ravager-rockets
@@ -31,7 +31,7 @@ weapons: [
    speed: 5
    lifetime: 40
    damage: 0
-   splashDamage: 380
+   splashDamage: 440
    splashDamageRadius: 40
    homingPower: 0.1
    homingRange: 24
@@ -48,7 +48,7 @@ weapons: [
   alternate: true
   mirror: true
   rotate: true
-  inaccuracy: 1
+  inaccuracy: 0
   ejectEffect: none
   shootSound: lasershoot
   bullet: {
@@ -67,7 +67,7 @@ weapons: [
    height: 7
    speed: 5
    lifetime: 45
-   damage: 90
+   damage: 120
   }
 }
 {
@@ -99,7 +99,7 @@ weapons: [
    height: 7
    speed: 5
    lifetime: 50
-   damage: 90
+   damage: 120
   }
 }
 ]
