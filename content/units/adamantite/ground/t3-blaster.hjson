@@ -1,6 +1,6 @@
 type: mech
 name: Blaster
-description: Uses two heavily modified reign type cannons to fire shells that weaken and slow enemy forces. Also has two heavily enhanced hail type cannons to start massive fires to burn anything nearby.
+description: Uses two heavily modified reign cannons to fire rounds that weaken and slow enemies along has two heavily enhanced hail type cannons to start massive fires to burn anything nearby.
 speed: 0.2
 canDrown: false
 buildSpeed: 3
@@ -11,7 +11,7 @@ commandLimit: 14
 hitSize: 20
 accel: 10
 flying: false
-health: 56000
+health: 50000
 armor: 156
 weapons: [
 {
