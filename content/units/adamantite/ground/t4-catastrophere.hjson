@@ -11,7 +11,7 @@ commandLimit: 18
 hitSize: 25
 accel: 10
 flying: false
-health: 35000
+health: 70000
 armor: 98
 weapons: [
 {
