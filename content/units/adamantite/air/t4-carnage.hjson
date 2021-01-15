@@ -6,14 +6,14 @@ drag: 20
 flying: true
 engineOffset: 20
 engineSize: 10
-commandLimit: 18
+commandLimit: 14
 buildSpeed: 4
 mineSpeed: 10
 mineTier: 6
 itemCapacity: 150
 hitSize: 60
-health: 32000
-armor: 88
+health: 65000
+armor: 176
 weapons: [
 {
   name: destruction-rockets
@@ -35,8 +35,8 @@ weapons: [
       hitEffect: blastExplosion
       speed: 5
       lifetime: 60
-      damage: 75
-      splashDamage: 100
+      damage: 0
+      splashDamage: 250
       splashDamageRadius: 32
       homingPower: 1
       homingRange: 64
@@ -60,10 +60,10 @@ weapons: [
   mirror: true
   bullet: {
       type: ArtilleryBulletType
-      speed: 6
+      speed: 7
       width: 10
       height: 10
-      lifetime: 60
+      lifetime: 120
       damage: 200
    }
   shootSound: bang
