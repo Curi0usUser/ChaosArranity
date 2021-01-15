@@ -9,8 +9,8 @@ itemCapacity: 75
 commandLimit: 8
 flying: false
 range: 120
-health: 15500
-armor: 44
+health: 20000
+armor: 120
 weapons: [
 {
   name: paralyzer
