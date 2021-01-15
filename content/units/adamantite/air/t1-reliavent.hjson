@@ -31,10 +31,10 @@ weapons: [
    damage: 0
    status: burning
    despawnEffect: explosion
-   splashDamage: 120
-   splashDamageRadius: 24
+   splashDamage: 190
+   splashDamageRadius: 36
    hitSound: explosion
-   fragBullets: 18
+   fragBullets: 22
    fragBullet: fireball
 }
   shootSound: none
