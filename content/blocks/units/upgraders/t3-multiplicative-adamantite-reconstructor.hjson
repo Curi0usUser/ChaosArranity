@@ -14,16 +14,16 @@ consumes: {
     power: 100
     items: {
         items: [
-            graphite/1000
-            silicon/800
-            adamantite/500
-            surge-alloy/800
-            plastanium/1000
+	adamantite/400
+	surge-alloy/600
+	graphite/600
+	metaglass/500
+	silicon/490
         ]
     }
   liquid: {
     liquid: cryogenic-fluid
-    amount: 1
+    amount: 0.3
   }
 }
 requirements: [

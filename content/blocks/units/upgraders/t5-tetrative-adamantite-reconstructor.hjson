@@ -14,16 +14,18 @@ consumes: {
     power: 166.66666666666666
     items: {
         items: [
-            adamantite/800
-            silicon/2000
-            graphite/2000
-            surge-alloy/1500
-            plastanium/1800
+	adamantite/1000
+	silicon/2000
+	graphite/2000
+	surge-alloy/1800
+	plastanium/1500
+	thorium/1200
+	phase-fabric/1000
         ]
     }
   liquid: {
     liquid: cryogenic-fluid
-    amount: 2.5
+    amount: 1
   }
 }
 requirements: [

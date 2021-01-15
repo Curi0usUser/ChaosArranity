@@ -3,10 +3,10 @@ name: Bomb
 description: Uses the power of fireatite to create a violent explosion. (Do not try to cool it, it is meant to explode)
 size: 2
 health: 1200
-hasLiquids: false
 hasPower: true
 hasItems: true
 hasLiquids: true
+liquidCapacity: 1
 breakSound: explosionbig
 baseExplosiveness: 100
 explosionRadius: 80
