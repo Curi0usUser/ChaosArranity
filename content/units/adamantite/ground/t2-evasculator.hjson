@@ -1,18 +1,18 @@
 type: mech
 name: Evacsulator
-description: Fires a large amount of high damaging shells at any threat within range.
+description: Fires a barrage of hgh damaging rounds at enemies.
 speed: 0.3
 canDrown: false
 buildSpeed: 3
 mineSpeed: 6
 mineTier: 3
 itemCapacity: 100
-commandLimit: 12
+commandLimit: 10
 hitSize: 20
 accel: 10
 flying: false
-health: 20000
-armor: 67
+health: 36000
+armor: 134
 weapons: [
 {
   name: evasculator-weapon
@@ -21,7 +21,7 @@ weapons: [
   shootY: 10
   reload: 15
   alternate: true
-  recoil: 2
+  recoil: 3
   shots: 4
   shotDelay: 3
   ejectEffect: none
@@ -30,7 +30,7 @@ weapons: [
       width: 9
       height: 9
       lifetime: 50
-      damage: 125
+      damage: 160
    }
 }
 ]

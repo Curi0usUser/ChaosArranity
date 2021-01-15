@@ -5,12 +5,12 @@ speed: 1.3
 buildSpeed: 3
 mineSpeed: 8
 mineTier: 4
-itemCapacity: 75
+itemCapacity: 80
 commandLimit: 8
 flying: false
 range: 120
-health: 15500
-armor: 44
+health: 20000
+armor: 120
 weapons: [
 {
   name: paralyzer
@@ -26,7 +26,7 @@ weapons: [
    height: 10
    speed: 5
    lifetime: 40
-   damage: 90
+   damage: 120
   }
 }
 {
@@ -48,7 +48,7 @@ weapons: [
    speed: 5
    lifetime: 40
    damage: 0
-   splashDamage: 200
+   splashDamage: 240
    splashDamageRadius: 24
    homingPower: 0.1
    homingRange: 24

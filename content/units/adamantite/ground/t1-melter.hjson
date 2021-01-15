@@ -1,25 +1,25 @@
 type: mech
 name: Melter
-description: Melts anything within range. Heavily armored.
+description: Fires orbs of superheated slag, causing massive damage. Heavily armored.
 speed: 0.4
 canDrown: false
 buildSpeed: 3
 mineSpeed: 6
 mineTier: 3
-itemCapacity: 75
+itemCapacity: 80
 commandLimit: 8
 hitSize: 20
 accel: 10
 flying: false
-health: 15000
-armor: 80
+health: 20000
+armor: 160
 weapons: [
 {
   name: melter-weapon
   y: 0
   x: 12
   shootY: 10
-  reload: 8
+  reload: 6
   alternate: false
   recoil: 4
   ejectEffect: none
@@ -27,7 +27,7 @@ weapons: [
   bullet: {
       type: LiquidBulletType
       liquid: slag
-      damage: 500
+      damage: 600
       drag: 0.03
       statusDuration: 720
       status: {
