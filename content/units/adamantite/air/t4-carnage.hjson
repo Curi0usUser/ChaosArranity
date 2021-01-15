@@ -12,7 +12,7 @@ mineSpeed: 10
 mineTier: 6
 itemCapacity: 150
 hitSize: 60
-health: 65000
+health: 70000
 armor: 176
 weapons: [
 {
