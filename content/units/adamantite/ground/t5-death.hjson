@@ -1,6 +1,6 @@
 type: legs
 name: Death
-description: Fires an absurdly powerful laser that heavily weakens and slows down attacking forces. Has two fuses to prevent close range combat, and has a cyclone on the back to prevent air units from damaging it.
+description: Has a laser beam that demolishes any enemy threat within range, along with other defences to prevent flanking.
 speed: 0.4
 buildSpeed: 3
 mineSpeed: 8
@@ -11,8 +11,8 @@ canDrown: false
 hitSize: 50
 accel: 10
 flying: false
-health: 50000
-armor: 110
+health: 90000
+armor: 220
 weapons: [
 {
   name: main-laser
@@ -33,7 +33,7 @@ weapons: [
       damage: 10000
       length: 200
       width: 18
-      lifetime: 285
+      lifetime: 300
       shootEffect: lancerLaserCharge
       status: {
          name: obliterating
@@ -57,11 +57,11 @@ weapons: [
   alternate: false
   mirror: false
   bullet: {
-      speed: 5
+      speed: 6
       width: 9
       height: 12
       lifetime: 80
-      damage: 40
+      damage: 60
       fragBullets: 2
       fragBullet: fragGlass
    }
@@ -86,7 +86,7 @@ weapons: [
       speed: 0.01
       lifetime: 16
       pierce: true
-      damage: 350
+      damage: 550
       toColor: C40D30
    }
   shootSound: shotgun
