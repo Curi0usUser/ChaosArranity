@@ -6,13 +6,13 @@ canDrown: false
 buildSpeed: 3
 mineSpeed: 6
 mineTier: 3
-itemCapacity: 125
-commandLimit: 15
+itemCapacity: 120
+commandLimit: 14
 hitSize: 20
 accel: 10
 flying: false
-health: 28000
-armor: 78
+health: 56000
+armor: 156
 weapons: [
 {
   name: heavy-cannon
@@ -55,7 +55,7 @@ weapons: [
       lifetime: 40
       damage: 0
       fragBullet: fireball
-      fragBullets: 16
+      fragBullets: 18
       splashDamage: 240
       splashDamageRadius: 32
       status: burning
