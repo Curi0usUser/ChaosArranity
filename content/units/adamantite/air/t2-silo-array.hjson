@@ -1,15 +1,15 @@
 type: flying
 name: Silo Array
-description: Based on the silocrafter, now fires a massive barrage of incendiary missles to destroy anything within range.
+description: Based on the silocrafter, with massive enhancements. Now fires a massive barrage of incendiary missles to oblterate enemies.
 speed: 3
 flying: true
-commandLimit: 12
+commandLimit: 10
 buildSpeed: 3
 mineSpeed: 9
 mineTier: 4
 itemCapacity: 100
-health: 18000
-armor: 60
+health: 36000
+armor: 120
 weapons: [
 {
   name: missile-array
@@ -29,8 +29,8 @@ weapons: [
       damage: 0
       pierce: true
       pierceCap: 2
-      splashDamage: 120
-      splashDamageRadius: 24
+      splashDamage: 280
+      splashDamageRadius: 36
       homingPower: 0.1
       homingRange: 64
       status: burning

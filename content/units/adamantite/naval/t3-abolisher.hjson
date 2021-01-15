@@ -2,14 +2,14 @@ type: naval
 name: Abolisher
 description: Has a massive fire mortar that launches a shell that causes massive fires and has small little weapons to defend itself aswell. Constructs firebursters.
 speed: 0.9
-commandLimit: 15
+commandLimit: 12
 buildSpeed: 4
 mineSpeed: 10
 mineTier: 5
-itemCapacity: 125
+itemCapacity: 120
 flying: false
-health: 30000
-armor: 80
+health: 50000
+armor: 160
 weapons: [
 {
   name: abolisher-mortar
@@ -29,10 +29,10 @@ weapons: [
    lifetime: 80
    damage: 0
    buildingDamageMultiplier: 2.5
-   splashDamage: 1000
-   splashDamageRadius: 48
+   splashDamage: 2000
+   splashDamageRadius: 64
    fragBullet: fireball
-   fragBullets: 64
+   fragBullets: 128
    hitEffect: massiveExplosion
   }
 }
@@ -52,7 +52,7 @@ weapons: [
    height: 12
    speed: 5
    lifetime: 32
-   damage: 320
+   damage: 380
   }
 }
 ]

@@ -1,6 +1,6 @@
 type: mech
 name: Catastrophere
-description: Fires a massive barrage of high damaging bullets, and has a hail for extra damage.
+description: Fires a massive barrage of high damaging bullets, and has a hail mounted on for extra damage.
 speed: 0.3
 canDrown: false
 buildSpeed: 3
@@ -11,7 +11,7 @@ commandLimit: 18
 hitSize: 25
 accel: 10
 flying: false
-health: 35000
+health: 70000
 armor: 98
 weapons: [
 {
@@ -20,16 +20,16 @@ weapons: [
   x: 30
   reload: 30
   alternate: true
-  shots: 2
+  shots: 4
   shotDelay: 5
   recoil: 3
   ejectEffect: none
   bullet: {
-      speed: 7
-      width: 15
-      height: 15
+      speed: 8
+      width: 20
+      height: 20
       lifetime: 80
-      damage: 400
+      damage: 700
    }
 }
 {
@@ -48,7 +48,7 @@ weapons: [
       width: 15
       height: 15
       lifetime: 60
-      damage: 60
+      damage: 90
       statusDuration: 600
       makeFire: true
       homingPower: 5
