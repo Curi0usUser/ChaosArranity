@@ -1,12 +1,12 @@
 type: UnitFactory
 name: Adamantite Unit Constructor
 description: Produces adamantite units.
-health: 500
+health: 1800
 size: 3
 requirements: [
    adamantite/220
    surge-alloy/780
-   thorium/1000
+   graphite/1000
    silicon/1000
 ]
 
@@ -14,9 +14,8 @@ plans: [
     {
         unit: t1-reliavent
         requirements: [
-            adamantite/80
-            plastanium/400
-            surge-alloy/400
+            adamantite/140
+            plastanium/250
             silicon/600
         ]
         time: 7200
@@ -24,9 +23,8 @@ plans: [
     {
         unit: t1-melter
         requirements: [
-            adamantite/80
-            plastanium/400
-            surge-alloy/400
+            adamantite/140
+            graphite/400
             silicon/600
         ]
         time: 7200
@@ -34,9 +32,8 @@ plans: [
     {
         unit: t1-paralysis
         requirements: [
-            adamantite/80
-            plastanium/400
-            surge-alloy/400
+            adamantite/140
+            metaglass/600
             silicon/600
         ]
         time: 7200
