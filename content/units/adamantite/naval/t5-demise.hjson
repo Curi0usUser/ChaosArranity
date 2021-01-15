@@ -2,7 +2,7 @@ type: naval
 name: Demise
 description: A naval battleship armed to the brim wth adamantite armor and weapons. Constructs Horizons at an extreme rate.
 speed: 2
-commandLimit: 20
+commandLimit: 18
 buildSpeed: 5
 mineSpeed: 16
 mineTier: 8
