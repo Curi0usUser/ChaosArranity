@@ -6,7 +6,7 @@ canDrown: false
 buildSpeed: 3
 mineSpeed: 6
 mineTier: 3
-itemCapacity: 75
+itemCapacity: 80
 commandLimit: 8
 hitSize: 20
 accel: 10
