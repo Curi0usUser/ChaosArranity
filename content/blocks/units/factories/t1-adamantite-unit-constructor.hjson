@@ -14,30 +14,27 @@ plans: [
     {
         unit: t1-reliavent
         requirements: [
-            adamantite/80
-            plastanium/400
-            surge-alloy/400
-            silicon/600
+	adamantite/150
+	plastanium/400
+	silicon/400
         ]
         time: 7200
     }
     {
         unit: t1-melter
         requirements: [
-            adamantite/80
-            plastanium/400
-            surge-alloy/400
-            silicon/600
+	adamantite/150
+	thorium/400
+	silicon/400
         ]
         time: 7200
     }
     {
         unit: t1-paralysis
         requirements: [
-            adamantite/80
-            plastanium/400
-            surge-alloy/400
-            silicon/600
+	adamantite/150
+	metaglass/400
+	silicon/400
         ]
         time: 7200
     }
