@@ -1,6 +1,6 @@
 type: flying
 name: Destruction
-description: Has an absurd amount of weaponry to take down any type of enemy possible
+description: Has an absurd amount of weaponry to take down any type of enemy possible.
 speed: 3
 drag: 20
 engineOffset: 30
@@ -13,8 +13,8 @@ mineTier: 8
 itemCapacity: 250
 hitSize: 50
 faceTarget: true
-health: 80000
-armor: 98
+health: 90000
+armor: 196
 weapons: [
 {
   name: heavy-cannon
