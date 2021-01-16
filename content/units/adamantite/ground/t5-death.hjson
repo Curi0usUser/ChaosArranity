@@ -23,8 +23,8 @@ weapons: [
   reload: 420
   rotate: false
   rotateSpeed: 1
-  firstShotDelay: 120
-  shotDelay: 120
+  firstShotDelay: 166
+  shotDelay: 166
   continuous: true
   mirror: false
   cooldownTime: 40
@@ -45,7 +45,7 @@ weapons: [
       }
    }
    shootSound: vaporizerShoot
-   chargeSound: lasercharge
+   chargeSound: deathlasercharge
 }
 {
   name: adamantite-cyclone
