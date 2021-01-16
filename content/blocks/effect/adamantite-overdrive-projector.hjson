@@ -13,11 +13,7 @@
        optional: true
        booster: true
      }
-  items: {
-    items: [ titanium/1 ]
-    booster: false
-    optional: true
-  }
+
   }
   size: 4
   reload: 60
