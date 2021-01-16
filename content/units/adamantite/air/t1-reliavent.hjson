@@ -10,7 +10,7 @@ circleTarget: true
 rotateShooting: false
 commandLimit: 8
 flying: true
-range: 120
+range: 100
 health: 20000
 armor: 156
 weapons: [
