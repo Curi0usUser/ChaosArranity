@@ -21,7 +21,7 @@ consumes: {
   liquid: {
     liquid: slag
     amount: 0.19166666666666666
-  }6
+  }
 }
 requirements: [
   titanium/200
