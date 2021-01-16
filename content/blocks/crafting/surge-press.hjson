@@ -8,11 +8,11 @@ size: 3
 hasPower: true
 hasLiquids: true
 hasItems: true
-craftTime: 120
+craftTime: 180
 updateEffect: smeltsmoke
 outputItem: surge-alloy/1
 consumes: {
-  power: 5
+  power: 13.333333333333333333333
   items: {
     items: [
      scrap/10
@@ -20,8 +20,8 @@ consumes: {
   }
   liquid: {
     liquid: slag
-    amount: 0.166666666666666666
-  }
+    amount: 0.19166666666666666
+  }6
 }
 requirements: [
   titanium/200
