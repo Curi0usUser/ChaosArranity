@@ -26,6 +26,7 @@ weapons: [
    width: 16
    height: 16
    keepVelocity: false
+   MaxRange: 2
    speed: 0
    lifetime: 60
    damage: 0
