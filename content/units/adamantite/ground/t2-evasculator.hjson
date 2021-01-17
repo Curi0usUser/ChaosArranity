@@ -1,5 +1,4 @@
-type: mech
-name: Evacsulator
+name: Evasculator
 description: Fires a barrage of hgh damaging rounds at enemies.
 speed: 0.3
 canDrown: false
