@@ -1,6 +1,6 @@
 type: PowerTurret
 name: ARC
-description: Fires a deathly wave of arcs.
+description: The most powerful arc based turret to exist. Fires a deathly wave of arcs over insane distances.
 health: 25000
 size: 16
 hasItems: true
@@ -24,20 +24,20 @@ coolantUsage: 5
 targetAir: true
 targetGround: true
 requirements: [
-   adamantite/10000
-   silicon/12000
-   graphite/12000
-   surge-alloy/15000
-   phase-fabric/8000
-   plastanium/10000
-   lead/15000
+   adamantite/20000
+   silicon/30000
+   graphite/25000
+   surge-alloy/18000
+   phase-fabric/10000
+   plastanium/20000
+   lead/80000
 ]
 consumes: {
   power: 300000
 }
 shootType: {
    type: LightningBulletType
-   damage: 400
+   damage: 800
    lightningLength: 200
 }
 group: turrets
