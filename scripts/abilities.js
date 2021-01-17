@@ -126,6 +126,7 @@ melter.immunities.add(StatusEffects.corroded);
 
 const evasculator = extend(UnitType, "t2-evasculator", {
     immunities: ObjectSet.with([
+        incinerating,
         StatusEffects.wet,
         StatusEffects.melting,
         StatusEffects.burning,
