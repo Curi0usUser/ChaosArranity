@@ -124,21 +124,22 @@ melter.immunities.add(StatusEffects.tarred);
 melter.immunities.add(StatusEffects.shocked);
 melter.immunities.add(StatusEffects.corroded);
 
-const evasculator = extendContent(UnitType, "t2-evasculator", {});
-evasculator.constructor = function(){
-  return extend(UnitEntity, {});
-};
-evasculator.abilities.add(new RepairFieldAbility(100, 240, 16));
-evasculator.immunities.add(incinerating);
-evasculator.immunities.add(StatusEffects.wet);
-evasculator.immunities.add(StatusEffects.melting);
-evasculator.immunities.add(StatusEffects.burning);
-evasculator.immunities.add(StatusEffects.muddy);
-evasculator.immunities.add(StatusEffects.sapped);
-evasculator.immunities.add(StatusEffects.sporeSlowed);
-evasculator.immunities.add(StatusEffects.tarred);
-evasculator.immunities.add(StatusEffects.shocked);
-evasculator.immunities.add(StatusEffects.corroded);
+const evasculator = extend(UnitType, "t2-evasculator", {
+    immunities: ObjectSet.with([
+        incinerating,
+        StatusEffects.wet,
+        StatusEffects.melting,
+        StatusEffects.burning,
+        StatusEffects.muddy,
+        StatusEffects.sapped,
+        StatusEffects.sporeSlowed,
+        StatusEffects.tarred,
+        StatusEffects.shocked,
+        StatusEffects.corroded
+    ]),
+    abilities: new Seq([new RepairFieldAbility(100, 240, 16)])
+});
+evasculator.constructor = () => extend(LegsUnit, {});
 
 const blaster = extendContent(UnitType, "t3-blaster", {});
 blaster.constructor = function(){
