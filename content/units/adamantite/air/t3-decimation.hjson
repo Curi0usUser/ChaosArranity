@@ -11,6 +11,7 @@ buildSpeed: 4
 mineSpeed: 10
 mineTier: 5
 itemCapacity: 120
+hitSize: 32
 health: 50000
 armor: 140
 weapons: [

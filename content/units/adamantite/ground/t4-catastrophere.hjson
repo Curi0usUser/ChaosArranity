@@ -1,4 +1,4 @@
-type: mech
+type: legs
 name: Catastrophere
 description: Fires a massive barrage of high damaging bullets, and has a hail mounted on for extra damage.
 speed: 0.3
@@ -9,6 +9,7 @@ mineTier: 3
 itemCapacity: 150
 commandLimit: 18
 hitSize: 25
+legLength: 16
 accel: 10
 flying: false
 health: 70000

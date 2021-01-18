@@ -71,7 +71,7 @@ weapons: [
   cooldownTime: 30
   bullet: {
       type: ContinuousLaserBulletType
-      damage: 800
+      damage: 400
       length: 120
       lifetime: 300
    }
@@ -158,7 +158,7 @@ weapons: [
   bullet: {
       type: LaserBulletType
       lifetime: 10
-      damage: 70
+      damage: 50
       length: 120
       lightColor: ff002b
    }
@@ -175,7 +175,7 @@ weapons: [
   bullet: {
       type: LaserBulletType
       lifetime: 10
-      damage: 80
+      damage: 60
       length: 100
       lightColor: C40D30
    }

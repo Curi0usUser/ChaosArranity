@@ -13,9 +13,9 @@ plans: [
     {
         unit: t1-dalish
         requirements: [
-            silicon/10
+            silicon/5
         ]
-        time: 480
+        time: 300
     }
 ]
 

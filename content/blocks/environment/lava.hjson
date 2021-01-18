@@ -11,4 +11,4 @@ placeableOn: false
 isLiquid: true
 drownTime: 300
 speedMultiplier: 0.8
-statusDuration: 300
+statusDuration: 120

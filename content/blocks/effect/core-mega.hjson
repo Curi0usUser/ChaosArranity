@@ -7,7 +7,7 @@ hasItems: true
 hasLiquids: false
 hasPower: false
 itemCapacity: 20000
-unitType: defender
+unitType: delta
 unitCapModifier: 50
 requirements: [
      copper/15000

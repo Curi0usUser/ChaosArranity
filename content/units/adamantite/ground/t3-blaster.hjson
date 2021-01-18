@@ -1,4 +1,4 @@
-type: mech
+type: legs
 name: Blaster
 description: Uses two heavily modified reign cannons to fire rounds that weaken and slow enemies along has two heavily enhanced hail type cannons to start massive fires to burn anything nearby.
 speed: 0.2
@@ -8,6 +8,8 @@ mineSpeed: 6
 mineTier: 3
 itemCapacity: 120
 commandLimit: 14
+legPairOffset: 6
+legLength: 14
 hitSize: 20
 accel: 10
 flying: false

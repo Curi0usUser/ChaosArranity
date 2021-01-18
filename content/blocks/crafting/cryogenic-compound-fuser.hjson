@@ -1,14 +1,14 @@
 type: GenericSmelter
 name: Cryogenic Compound Fuser
 description: Fuses cryofluid and ice together to make an extremely cold liquid.
-liquidCapacity: 90
+liquidCapacity: 180
 itemCapacity: 30
 size: 3
 health: 310
 hasPower: true
 hasLiquids: true
 hasItems: true
-craftTime: 240
+craftTime: 120
 updateEffect: smeltsmoke
 consumes: {
   power: 5

@@ -5,9 +5,9 @@ size: 2
 health: 1000
 outlineColor: c30d40
 canOverdrive: true
-reload: 240
+reload: 6
 range: 96
-healPercent: 25
+healPercent: 1
 phaseBoost: 0
 phaseRangeBoost: 96
 useTime: 300

@@ -1,5 +1,6 @@
+type: legs
 name: Evasculator
-description: Fires a barrage of hgh damaging rounds at enemies.
+description: Fires a barrage of high damaging rounds at enemies.
 speed: 0.3
 canDrown: false
 buildSpeed: 3

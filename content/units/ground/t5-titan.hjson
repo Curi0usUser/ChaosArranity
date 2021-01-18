@@ -5,6 +5,7 @@ speed: 0.2
 flying: false
 health: 20000
 armor: 10
+canDrown: false
 engineOffset: 5.5
 range: 500
 hitSize: 30

@@ -9,6 +9,9 @@ itemCapacity: 200
 commandLimit: 20
 canDrown: false
 hitSize: 50
+legLength: 18
+legSplashDamage: 20
+allowLegStep: true
 accel: 10
 flying: false
 health: 90000
@@ -27,6 +30,7 @@ weapons: [
   shotDelay: 166
   continuous: true
   mirror: false
+  shake: 8
   cooldownTime: 40
   bullet: {
       type: ContinuousLaserBulletType
@@ -56,6 +60,7 @@ weapons: [
   rotate: true
   alternate: false
   mirror: false
+  shake: 3
   bullet: {
       speed: 6
       width: 9
@@ -79,6 +84,7 @@ weapons: [
   rotate: true
   alternate: false
   mirror:true
+  shake: 4
   bullet: {
       type: ShrapnelBulletType
       length: 20
