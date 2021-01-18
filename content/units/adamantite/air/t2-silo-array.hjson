@@ -1,6 +1,6 @@
 type: flying
 name: Silo Array
-description: Based on the silocrafter, with massive enhancements. Now fires a massive barrage of incendiary missles to oblterate enemies.
+description: Based on the silocrafter, with massive enhancements. Now fires a massive barrage of incendiary missles to obliterate enemies.
 speed: 3
 flying: true
 commandLimit: 10
