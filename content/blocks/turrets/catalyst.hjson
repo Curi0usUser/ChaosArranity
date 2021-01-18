@@ -14,11 +14,12 @@ shootSound: catalyst
 shootShake: 6
 inaccuracy: 0
 rotateSpeed: 5
-coolantMultiplier: 5
+coolantMultiplier: 0.90909090909
+coolantUsage: 1
 ammoTypes: {
    copper: {
     speed: 6
-    damage: 200
+    damage: 290
     lifetime: 120
     width: 10
     height: 10
@@ -27,7 +28,7 @@ ammoTypes: {
    }
    lead: {
     speed: 6
-    damage: 220
+    damage: 310
     lifetime: 120
     width: 10
     height: 10
@@ -36,7 +37,7 @@ ammoTypes: {
    }
    metaglass: {
     speed: 6
-    damage: 150
+    damage: 240
     lifetime: 220
     width: 10
     height: 10
@@ -47,7 +48,7 @@ ammoTypes: {
    }
    graphite: {
     speed: 6
-    damage: 280
+    damage: 370
     lifetime: 120
     width: 10
     height: 10
@@ -56,7 +57,7 @@ ammoTypes: {
    }
    titanium: {
     speed: 6
-    damage: 400
+    damage: 490
     lifetime: 120
     width: 10
     height: 10
@@ -65,7 +66,7 @@ ammoTypes: {
    }
    thorium: {
     speed: 6
-    damage: 550
+    damage: 640
     lifetime: 120
     width: 10
     height: 10
@@ -74,7 +75,7 @@ ammoTypes: {
    }
    scrap: {
     speed: 6
-    damage: 220
+    damage: 310
     lifetime: 120
     width: 10
     height: 10
@@ -85,7 +86,7 @@ ammoTypes: {
    }
    silicon: {
     speed: 6
-    damage: 250
+    damage: 340
     lifetime: 120
     width: 10
     height: 10
@@ -96,7 +97,7 @@ ammoTypes: {
    }
    plastanium: {
     speed: 6
-    damage: 280
+    damage: 370
     lifetime: 120
     width: 10
     height: 10
@@ -107,7 +108,7 @@ ammoTypes: {
    }
    phase-fabric: {
     speed: 6
-    damage: 340
+    damage: 430
     lifetime: 120
     width: 10
     height: 10
@@ -118,7 +119,7 @@ ammoTypes: {
    }
    blast-compound: {
     speed: 6
-    damage: 300
+    damage: 390
     lifetime: 120
     width: 10
     height: 10
@@ -130,7 +131,7 @@ ammoTypes: {
    }
    pyratite: {
     speed: 6
-    damage: 280
+    damage: 370
     lifetime: 120
     width: 10
     height: 10
@@ -151,7 +152,7 @@ ammoTypes: {
    }
    fireatite: {
     speed: 6
-    damage: 460
+    damage: 550
     lifetime: 120
     width: 10
     height: 10
@@ -164,7 +165,7 @@ ammoTypes: {
  ice: {
     speed: 6
     reloadMultiplier: 1.0
-    damage: 100
+    damage: 200
     lifetime: 120
     width: 10
     height: 10

@@ -5,6 +5,7 @@ size: 1
 health: 6000
 outlineColor: c30d40
 canOverdrive: false
+absorbLasers: true
 requirements: [
      adamantite/6
 ]
