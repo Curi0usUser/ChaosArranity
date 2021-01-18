@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 name: Advanced Phase Weaver
 description: Uses a complicated process to create phase fabric without the need for sand, substituting it with a bit of water.
 liquidCapacity: 10

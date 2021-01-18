@@ -6,7 +6,7 @@ flying: true
 health: 400
 armor: 8
 commandLimit: 8
-payloadCapacity: 800
+payloadCapacity: 400
 isCounted: false
 buildSpeed: 4
 mineSpeed: 10
