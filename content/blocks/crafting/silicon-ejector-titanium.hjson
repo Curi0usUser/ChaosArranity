@@ -12,7 +12,7 @@ craftTime: 60
 updateEffect: smeltsmoke
 outputItem: silicon/4
 consumes: {
-  power: 10
+  power: 5
   items: {
     items: [
      titanium/6

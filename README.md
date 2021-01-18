@@ -10,7 +10,7 @@ Ideas and JSON by Oreo
 
 Sprites and JSON by CoinCaribou2070/Chickenloser
 
-Sprites made by Duvent/T3FT
+Sprites made by Duvent
 
 Special Thanks to Skared Kat/LostCause
 
