@@ -29,6 +29,6 @@ requirements: [
   plastanium/550
 ]
 category: power
-research: thorium-reactor
+research: impact-reactor
 ambientSound: firePulse
 ambientSoundVolume: 0.8

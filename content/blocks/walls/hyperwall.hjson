@@ -22,4 +22,4 @@ requirements: [
 ]
 group: walls
 category: defense
-research: adamantite-wall-large
+research: phase-wall-large

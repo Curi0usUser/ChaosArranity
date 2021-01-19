@@ -14,4 +14,4 @@ requirements: [
 ]
 group: transportation
 category: distribution
-research: adamantite-sorter
+research: inverted-sorter
