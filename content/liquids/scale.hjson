@@ -1,5 +1,6 @@
 name: Scale
-description: This strange purple liquid emits an aura of darkness. Extensively used for adamantite based machines.
+description: Extensively used for adamantite based machines.
+details: This strange purple liquid seems to emit an aura of darkness.
 temperature: 0.6
 viscosity: 0.8
 heatCapacity: 0.5
