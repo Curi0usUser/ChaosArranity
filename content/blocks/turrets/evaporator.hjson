@@ -2,7 +2,7 @@ type: LaserTurret
 name: The Evaporator
 description: Turret which uses the radioactivity of adamantite to create a powerful laser beam. Needs lots of time to charge. Requires cryogenic fluid.
 health: 12000
-size: 8
+size: 10
 hasItems: false
 hasLiquids: true
 hasPower: true
@@ -27,11 +27,11 @@ coolantMultiplier: 3
 targetAir: true
 targetGround: true
 requirements: [
-   adamantite/500
-   surge-alloy/1000
-   silicon/2500
-   thorium/1000
-   plastanium/1000
+   adamantite/1500
+   silicon/2000
+   surge-alloy/2000
+   graphite/1500
+   titanium/1200
 ]
 consumes: {
   power: 7
@@ -42,8 +42,17 @@ consumes: {
 }
 shootType: {
    type: ContinuousLaserBulletType
-   damage: 416.666666666666666
+   damage: 583.333333333
    width: 15
+   status: {
+      name: evaporating
+      damage: 3.3333333333333333333333
+      speedMultiplier: 0.25
+      armorMultiplier: 0.0
+      color: ff8000
+      effect: smeltsmoke
+   }
+   statusDuration: 6
 }
 group: turrets
 category: turret

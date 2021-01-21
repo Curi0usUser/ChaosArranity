@@ -9,9 +9,8 @@ itemCapacity: 200
 commandLimit: 20
 canDrown: false
 hitSize: 50
-legLength: 18
+legLength: 20
 legSplashDamage: 20
-allowLegStep: true
 accel: 10
 flying: false
 health: 90000
