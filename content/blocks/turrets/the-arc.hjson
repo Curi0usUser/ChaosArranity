@@ -11,11 +11,13 @@ liquidCapacity: 10
 buildCostMultiplier: 0.5
 powerUse: 166.666666666666666666666
 shootSound: spark
-range: 912
-reloadTime: 0.1
+range: 800
+reloadTime: 0.5
+shots: 8
+shotDelay: 1
 spread: 0
 recoilAmount: 5
-cooldown: 40
+cooldownTime: 40
 rotateSpeed: 5
 shootCone: 5
 shootShake: 5
@@ -37,8 +39,13 @@ consumes: {
 }
 shootType: {
    type: LightningBulletType
-   damage: 800
-   lightningLength: 200
+   damage: 1000
+   lightningLength: 100
+   status: {
+      name: armor-pierce
+      armorMultiplier: 0.0
+   }
+   statusDuration: 6
 }
 group: turrets
 category: turret
