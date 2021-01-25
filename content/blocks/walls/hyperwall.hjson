@@ -6,6 +6,7 @@ size: 2
 health: 4800
 outlineColor: c30d40
 canOverdrive: false
+buildCostMultiplier: 0.45
 lightningChance: 1
 lightningDamage: 14
 lightningLength: 8
@@ -13,12 +14,11 @@ chanceDeflect: 35
 insulated: true
 absorbLasers: true
 requirements: [
-   plastanium/48
    phase-fabric/48
    surge-alloy/48
-   metaglass/48
    silicon/48
-   lead/48
+   odium/48
+   odium-refined/48
 ]
 group: walls
 category: defense

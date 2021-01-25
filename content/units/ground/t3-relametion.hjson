@@ -25,6 +25,7 @@ weapons: [{
      height: 6
      shrinkY: 0
      drag: -0.01
+     damage: 0
      splashDamageRadius: 30
      splashDamage: 32
      ammoMultiplier: 4

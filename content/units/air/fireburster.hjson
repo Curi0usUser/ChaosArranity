@@ -1,8 +1,0 @@
-type: flying
-name: Fireburster Fighter
-description: Has dual flamethrowers to burn anything in range.
-speed: 0.8
-flying: true
-health: 320
-engineOffset: 5.5
-range: 20

@@ -10,12 +10,11 @@ targetGround: true
 ammoUseEffect: casing1
 inaccuracy: 0
 rotateSpeed: 6
-coolantMultiplier: 16
+coolantMultiplier: 8
 coolantUsage: 0.5
 ammoTypes: {
   lead: {
-    speed: 6
-    reloadMultiplier: 2
+    speed: 7
     damage: 25
     width: 10
     height: 10
@@ -25,8 +24,7 @@ ammoTypes: {
    }
  scrap: {
     speed: 6
-    reloadMultiplier: 0.8
-    damage: 20
+    damage: 15
     fragBullets: 8
     fragBullet: fragPlasticFrag 
     width: 9
@@ -36,7 +34,7 @@ ammoTypes: {
    }
  fireatite: {
     speed: 6
-    damage: 70
+    damage: 34
     width: 12
     height: 12
     shootEffect: shootSmall
@@ -49,8 +47,8 @@ ammoTypes: {
     hitSound: boom
   }
  titanium: {
-    speed: 9
-    damage: 33
+    speed: 8
+    damage: 22
     width: 12
     height: 12
     shootEffect: shootSmall
@@ -59,8 +57,9 @@ ammoTypes: {
    }
  phase-fabric: {
     speed: 5
-    damage: 30
-    pierce: true
+    damage: 25
+    collidesTeam: true
+    healPercent: 15
     width: 12
     height: 12
     shootEffect: shootSmall
@@ -69,8 +68,7 @@ ammoTypes: {
    }
  coal: {
     speed: 5
-    reloadMultiplier: 0.9
-    damage: 20
+    damage: 16
     width: 10
     height: 10
     shootEffect: shootSmall
@@ -81,7 +79,7 @@ ammoTypes: {
  spore-pod: {
     speed: 5
     reloadMultiplier: 0.9
-    damage: 20
+    damage: 14
     width: 10
     height: 10
     shootEffect: shootSmall
@@ -92,7 +90,7 @@ ammoTypes: {
  ice: {
     speed: 5
     reloadMultiplier: 1.0
-    damage: 10
+    damage: 13
     width: 10
     height: 10
     shootEffect: shootSmall
@@ -110,13 +108,30 @@ ammoTypes: {
     ammoMultiplier: 1
    }
  thorium: {
-    speed: 10
+    speed: 6
     reloadMultiplier: 1.5
-    damage: 46
+    damage: 32
     width: 14
     height: 14
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
+    ammoMultiplier: 2
+   }
+  odium: {
+    speed: 6
+    damage: 17
+    width: 10
+    height: 10
+    fragBullets: 4
+    fragBullet: {
+        lifetime: 10
+        speed: 4
+        damage: 15
+        width: 8
+        height: 6
+    }
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
     ammoMultiplier: 2
    }
 }
@@ -124,7 +139,7 @@ requirements: [
   lead/250
   graphite/100
   titanium/75
-  surge-alloy/10
+  odium-refined/75
 ]
 category: turret
 research: ripple

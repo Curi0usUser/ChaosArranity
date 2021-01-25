@@ -6,7 +6,7 @@ size: 3
 constructTime: 600
 upgrades: [
     [t1-dalish, t2-marginator],
-    [fireburster, silocrafter]
+//[fireburster, silocrafter]
 ]
 consumes: {
     power: 3

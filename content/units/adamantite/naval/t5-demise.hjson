@@ -57,6 +57,32 @@ weapons: [
    }
   shootSound: shotgun
 }
+{
+  name: demise-rail
+  x: 0
+  y: -8
+  shootY: 23
+  reload: 110
+  shake: 4
+  rotate: true
+  rotateSpeed: 5
+  alternate: false
+  mirror:false
+  shadow: 50
+  bullet: {
+      type: RailBulletType
+      length: 400
+      damage: 1500
+      shootEffect: railShoot
+      updateEffectSeg: 60
+      pierceEffect: railHit
+      updateEffect: railTrail
+      hitEffect: massiveExplosion
+      smokeEffect: shootBig2
+      pierceDamageFactor: 0.6
+   }
+  shootSound: catalyst
+}
 ]
 
 research: {

@@ -57,7 +57,7 @@ requirements: [
   graphite/110
   plastanium/10
   surge-alloy/15
-  spore-pod/5
+  odium/5
 ]
 category: turret
 research: sykkh-mk1

@@ -44,6 +44,7 @@ shootType: {
    status: {
       name: armor-pierce
       armorMultiplier: 0.0
+      speedMultiplier: 0.25
    }
    statusDuration: 6
 }

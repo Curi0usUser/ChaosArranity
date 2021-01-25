@@ -7,23 +7,23 @@ hasItems: false
 hasLiquids: true
 hasPower: true
 liquidCapacity: 80
-buildCostMultiplier:0.5
+buildCostMultiplier: 0.5
 powerUse: 100
 range: 260
-reloadTime: 180
+reloadTime: 360
 spread: 0
 recoilAmount: 1
 cooldown: 0.05
 restitution: 0.05
-rotateSpeed: 5
+rotateSpeed: 2
 shootCone: 5
-shootShake: 3
+shootShake: 6
 shootSound: vaporizerShoot
 loopSound: vaporizerLoop
 loopSoundVolume: 2
 firingMoveFract: 0.5
-shootDuration: 480
-coolantMultiplier: 3
+shootDuration: 240
+coolantMultiplier: 0.1
 targetAir: true
 targetGround: true
 requirements: [
@@ -34,7 +34,7 @@ requirements: [
    titanium/1200
 ]
 consumes: {
-  power: 7
+  power: 14
   liquid: {
     liquid: cryogenic-fluid
     amount: 1.3333333333333333333333
