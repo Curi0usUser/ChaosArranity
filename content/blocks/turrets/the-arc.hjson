@@ -45,7 +45,7 @@ shootType: {
       name: electrified
       speedMultiplier: 0.25
    }
-   statusDuration: 6
+   statusDuration: 10
 }
 group: turrets
 category: turret
