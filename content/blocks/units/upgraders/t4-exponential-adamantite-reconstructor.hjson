@@ -3,6 +3,7 @@ name: Exponential Adamantite Reconstructor
 description: Upgrades adamantite units to the fourth tier
 health: 8000
 size: 7
+researchCostMultiplier: 0.5
 itemCapacity: 1250
 constructTime: 39600
 upgrades: [

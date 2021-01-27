@@ -2,6 +2,7 @@ type: MendProjector
 name: Adamantite Mender
 description: Powerful Mender.
 size: 2
+researchCostMultiplier: 0.5
 health: 1000
 outlineColor: c30d40
 canOverdrive: true

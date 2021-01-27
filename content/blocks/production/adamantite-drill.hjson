@@ -4,6 +4,7 @@ type: Drill
 health: 1200
 liquidCapacity: 6
 size: 3
+researchCostMultiplier: 0.5
 tier: 30
 drillTime: 20
 liquidBoostIntensity: 2

@@ -2,6 +2,7 @@ type: PowerNode
 name: Adamantite Power Node
 description: A power node made out of adamantite with high range and many connections.
 size: 2
+researchCostMultiplier: 0.5
 health: 3000
 laserRange: 40
 maxNodes: 50

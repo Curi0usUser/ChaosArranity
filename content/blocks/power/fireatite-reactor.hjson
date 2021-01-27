@@ -2,6 +2,7 @@ type: ImpactReactor
 name: Fireatite Reactor
 description: A highly advanced power generator. Fuses fireatite and cryogenic fluid to make a massive detonating reaction to make insane amounts of power.
 size: 6
+researchCostMultiplier: 0.5
 health: 12000
 hasPower: true
 hasItems: true

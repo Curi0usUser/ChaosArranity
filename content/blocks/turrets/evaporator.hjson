@@ -3,6 +3,7 @@ name: The Evaporator
 description: Turret which uses the radioactivity of adamantite to create a powerful laser beam. Needs lots of time to charge. Requires cryogenic fluid.
 health: 12000
 size: 10
+researchCostMultiplier: 0.5
 hasItems: false
 hasLiquids: true
 hasPower: true

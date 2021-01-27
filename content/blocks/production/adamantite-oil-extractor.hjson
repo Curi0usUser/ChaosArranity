@@ -5,6 +5,7 @@ result: oil
 liquidCapacity: 100
 pumpAmount: 0.75
 size: 3
+researchCostMultiplier: 0.5
 health: 800
 attribute: oil
 baseEfficiency: 1.0

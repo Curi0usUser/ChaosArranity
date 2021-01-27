@@ -2,6 +2,7 @@ type: junction
 name: Adamantite Junction
 description: A junction made out of adamantite. Very durable and fast, but also expensive.
 size: 1
+researchCostMultiplier: 0.5
 health: 1500
 speed: 15
 itemCapacity: 10

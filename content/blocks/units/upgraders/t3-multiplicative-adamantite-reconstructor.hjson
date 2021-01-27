@@ -3,6 +3,7 @@ name: Multiplicative Adamantite Reconstructor
 description: Upgrades adamantite units to the third tier
 health: 9000
 size: 5
+researchCostMultiplier: 0.5
 itemCapacity: 1000
 constructTime: 23400
 upgrades: [

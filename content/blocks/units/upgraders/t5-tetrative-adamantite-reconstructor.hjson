@@ -3,6 +3,7 @@ name: Tetrative Adamantite Reconstructor
 description: Upgrades adamantite units to the fifth and final tier
 health: 9000
 size: 9
+researchCostMultiplier: 0.5
 itemCapacity: 2000
 constructTime: 50400
 upgrades: [

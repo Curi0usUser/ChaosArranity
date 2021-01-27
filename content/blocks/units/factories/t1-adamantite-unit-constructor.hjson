@@ -3,6 +3,7 @@ name: Adamantite Unit Constructor
 description: Produces adamantite units.
 health: 500
 size: 3
+researchCostMultiplier: 0.5
 requirements: [
    adamantite/220
    surge-alloy/780

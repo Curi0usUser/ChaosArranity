@@ -2,6 +2,7 @@ type: ThermalGenerator
 name: Adamantite Thermal Generator
 description: A more efficient Thermal Generator.
 size: 2
+researchCostMultiplier: 0.5
 health: 800
 hasPower: true
 hasItems: false

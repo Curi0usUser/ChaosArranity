@@ -4,6 +4,7 @@ type: Pump
 liquidCapacity: 280
 health: 1200
 size: 3
+researchCostMultiplier: 0.5
 pumpAmount: 0.518518518518518518
 consumes: {
   power: 5.8333333333333

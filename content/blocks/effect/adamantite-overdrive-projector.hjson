@@ -1,6 +1,7 @@
   type: OverdriveProjector
   name: Adamantite Overdrive Projector
   description: An upgraded overdrive projector.
+  researchCostMultiplier: 0.5
   health: 1400
   hasItems: false
   hasLiquids: true

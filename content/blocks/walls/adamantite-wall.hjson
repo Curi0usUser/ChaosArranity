@@ -2,6 +2,7 @@ type: wall
 name: Adamantite Wall
 description: Extremely durable wall.
 size: 1
+researchCostMultiplier: 0.5
 health: 6000
 outlineColor: c30d40
 canOverdrive: false

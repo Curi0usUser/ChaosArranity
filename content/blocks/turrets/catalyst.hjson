@@ -3,6 +3,7 @@ name: Catalyst
 description: A powerful high range sniper turret designed to take down adamantite units. Can fire most items for ammo.
 health: 4000
 size: 4
+researchCostMultiplier: 0.5
 reloadTime: 300
 range: 600
 targetAir: true

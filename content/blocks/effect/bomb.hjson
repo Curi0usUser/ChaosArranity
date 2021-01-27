@@ -2,6 +2,7 @@ type: NuclearReactor
 name: Bomb
 description: Uses the power of fireatite to create a violent explosion. (Do not try to cool it, it is meant to explode)
 size: 2
+researchCostMultiplier: 0.5
 health: 1200
 hasPower: true
 hasItems: true

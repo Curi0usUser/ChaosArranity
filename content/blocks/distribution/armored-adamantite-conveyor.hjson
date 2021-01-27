@@ -2,6 +2,7 @@ type: ArmoredConveyor
 name: Armored Adamantite Conveyor
 description: Transports items like an armored conveyor. Very durable, but has less throughput than a standard adamantite conveyor.
 size: 1
+researchCostMultiplier: 0.5
 health: 2500
 speed: 0.26
 displayedSpeed: 30

@@ -2,6 +2,7 @@ type: LiquidBridge
 name: Adamantite Bridge Conduit
 description: A form of bridge conduit that can transport lots of liquid over a very far distance.
 size: 1
+researchCostMultiplier: 0.5
 health: 2000
 liquidCapacity: 20
 outlineColor: c30d40

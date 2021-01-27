@@ -2,6 +2,7 @@ type: ItemBridge
 name: Adamantite Bridge Conveyor
 description: A form of bridge conveyor that can transport many items over a very far distance nearly instantly.
 size: 1
+researchCostMultiplier: 0.5
 health: 10000
 itemCapacity: 20
 outlineColor: c30d40

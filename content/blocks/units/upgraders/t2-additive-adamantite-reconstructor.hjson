@@ -3,6 +3,7 @@ name: Additive Adamantite Reconstructor
 description: Upgrades adamantite units to the second tier
 health: 4000
 size: 3
+researchCostMultiplier: 0.5
 itemCapacity: 800
 constructTime: 21600
 upgrades: [

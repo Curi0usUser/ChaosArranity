@@ -2,6 +2,7 @@ type: StorageBlock
 name: Mega Vault
 description: A vault capable of storing an immense amount of items. Uses phase fabric to shrink items, making the Mega Vault extremely compact.
 size: 2
+researchCostMultiplier: 0.5
 health: 4000
 hasLiquids: false
 hasItems: true
