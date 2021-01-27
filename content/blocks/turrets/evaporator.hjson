@@ -48,7 +48,6 @@ shootType: {
       name: evaporating
       damage: 3.3333333333333333333333
       speedMultiplier: 0.25
-      armorMultiplier: 0.0
       color: ff8000
       effect: smeltsmoke
    }

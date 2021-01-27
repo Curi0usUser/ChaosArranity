@@ -14,8 +14,6 @@ chanceDeflect: 35
 insulated: true
 absorbLasers: true
 requirements: [
-   phase-fabric/48
-   surge-alloy/48
    silicon/48
    odium/48
    odium-refined/48

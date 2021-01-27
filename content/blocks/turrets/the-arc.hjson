@@ -14,10 +14,10 @@ shootSound: spark
 range: 800
 reloadTime: 0.5
 shots: 8
-shotDelay: 1
+burstSpacing: 1
 spread: 0
 recoilAmount: 5
-cooldownTime: 40
+cooldown: 40
 rotateSpeed: 5
 shootCone: 5
 shootShake: 5
@@ -42,8 +42,7 @@ shootType: {
    damage: 1000
    lightningLength: 100
    status: {
-      name: armor-pierce
-      armorMultiplier: 0.0
+      name: electrified
       speedMultiplier: 0.25
    }
    statusDuration: 6

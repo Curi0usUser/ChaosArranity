@@ -31,6 +31,7 @@ ammoTypes: {
     height: 9
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
    }
  fireatite: {
     speed: 6
@@ -45,6 +46,7 @@ ammoTypes: {
     splashDamageRadius: 36
     hitEffect: explosion
     hitSound: boom
+    ammoMultiplier: 2
   }
  titanium: {
     speed: 8
@@ -74,7 +76,7 @@ ammoTypes: {
     shootEffect: shootSmall
     status: burning
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 1
+    ammoMultiplier: 2
    }
  spore-pod: {
     speed: 5
@@ -85,7 +87,7 @@ ammoTypes: {
     shootEffect: shootSmall
     status: sporeSlowed
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 1
+    ammoMultiplier: 2
    }
  ice: {
     speed: 5
@@ -105,7 +107,7 @@ ammoTypes: {
         backColor: 9db5e5
     }
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 1
+    ammoMultiplier: 2
    }
  thorium: {
     speed: 6

@@ -1,1 +1,2 @@
 require("abilities");
+require("launchpadadamantite");

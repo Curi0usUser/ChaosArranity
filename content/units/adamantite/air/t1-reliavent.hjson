@@ -8,6 +8,7 @@ mineTier: 4
 itemCapacity: 80
 circleTarget: true
 rotateShooting: false
+maxRange: 8
 commandLimit: 8
 flying: true
 range: 100
@@ -26,7 +27,6 @@ weapons: [
    width: 16
    height: 16
    keepVelocity: false
-   MaxRange: 2
    speed: 0
    lifetime: 60
    damage: 0
