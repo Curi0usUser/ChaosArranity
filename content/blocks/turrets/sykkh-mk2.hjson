@@ -7,7 +7,7 @@ size: 2
 reloadTime: 60
 range: 288
 minRange: 16
-targetAir: true
+targetAir: false
 targetGround: true
 shots: 1
 ammoUseEffect: casing3Double
@@ -24,7 +24,7 @@ ammoTypes: {
     hitEffect: blastExplosion
     speed: 4
     lifetime: 90
-    damage: 60
+    damage: 90
     knockback: 0.8
     splashDamage: 60
     splashDamageRadius: 64
@@ -57,7 +57,7 @@ requirements: [
   graphite/110
   plastanium/10
   surge-alloy/15
-  odium/5
+  odium/10
 ]
 category: turret
 research: sykkh-mk1
