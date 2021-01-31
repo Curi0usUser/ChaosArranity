@@ -41,9 +41,6 @@ ammoTypes: {
     shootEffect: shootSmall
     status: melting
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 6
-    splashDamage: 60
-    splashDamageRadius: 36
     hitEffect: explosion
     hitSound: boom
     ammoMultiplier: 2
@@ -80,7 +77,6 @@ ammoTypes: {
    }
  spore-pod: {
     speed: 5
-    reloadMultiplier: 0.9
     damage: 14
     width: 10
     height: 10
@@ -91,7 +87,6 @@ ammoTypes: {
    }
  ice: {
     speed: 5
-    reloadMultiplier: 1.0
     damage: 13
     width: 10
     height: 10
@@ -107,16 +102,6 @@ ammoTypes: {
         backColor: 9db5e5
     }
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 2
-   }
- thorium: {
-    speed: 6
-    reloadMultiplier: 1.5
-    damage: 32
-    width: 14
-    height: 14
-    shootEffect: shootBig
-    smokeEffect: shootBigSmoke
     ammoMultiplier: 2
    }
   odium: {
@@ -141,7 +126,7 @@ requirements: [
   lead/250
   graphite/100
   titanium/75
-  odium-refined/75
+  odium/300
 ]
 category: turret
 research: ripple

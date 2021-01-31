@@ -1,6 +1,5 @@
 name: Hyperwall
 description: Has phase, surge, and plastanium properties, but can only be this size otherwise the properties are lost. Very durable, but relatively expensive.
-variants: 3
 size: 2
 update: true
 health: 4800
@@ -12,7 +11,7 @@ chanceDeflect: 35
 insulated: true
 absorbLasers: true
 requirements: [
-   silicon/48
+   phase-fabric/48
    odium/48
    odium-refined/48
 ]

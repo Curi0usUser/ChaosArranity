@@ -30,4 +30,4 @@ requirements: [
 ]
 category: crafting
 research: cryofluid-mixer
-outputLiquid: cryogenic-fluid/12
+outputLiquid: cryogenic-fluid/24

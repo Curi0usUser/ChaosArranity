@@ -10,6 +10,7 @@ const delta = extend(UnitType, "delta", {
     abilities: new Seq([new ForceFieldAbility(80, 5, 1000, 300), new RepairFieldAbility(25, 60, 80)])
   });
   delta.constructor = () => extend(PayloadUnit, {});
+  delta.defaultController = () => extend(BuilderAI, {});
 
 // Ground
   const titan = extend(UnitType, "t5-titan", {

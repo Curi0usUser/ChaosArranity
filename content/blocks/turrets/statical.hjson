@@ -13,12 +13,12 @@ targetGround: true
 ammoUseEffect: casing1
 inaccuracy: 2
 rotateSpeed: 8
-coolantMultiplier: 6
+coolantMultiplier: 3
 ammoTypes: {
  pyratite: {
     speed: 6
     reloadMultiplier: 1.0
-    damage: 20
+    damage: 15
     lifetime: 60
     width: 12
     height: 12
@@ -30,7 +30,7 @@ ammoTypes: {
    }
  fireatite: {
     speed: 6
-    damage: 40
+    damage: 25
     lifetime: 60
     width: 12
     height: 12
@@ -82,7 +82,7 @@ ammoTypes: {
    }
  silicon: {
     speed: 4
-    damage: 20
+    damage: 15
     lifetime: 70
     reloadMultiplier: 1
     width: 12
@@ -96,7 +96,7 @@ ammoTypes: {
  ice: {
     speed: 6
     reloadMultiplier: 1.0
-    damage: 5
+    damage: 10
     lifetime: 60
     width: 12
     height: 12
@@ -108,7 +108,7 @@ ammoTypes: {
  spore-pod: {
     speed: 6
     reloadMultiplier: 1.0
-    damage: 15
+    damage: 10
     lifetime: 60
     width: 12
     height: 12
@@ -120,7 +120,7 @@ ammoTypes: {
  surge-alloy: {
     speed: 6
     reloadMultiplier: 1
-    damage: 30
+    damage: 25
     lifetime: 30
     lightning: 4
     lightningLength: 12

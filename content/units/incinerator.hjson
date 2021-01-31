@@ -1,0 +1,36 @@
+type: flying
+name: Incinerator
+description: Uses 2 modified Scorches to burn enemies.
+speed: 0.5
+flying: true
+health: 220
+armor: 2
+engineOffset: 5.5
+weapons: [
+{
+  name: incinerator-scorch
+  y: 5
+  x: 5
+  shootY: 2
+  reload: 6
+  rotate: true
+  shootSound: flame
+  ejectEffect: none
+  bullet: {
+    speed: 4
+    damage: 10
+    hitSize: 7
+    lifetime: 12
+    width: 1
+    height: 1
+    pierce: true
+    statusDuration: 240
+    shootEffect: shootSmallFlame
+    hitEffect: hitFlameSmall
+    despawnEffect: none
+    status: burning
+    keepVelocity: false
+    hittable: false
+}
+}
+]

@@ -1,10 +1,9 @@
-type: AttributeSmelter
+type: GenericSmelter
 name: Ice Melter
-description: Melts ice into water. Much more efficent in hotter areas.
+description: Melts ice into water.
 liquidCapacity: 10
 size: 2
 health: 80
-attribute: heat
 hasPower: true
 hasLiquids: true
 hasItems:true

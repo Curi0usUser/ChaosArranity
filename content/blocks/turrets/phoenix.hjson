@@ -12,14 +12,14 @@ inaccuracy: 6
 spread: 0.3
 velocityInaccuracy: 0.08
 rotateSpeed: 8
-coolantMultiplier: 4.1
+coolantMultiplier: 0.0
 canOverdrive: true
 shots: 10
 ammoTypes: {
- 
   blast-compound: {
     speed: 6
     lifetime: 30
+    ammoMultiplier: 1
     damage: 27
     width: 10
     height: 10
@@ -30,16 +30,17 @@ ammoTypes: {
   titanium: {
     speed: 6
     lifetime: 26
+    ammoMultiplier: 1
     damage: 16
     width: 10
     height: 10
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    
    }
  fireatite: {
     speed: 6
     lifetime: 30
+    ammoMultiplier: 1
     damage: 32
     width: 10
     height: 10
@@ -48,17 +49,16 @@ ammoTypes: {
     hitSound: boom
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    
   }
   adamantite: {
     speed: 6
     lifetime: 30
+    ammoMultiplier: 1
     damage: 62
     width: 10
     height: 10
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    
    }
 }
 requirements: [

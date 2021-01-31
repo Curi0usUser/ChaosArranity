@@ -1,7 +1,7 @@
 type: PowerTurret
 name: ARC
 description: The most powerful arc based turret to exist. Fires a deathly wave of arcs over insane distances.
-health: 25000
+health: 90000
 size: 16
 hasItems: true
 hasLiquids: true

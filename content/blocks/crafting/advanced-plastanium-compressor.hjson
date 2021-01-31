@@ -8,13 +8,13 @@ health: 480
 hasPower: true
 hasLiquids: true
 hasItems: true
-craftTime: 60
-outputItem: plastanium/50
+craftTime: 120
+outputItem: plastanium/30
 consumes: {
   power: 5.3333333333333333333333
   items: {
      items: [
-        titanium/50
+        titanium/40
      ]
   }
   liquid: {

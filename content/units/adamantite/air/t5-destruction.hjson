@@ -13,6 +13,7 @@ mineTier: 8
 itemCapacity: 250
 hitSize: 50
 faceTarget: true
+range: 80
 health: 90000
 armor: 196
 weapons: [

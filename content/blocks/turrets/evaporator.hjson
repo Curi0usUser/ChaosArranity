@@ -11,7 +11,7 @@ liquidCapacity: 80
 buildCostMultiplier: 0.5
 powerUse: 100
 range: 260
-reloadTime: 360
+reloadTime: 180
 spread: 0
 recoilAmount: 1
 cooldown: 0.05

@@ -14,11 +14,13 @@ ammoUseEffect: casing1
 inaccuracy: 2
 rotateSpeed: 8
 coolantMultiplier: 1
+coolantUsage: 0.083333333333333333333333
 ammoTypes: {
  copper: {
     speed: 6
     damage: 11
-    reloadMultiplier: 1
+    reloadMultiplier: 1.1
+    ammoMultiplier: 2
     width: 7
     height: 7
     shootEffect: shootSmall
@@ -28,7 +30,7 @@ ammoTypes: {
  graphite: {
     speed: 8
     damage: 17
-    reloadMultiplier: 1.6
+    reloadMultiplier: 0.5
     width: 8
     height: 8
     shootEffect: shootSmall
@@ -38,7 +40,7 @@ ammoTypes: {
  silicon: {
     speed: 4
     damage: 13
-    reloadMultiplier: 1.3
+    reloadMultiplier: 1.6
     width: 6
     height: 6
     shootEffect: shootSmall
@@ -46,6 +48,24 @@ ammoTypes: {
     homingPower: 0.1
     homingRange: 80
     ammoMultiplier: 2
+   }
+ ice: {
+    speed: 5
+    damage: 10
+    width: 5
+    height: 5
+    frontColor: b7cbf4
+    backColor: 9db5e5
+    fragBullets: 4
+    fragBullet: {
+        lifetime: 12
+        speed: 5
+        damage: 6
+        width: 5
+        height: 5
+        frontColor: b7cbf4
+        backColor: 9db5e5
+    }
    }
 }
 requirements: [

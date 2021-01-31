@@ -1,5 +1,5 @@
 type: GenericSmelter
-name: Metaglass Refinery
+name: Metaglass Crucible
 description: Faster and more efficient metaglass solution.
 liquidCapacity: 0
 itemCapacity: 30
