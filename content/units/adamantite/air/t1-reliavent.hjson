@@ -37,6 +37,7 @@ weapons: [
    hitSound: explosion
    fragBullets: 22
    fragBullet: fireball
+   maxRange: 8
 }
   shootSound: none
 }
