@@ -1,5 +1,5 @@
 type: PowerTurret
-name: Arc MK3
+name: Arc MKIII
 description: Fires a storm of arcs.
 health: 3000
 size: 4

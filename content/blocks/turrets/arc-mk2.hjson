@@ -1,5 +1,5 @@
 type: PowerTurret
-name: Arc MK2
+name: Arc MKII
 description: An upgraded version of arc. Fires more deadly arcs of electricity.
 health: 600
 size: 2

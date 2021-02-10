@@ -11,7 +11,7 @@ commandLimit: 10
 hitSize: 20
 accel: 10
 flying: false
-health: 36000
+health: 72000
 armor: 134
 weapons: [
 {
@@ -30,7 +30,7 @@ weapons: [
       width: 9
       height: 9
       lifetime: 50
-      damage: 160
+      damage: 120
    }
 }
 ]

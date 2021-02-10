@@ -8,7 +8,7 @@ flying: true
 health: 400
 armor: 8
 commandLimit: 8
-payloadCapacity: 400
+payloadCapacity: 384
 isCounted: false
 buildSpeed: 4
 mineSpeed: 10
@@ -16,7 +16,7 @@ mineTier: 3
 itemCapacity: 100
 engineOffset: 9
 engineSize: 4
-hitSize: 15
+hitSize: 18
 weapons: [
 {
   name: heal-launcher

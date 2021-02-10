@@ -6,7 +6,7 @@ drag: 20
 engineOffset: 30
 engineSize: 15
 flying: true
-commandLimit: 18
+commandLimit: 10
 buildSpeed: 5
 mineSpeed: 16
 mineTier: 8
@@ -14,7 +14,7 @@ itemCapacity: 250
 hitSize: 50
 faceTarget: true
 range: 80
-health: 90000
+health: 180000
 armor: 196
 weapons: [
 {
@@ -71,7 +71,7 @@ weapons: [
   cooldownTime: 30
   bullet: {
       type: ContinuousLaserBulletType
-      damage: 400
+      damage: 300
       length: 120
       lifetime: 300
    }

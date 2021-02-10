@@ -8,9 +8,9 @@ mineTier: 1
 flying: true
 health: 200
 armor: 2
-hidden: true
 engineOffset: 5.5
 range: 100
+hitSize: 14
 weapons: [
 {
   name: missile-launcher

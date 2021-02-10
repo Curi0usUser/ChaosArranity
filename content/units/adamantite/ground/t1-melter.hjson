@@ -7,11 +7,11 @@ buildSpeed: 3
 mineSpeed: 6
 mineTier: 3
 itemCapacity: 80
-commandLimit: 8
+commandLimit: 10
 hitSize: 20
 accel: 10
 flying: false
-health: 20000
+health: 40000
 armor: 160
 weapons: [
 {
@@ -19,7 +19,7 @@ weapons: [
   y: 0
   x: 12
   shootY: 10
-  reload: 6
+  reload: 10
   alternate: false
   recoil: 4
   ejectEffect: none
@@ -27,12 +27,13 @@ weapons: [
   bullet: {
       type: LiquidBulletType
       liquid: slag
-      damage: 600
+      damage: 250
       drag: 0.03
-      statusDuration: 720
+      buildingDamageMultiplier: 1.2
+      statusDuration: 600
       status: {
          name: overheating
-         damage: 0.533333333333333
+         damage: 0.4
          color: FF8800
          effect: fire
       }

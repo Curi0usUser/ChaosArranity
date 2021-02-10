@@ -8,13 +8,13 @@ hasPower: true
 hasLiquids: true
 hasItems: true
 craftTime: 6
-updateEffect: smeltsmoke
+updateEffect: none
 outputItem: plastanium/1
 consumes: {
   power: 8
   liquid: {
     liquid: scale
-    amount: 1
+    amount: 0.25
   }
 }
 requirements: [

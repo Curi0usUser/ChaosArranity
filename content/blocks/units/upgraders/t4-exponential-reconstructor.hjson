@@ -1,12 +1,13 @@
 type: Reconstructor
-name: Exponential Reconstructor (Chaos Arranity)
+name: Exponential Chaos Reconstructor
 description: Upgrades Chaos Arranity's units to the fourth tier. Avoids conflict with other mods in the process.
 health: 1960
 size: 7
 constructTime: 5400
 liquidCapacity: 60
 upgrades: [
-    [t3-relametion, t4-arcaster]
+    [t3-relametion, t4-arcaster],
+    [t3-incinerator, t4-ffa]
 ]
 consumes: {
     power: 13

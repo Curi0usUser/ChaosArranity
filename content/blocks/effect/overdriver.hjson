@@ -6,7 +6,7 @@
   hasLiquids: false
   itemCapacity: 10
   consumes: {
-    power: 1.5
+    power: 0.6666666666666666
     items: {
        items: [
           silicon/1

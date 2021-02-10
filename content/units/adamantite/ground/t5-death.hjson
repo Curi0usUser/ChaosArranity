@@ -6,14 +6,14 @@ buildSpeed: 3
 mineSpeed: 8
 mineTier: 3
 itemCapacity: 200
-commandLimit: 20
+commandLimit: 10
 canDrown: false
 hitSize: 50
 legLength: 20
 legSplashDamage: 20
 accel: 10
 flying: false
-health: 90000
+health: 180000
 armor: 220
 weapons: [
 {
