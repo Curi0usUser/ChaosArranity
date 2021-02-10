@@ -2,14 +2,14 @@ type: naval
 name: Demise
 description: A naval battleship armed to the brim wth adamantite armor and weapons. Constructs Flares at an extreme rate.
 speed: 2
-commandLimit: 18
+commandLimit: 10
 buildSpeed: 5
 mineSpeed: 16
 mineTier: 8
 itemCapacity: 250
 flying: false
 range: 400
-health: 90000
+health: 180000
 armor: 230
 weapons: [
 {
@@ -19,7 +19,7 @@ weapons: [
   reload: 3
   alternate: true
   rotate: true
-  inaccuracy: 10
+  inaccuracy: 8
   bullet: {
    width: 10
    height: 10
@@ -29,7 +29,7 @@ weapons: [
    fragBullets: 5
    fragBullet: fragPlasticFrag
    lifetime: 40
-   damage: 330
+   damage: 350
   }
   shootSound: bang
 }
@@ -41,7 +41,7 @@ weapons: [
   shots: 3
   recoil: 3
   spacing: 18
-  reload: 30
+  reload: 60
   rotate: true
   alternate: false
   mirror:false

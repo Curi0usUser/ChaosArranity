@@ -7,6 +7,7 @@ health: 220
 armor: 2
 commandLimit: 6
 engineOffset: 5.5
+hitSize: 8
 weapons: [
 {
   name: flamethrower

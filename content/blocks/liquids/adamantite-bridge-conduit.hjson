@@ -7,6 +7,7 @@ health: 2000
 liquidCapacity: 20
 outlineColor: c30d40
 canOverdrive: false
+buildCostMultiplier: 0.5
 requirements: [
      adamantite/2
      metaglass/100

@@ -30,13 +30,13 @@ consumes: {
   }
 }
 requirements: [
-    surge-alloy/1500
     graphite/2000
     silicon/2000
     plastanium/1000
     surge-alloy/1000
     adamantite/600
- 
+    odium-refined/1000
+    odium/250
 ]
 category: units
 research: t4-exponential-adamantite-reconstructor

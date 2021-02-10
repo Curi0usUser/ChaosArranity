@@ -1,5 +1,5 @@
 type: ItemTurret
-name: Swarmer MK2
+name: Swarmer MKII
 description: A heavily improved swarmer, with no size increase needed. Fires more rockets, with better homing abilities. Faster fire rate and longer range.
 health: 2800
 size: 2

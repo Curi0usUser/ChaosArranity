@@ -15,7 +15,7 @@ coolantUsage: 0.5
 ammoTypes: {
   lead: {
     speed: 7
-    damage: 25
+    damage: 14
     width: 10
     height: 10
     shootEffect: shootSmall
@@ -42,6 +42,7 @@ ammoTypes: {
     status: melting
     smokeEffect: shootSmallSmoke
     hitEffect: explosion
+    despawnEffect: explosion
     hitSound: boom
     ammoMultiplier: 2
   }
@@ -90,6 +91,8 @@ ammoTypes: {
     damage: 13
     width: 10
     height: 10
+    frontColor: b7cbf4
+    backColor: 9db5e5
     shootEffect: shootSmall
     fragBullets: 6
     fragBullet: {

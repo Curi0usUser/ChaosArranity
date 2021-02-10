@@ -9,7 +9,7 @@ mineTier: 4
 itemCapacity: 100
 flying: false
 range: 120
-health: 36000
+health: 72000
 armor: 140
 weapons: [
 {
@@ -31,7 +31,7 @@ weapons: [
    speed: 5
    lifetime: 40
    damage: 0
-   splashDamage: 440
+   splashDamage: 350
    splashDamageRadius: 40
    homingPower: 0.1
    homingRange: 24
@@ -67,7 +67,7 @@ weapons: [
    height: 7
    speed: 5
    lifetime: 60
-   damage: 150
+   damage: 100
   }
 }
 {
@@ -99,7 +99,7 @@ weapons: [
    height: 7
    speed: 5
    lifetime: 60
-   damage: 150
+   damage: 130
   }
 }
 ]

@@ -16,6 +16,15 @@ plans: [
             silicon/5
         ]
         time: 300
+    },
+    {
+        unit: t1-officer
+        requirements: [
+            silicon/10
+            lead/10
+            odium/10
+        ]
+        time: 780
     }
 ]
 

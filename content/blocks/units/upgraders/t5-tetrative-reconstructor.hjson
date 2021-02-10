@@ -5,7 +5,8 @@ size: 9
 constructTime: 14400
 liquidCapacity: 180
 upgrades: [
-    [t4-arcaster, t5-titan]
+    [t4-arcaster, t5-titan],
+    [t4-ffa, t5-ignition]
 ]
 consumes: {
     power: 25

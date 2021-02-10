@@ -7,12 +7,12 @@ buildSpeed: 3
 mineSpeed: 6
 mineTier: 3
 itemCapacity: 150
-commandLimit: 18
+commandLimit: 10
 hitSize: 25
 legLength: 16
 accel: 10
 flying: false
-health: 70000
+health: 140000
 armor: 98
 weapons: [
 {
@@ -30,7 +30,7 @@ weapons: [
       width: 20
       height: 20
       lifetime: 80
-      damage: 700
+      damage: 400
    }
 }
 {
@@ -49,14 +49,14 @@ weapons: [
       width: 15
       height: 15
       lifetime: 60
-      damage: 90
+      damage: 50
       statusDuration: 600
       makeFire: true
       homingPower: 5
       homingRange: 36
       status: {
          name: heated
-         damage: 0.8
+         damage: 0.6
          color: FFAA5F
          effect: mine
       }

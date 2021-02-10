@@ -8,14 +8,14 @@ buildSpeed: 3
 mineSpeed: 9
 mineTier: 4
 itemCapacity: 100
-health: 36000
+health: 72000
 armor: 120
 weapons: [
 {
   name: missile-array
   x: 3
   y: 4
-  reload: 2
+  reload: 5
   rotate: false
   alternate: true
   bullet: {
@@ -29,7 +29,7 @@ weapons: [
       damage: 0
       pierce: true
       pierceCap: 2
-      splashDamage: 280
+      splashDamage: 250
       splashDamageRadius: 36
       homingPower: 0.1
       homingRange: 64

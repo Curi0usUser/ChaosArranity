@@ -14,12 +14,12 @@ outputItem: phase-fabric/1
      power: 10
   items: {
     items: [
-     thorium/8
+     thorium/3
     ]
   }
       liquid: {
        liquid: water
-       amount: 0.1333333333333333333
+       amount: 0.108333333333333
     }
 }
 requirements: [

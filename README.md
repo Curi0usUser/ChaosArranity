@@ -14,6 +14,8 @@ Sprites made by Duvent
 
 Special Thanks to Skared Kat/LostCause
 
+Titanium and Thorium Ejectors use younggam's MultiLib
+
 # Extras
 Join our Discord to report bugs, be notified of updates, or make suggestions.
 

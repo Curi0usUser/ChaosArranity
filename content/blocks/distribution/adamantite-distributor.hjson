@@ -7,10 +7,10 @@ health: 4000
 outlineColor: c30d40
 canOverdrive: false
 requirements: [
-     adamantite/4
-     copper/60
-     lead/60
-     thorium/60
+     adamantite/2
+     surge-alloy/2
+     phase-fabric/2
+     silicon/4
 ]
 group: transportation
 category: distribution

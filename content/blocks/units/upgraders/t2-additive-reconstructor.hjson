@@ -1,12 +1,12 @@
 type: Reconstructor
-name: Additive Reconstructor (Chaos Arranity).
+name: Additive Chaos Reconstructor
 description: Upgrades Chaos Arranity's units to the second tier. Avoids conflict with other mods in the process.
 health: 360
 size: 3
 constructTime: 600
 upgrades: [
     [t1-dalish, t2-marginator],
-//[fireburster, silocrafter]
+    [t1-fireburster, t2-silocrafter]
 ]
 consumes: {
     power: 3

@@ -1,5 +1,5 @@
 name: Hyperwall
-description: Has phase, surge, and plastanium properties, but can only be this size otherwise the properties are lost. Very durable, but relatively expensive.
+description: Utilizes the power of odium to create a form of hyperwall that has phase, surge, and plastanium like properties. Protects structures from enemy projectiles.
 size: 2
 update: true
 health: 4800
