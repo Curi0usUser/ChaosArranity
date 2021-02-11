@@ -51,3 +51,13 @@ weapons: [
 }
 }
 ]
+
+research: {
+    parent: t1-officer
+    requirements:
+    [
+        {item: copper, amount: 3000},
+        {item: silicon, amount: 1500},
+        {item: odium, amount: 500}
+    ]
+}

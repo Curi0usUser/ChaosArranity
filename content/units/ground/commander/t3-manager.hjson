@@ -47,3 +47,14 @@ weapons: [
 }
 }
 ]
+
+research: {
+    parent: t2-chief
+    requirements:
+    [
+        {item: copper, amount: 4000},
+        {item: lead, amount: 2000},
+        {item: silicon, amount: 1800},
+        {item: odium, amount: 650}
+    ]
+}

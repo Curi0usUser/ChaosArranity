@@ -25,6 +25,7 @@ weapons: [
   shotDelay: 5
   recoil: 3
   ejectEffect: none
+  shootSound: bang
   bullet: {
       speed: 8
       width: 20

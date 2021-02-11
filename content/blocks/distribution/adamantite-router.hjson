@@ -1,6 +1,7 @@
 type: router
 name: Adamantite Router
 description: A router made out of adamantite. Very durable, but also expensive.
+details: router
 size: 1
 researchCostMultiplier: 0.5
 health: 1500

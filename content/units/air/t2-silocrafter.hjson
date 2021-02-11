@@ -42,3 +42,13 @@ weapons: [
   }
 }
 ]
+
+research: {
+    parent: t1-fireburster
+    requirements:
+    [
+        {item: copper, amount: 4000},
+        {item: silicon, amount: 2000},
+        {item: graphite, amount: 800}
+    ]
+}

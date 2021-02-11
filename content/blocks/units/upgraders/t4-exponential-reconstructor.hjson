@@ -7,7 +7,8 @@ constructTime: 5400
 liquidCapacity: 60
 upgrades: [
     [t3-relametion, t4-arcaster],
-    [t3-incinerator, t4-ffa]
+    [t3-incinerator, t4-ffa],
+    [t3-manager, t4-director]
 ]
 consumes: {
     power: 13

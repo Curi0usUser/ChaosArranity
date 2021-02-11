@@ -96,3 +96,14 @@ weapons: [
 }
 }
 ]
+
+research: {
+    parent: t4-ffa
+    requirements:
+    [
+        {item: copper, amount: 10000},
+        {item: silicon, amount: 5000},
+        {item: graphite, amount: 3500},
+        {item: fireatite, amount: 250}
+    ]
+}

@@ -67,3 +67,14 @@ weapons: [
 }
 }
 ]
+
+research: {
+    parent: t3-incinerator
+    requirements:
+    [
+        {item: copper, amount: 8000},
+        {item: silicon, amount: 4000},
+        {item: graphite, amount: 2000},
+        {item: fireatite, amount: 100}
+    ]
+}

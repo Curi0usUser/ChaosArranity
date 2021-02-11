@@ -46,3 +46,15 @@ weapons: [
 }
 }
 ]
+
+research: {
+    parent: t3-manager
+    requirements:
+    [
+        {item: copper, amount: 5000},
+        {item: lead, amount: 4000},
+        {item: silicon, amount: 2400},
+        {item: graphite, amount: 1600},
+        {item: odium, amount: 650}
+    ]
+}

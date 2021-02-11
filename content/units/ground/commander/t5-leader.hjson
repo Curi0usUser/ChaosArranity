@@ -29,8 +29,20 @@ weapons: [
     speed: 4
     damage: 20
     lifetime: 40
-    width: 8
-    height: 8
+    width: 12
+    height: 12
 }
 }
 ]
+
+research: {
+    parent: t4-director
+    requirements:
+    [
+        {item: copper, amount: 5000},
+        {item: lead, amount: 4000},
+        {item: silicon, amount: 2400},
+        {item: graphite, amount: 1600},
+        {item: odium, amount: 650}
+    ]
+}

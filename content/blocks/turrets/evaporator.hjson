@@ -11,7 +11,7 @@ liquidCapacity: 80
 buildCostMultiplier: 0.5
 powerUse: 100
 range: 260
-reloadTime: 180
+reloadTime: 30
 spread: 0
 recoilAmount: 1
 cooldown: 0.05
@@ -23,7 +23,7 @@ shootSound: vaporizerShoot
 loopSound: vaporizerLoop
 loopSoundVolume: 2
 firingMoveFract: 0.5
-shootDuration: 240
+shootDuration: 480
 coolantMultiplier: 0.1
 targetAir: true
 targetGround: true

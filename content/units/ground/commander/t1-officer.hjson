@@ -36,3 +36,13 @@ weapons: [
 }
 }
 ]
+
+research: {
+    parent: crawler
+    requirements:
+    [
+        {item: copper, amount: 2000},
+        {item: silicon, amount: 1000},
+        {item: odium, amount: 200}
+    ]
+}

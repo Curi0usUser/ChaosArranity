@@ -6,7 +6,8 @@ size: 5
 constructTime: 1800
 upgrades: [
     [t2-marginator, t3-relametion],
-    [t2-silocrafter, t3-incinerator]
+    [t2-silocrafter, t3-incinerator],
+    [t2-chief, t3-manager]
 ]
 consumes: {
     power: 6

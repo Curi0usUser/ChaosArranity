@@ -1,6 +1,6 @@
 type: flying
 name: Incinerator
-description: Uses 2 modified Scorches to burn enemies.
+description: Has 3 missile launchers that set fire to enemy structures.
 speed: 1.4
 accel: 0.04
 drag: 0.016
@@ -67,3 +67,13 @@ weapons: [
 }
 }
 ]
+
+research: {
+    parent: t2-silocrafter
+    requirements:
+    [
+        {item: copper, amount: 6000},
+        {item: silicon, amount: 3000},
+        {item: graphite, amount: 1200}
+    ]
+}

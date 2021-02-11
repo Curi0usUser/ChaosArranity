@@ -6,7 +6,8 @@ constructTime: 14400
 liquidCapacity: 180
 upgrades: [
     [t4-arcaster, t5-titan],
-    [t4-ffa, t5-ignition]
+    [t4-ffa, t5-ignition],
+    [t4-director, t5-leader]
 ]
 consumes: {
     power: 25

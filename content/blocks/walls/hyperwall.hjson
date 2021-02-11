@@ -8,7 +8,6 @@ lightningChance: 1
 lightningDamage: 14
 lightningLength: 8
 chanceDeflect: 35
-insulated: true
 absorbLasers: true
 requirements: [
    phase-fabric/48
