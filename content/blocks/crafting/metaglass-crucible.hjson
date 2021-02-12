@@ -28,6 +28,7 @@ requirements: [
    titanium/130
    plastanium/30
    silicon/80
+   copper/90
 ]
 category: crafting
 research: kiln
