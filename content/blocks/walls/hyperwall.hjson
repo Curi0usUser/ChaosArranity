@@ -10,9 +10,11 @@ lightningLength: 8
 chanceDeflect: 35
 absorbLasers: true
 requirements: [
-   phase-fabric/48
-   odium/48
-   odium-refined/48
+   phase-fabric/24
+   odium/24
+   odium-refined/24
+   surge-alloy/24
+   ice/24
 ]
 group: walls
 category: defense

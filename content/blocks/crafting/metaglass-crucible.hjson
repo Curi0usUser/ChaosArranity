@@ -7,7 +7,8 @@ size: 3
 health: 360
 buildCostMultiplier: 1.04384133612
 attribute: heat
-boostScale: 0.15
+maxHeatBoost: 2.23
+boostScale: 0.223
 hasPower: true
 hasLiquids: false
 hasItems: true
