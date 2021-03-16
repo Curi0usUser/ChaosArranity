@@ -5,14 +5,14 @@ liquidCapacity: 50
 itemCapacity: 20
 outputLiquid: {
   liquid: cryofluid
-  amount: 144
+  amount: 48
 }
 size: 2
 health: 340
 hasPower: true
 hasLiquids: true
 hasItems: true
-craftTime: 180
+craftTime: 60
 updateEffect: smeltsmoke
 consumes: {
   power: 3

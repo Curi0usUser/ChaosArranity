@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Swarmer MKII
 description: A heavily improved swarmer, with no size increase needed. Fires more rockets, with better homing abilities. Faster fire rate and longer range.
-health: 2800
+health: 2000
 size: 2
 reloadTime: 60
 burstSpacing: 1
@@ -26,7 +26,7 @@ ammoTypes: {
       hitEffect: blastExplosion
       speed: 4
       damage: 15
-      splashDamage: 4
+      splashDamage: 9
       splashDamageRadius: 24
       homingPower: 0.1
       homingRange: 64
@@ -37,7 +37,7 @@ ammoTypes: {
       height: 10
       weaveScale: 0
       weaveMag: -1
-      ammoMultiplier: 3
+      ammoMultiplier: 4
    }
    blast-compound: {
       type: MissileBulletType
@@ -49,7 +49,7 @@ ammoTypes: {
       despawnEffect: blastExplosion
       speed: 4
       damage: 20
-      splashDamage: 6
+      splashDamage: 11
       splashDamageRadius: 48
       homingPower: 0.1
       homingRange: 64
@@ -60,7 +60,7 @@ ammoTypes: {
       height: 10
       weaveScale: 0
       weaveMag: -1
-      ammoMultiplier: 3
+      ammoMultiplier: 4
    }
    metaglass: {
       type: MissileBulletType
@@ -71,7 +71,7 @@ ammoTypes: {
       hitEffect: blastExplosion
       speed: 4
       damage: 12
-      splashDamage: 3
+      splashDamage: 8
       splashDamageRadius: 24
       homingPower: 0.1
       homingRange: 64
@@ -82,7 +82,7 @@ ammoTypes: {
       height: 10
       weaveScale: 0
       weaveMag: -1
-      ammoMultiplier: 3
+      ammoMultiplier: 4
    }
    plastanium: {
       type: MissileBulletType
@@ -93,7 +93,7 @@ ammoTypes: {
       hitEffect: blastExplosion
       speed: 4
       damage: 20
-      splashDamage: 4
+      splashDamage: 9
       splashDamageRadius: 24
       homingPower: 0.1
       homingRange: 64
@@ -104,7 +104,7 @@ ammoTypes: {
       height: 10
       weaveScale: 0
       weaveMag: -1
-      ammoMultiplier: 3
+      ammoMultiplier: 4
    }
    surge-alloy: {
       type: MissileBulletType
@@ -115,21 +115,44 @@ ammoTypes: {
       hitEffect: blastExplosion
       speed: 5
       damage: 25
-      splashDamage: 6
+      splashDamage: 11
       splashDamageRadius: 24
       homingPower: 0.1
       homingRange: 64
       lightning: 4
       lightningDamage: 20
       lightningLength: 10
+      status: shocked
       shrinkY: 0
       width: 10
       height: 10
       weaveScale: 0
       weaveMag: -1
-      ammoMultiplier: 3
+      ammoMultiplier: 4
    }
-   fireatite: {
+   odium-refined: {
+      type: MissileBulletType
+      sprite: chaos-arranity-mk2-missile
+      frontColor: 8280BF
+      backColor: 8280BF
+      trailColor: 8280BF
+      hitEffect: blastExplosion
+      speed: 5
+      lifetime: 80
+      damage: 25
+      splashDamage: 11
+      splashDamageRadius: 24
+      homingPower: 0.1
+      homingRange: 64
+      shrinkY: 0
+      width: 10
+      height: 10
+      weaveScale: 0
+      weaveMag: -1
+      ammoMultiplier: 4
+      lightRadius: 24
+   }
+   detonatite: {
       type: MissileBulletType
       sprite: chaos-arranity-mk2-missile
       frontColor: FF795E
@@ -138,8 +161,9 @@ ammoTypes: {
       hitEffect: massiveExplosion
       despawnEffect: massiveExplosion
       speed: 4
+      lifetime: 40
       damage: 30
-      splashDamage: 8
+      splashDamage: 13
       splashDamageRadius: 64
       homingPower: 0.1
       homingRange: 64
@@ -150,7 +174,7 @@ ammoTypes: {
       height: 10
       weaveScale: 0
       weaveMag: -1
-      ammoMultiplier: 3
+      ammoMultiplier: 4
    }
    adamantite: {
       type: MissileBulletType
@@ -162,7 +186,7 @@ ammoTypes: {
       despawnEffect: blastExplosion
       speed: 6
       damage: 80
-      splashDamage: 6
+      splashDamage: 12
       splashDamageRadius: 64
       homingPower: 0.2
       homingRange: 80
@@ -171,14 +195,13 @@ ammoTypes: {
       height: 10
       weaveScale: 0
       weaveMag: -1
-      ammoMultiplier: 3
+      ammoMultiplier: 4
    }
 }
 requirements: [
-   surge-alloy/225
+   odium-refined/225
    silicon/330
-   plastanium/210
-   metaglass/400
+   odium/210
 ]
 category: turret
 research: swarmer

@@ -1,0 +1,27 @@
+type: flying
+name: Antari
+description: Automatically mines copper, lead, and titanium, depositing it into the core. Protected by a small shield. Self-repairing.
+speed: 2.10
+accel: 0.1
+drag: 0.04
+flying: true
+health: 600
+armor: 8
+mineSpeed: 7.5
+mineTier: 3
+itemCapacity: 240
+lowAltitude: true
+commandLimit: 2
+engineOffset: 12
+engineSize: 5
+hitSize: 20
+weapons: [ ]
+
+research: {
+    parent: t1-magine
+    requirements:
+    [
+        {item: titanium, amount: 2000},
+        {item: silicon, amount: 1000},
+    ]
+}

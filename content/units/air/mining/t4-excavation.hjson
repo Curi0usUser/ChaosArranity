@@ -1,0 +1,27 @@
+type: flying
+name: Excavation
+description: Automatically mines copper, lead, and titanium, depositing it into the core. Protected by a small shield. Self-repairing.
+speed: 3
+accel: 0.1
+drag: 0.04
+flying: true
+health: 10000
+armor: 12
+mineSpeed: 14
+mineTier: 3
+itemCapacity: 320
+lowAltitude: true
+commandLimit: 2
+engineOffset: 15
+engineSize: 6
+hitSize: 21
+weapons: [ ]
+
+research: {
+    parent: t1-magine
+    requirements:
+    [
+        {item: titanium, amount: 2000},
+        {item: silicon, amount: 1000},
+    ]
+}

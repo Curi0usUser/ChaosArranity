@@ -2,9 +2,6 @@ type: legs
 name: Death
 description: Has a laser beam that demolishes any enemy threat within range, along with other defences to prevent flanking.
 speed: 0.25
-buildSpeed: 3
-mineSpeed: 8
-mineTier: 3
 itemCapacity: 200
 commandLimit: 10
 canDrown: false

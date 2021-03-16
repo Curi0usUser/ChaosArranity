@@ -1,0 +1,6 @@
+type: OreBlock
+name: Detonatite
+variants: 1
+playerUnmineable: true
+itemDrop: detonatite
+oreDefault: false

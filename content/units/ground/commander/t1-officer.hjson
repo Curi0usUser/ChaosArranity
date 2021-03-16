@@ -37,6 +37,16 @@ weapons: [
 }
 ]
 
+requirements: {
+   block: ground-factory
+   time: 1800
+        requirements: [
+            silicon/10
+            lead/10
+            odium/10
+        ]
+}
+
 research: {
     parent: crawler
     requirements:

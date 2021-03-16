@@ -4,16 +4,15 @@ description: A form of bridge conveyor that can transport many items over a very
 size: 1
 researchCostMultiplier: 0.5
 hasPower: false
-health: 10000
+health: 3000
 itemCapacity: 20
 outlineColor: c30d40
 canOverdrive: false
 requirements: [
      adamantite/30
-     lead/100
-     titanium/100
-     thorium/100
-     phase-fabric/10
+     surge-alloy/30
+     silicon/30
+     phase-fabric/30
 ]
 range: 20
 transportTime: 2

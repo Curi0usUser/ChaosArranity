@@ -3,9 +3,6 @@ name: Melter
 description: Fires orbs of superheated slag, causing massive damage. Heavily armored.
 speed: 0.4
 canDrown: false
-buildSpeed: 3
-mineSpeed: 6
-mineTier: 3
 itemCapacity: 80
 commandLimit: 10
 hitSize: 20
@@ -17,7 +14,7 @@ weapons: [
 {
   name: melter-weapon
   y: 0
-  x: 12
+  x: 16
   shootY: 10
   reload: 10
   alternate: false

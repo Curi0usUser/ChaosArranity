@@ -1,7 +1,9 @@
 name: Refined Odium
-description: Odium that has been infused with Phase Fabric.
+description: Odium that has been overclocked with phase fabric. Useful for better accurate missles and advanced tech construction.
 flammability: 0
-radioactivity: 0.4
+radioactivity: 0.5
 explosiveness: 0
+charge: 0.4
 cost: 1.2
 color: 8987c4
+research: odium-refined

@@ -3,9 +3,6 @@ name: Ravager
 description: Fires eletrical bolts that damage enemies and repair allied structures. Shielded.
 speed: 1.1
 commandLimit: 10
-buildSpeed: 3
-mineSpeed: 9
-mineTier: 4
 itemCapacity: 100
 flying: false
 range: 120

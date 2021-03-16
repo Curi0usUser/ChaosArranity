@@ -7,9 +7,6 @@ flying: true
 engineOffset: 20
 engineSize: 10
 commandLimit: 10
-buildSpeed: 4
-mineSpeed: 10
-mineTier: 6
 itemCapacity: 150
 lowAltitude: true
 hitSize: 60

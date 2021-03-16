@@ -19,7 +19,7 @@ cooldown: 0.05
 rotateSpeed: 5
 shootCone: 5
 shootShake: 3
-coolantMultiplier: 10
+coolantMultiplier: 3.8
 coolantUsage: 1
 targetAir: true
 targetGround: true

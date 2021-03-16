@@ -4,9 +4,6 @@ description: Based on the silocrafter, with massive enhancements. Now fires a ma
 speed: 3
 flying: true
 commandLimit: 10
-buildSpeed: 3
-mineSpeed: 9
-mineTier: 4
 itemCapacity: 100
 health: 72000
 armor: 120

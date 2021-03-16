@@ -151,7 +151,7 @@ ammoTypes: {
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
    }
-   fireatite: {
+   detonatite: {
     speed: 6
     damage: 550
     lifetime: 120

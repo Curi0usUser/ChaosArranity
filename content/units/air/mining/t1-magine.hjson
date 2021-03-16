@@ -1,0 +1,37 @@
+type: flying
+name: Magine
+description: Automatically mines copper and lead, depositing it into the core. Protected by a small shield. Self-repairing.
+speed: 1.6
+accel: 0.1
+drag: 0.04
+flying: true
+health: 120
+armor: 2
+mineSpeed: 3
+mineTier: 2
+itemCapacity: 50
+lowAltitude: true
+commandLimit: 2
+engineOffset: 8
+engineSize: 3
+hitSize: 15
+weapons: [ ]
+
+requirements: {
+   block: air-factory
+   time: 3600
+        requirements: [
+           silicon/30
+           titanium/20
+           odium/10
+        ]
+}
+
+research: {
+    parent: mono
+    requirements:
+    [
+        {item: titanium, amount: 2000},
+        {item: silicon, amount: 1000},
+    ]
+}

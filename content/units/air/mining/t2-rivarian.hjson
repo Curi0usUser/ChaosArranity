@@ -1,0 +1,27 @@
+type: flying
+name: Rivarian
+description: Automatically mines copper and lead, depositing it into the core. Protected by a small shield. Self-repairing.
+speed: 1.66
+accel: 0.1
+drag: 0.04
+flying: true
+health: 300
+armor: 5
+mineSpeed: 4.25
+mineTier: 2
+itemCapacity: 120
+lowAltitude: true
+commandLimit: 2
+engineOffset: 8
+engineSize: 5
+hitSize: 16
+weapons: [ ]
+
+research: {
+    parent: t1-magine
+    requirements:
+    [
+        {item: titanium, amount: 2000},
+        {item: silicon, amount: 1000},
+    ]
+}

@@ -3,9 +3,6 @@ name: Abolisher
 description: Has a massive fire mortar that launches a shell that causes massive fires and has small little weapons to defend itself aswell. Constructs firebursters.
 speed: 0.9
 commandLimit: 10
-buildSpeed: 4
-mineSpeed: 10
-mineTier: 5
 itemCapacity: 120
 flying: false
 health: 100000

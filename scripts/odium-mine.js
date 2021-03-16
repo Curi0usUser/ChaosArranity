@@ -1,8 +1,8 @@
 //Config
-var bulletAmount = 6;
-var bulletDamage = 100;
+var bulletAmount = 7;
+var bulletDamage = 110;
 var bulletPierce = 3;
-var baseDamage = 25;
+var baseDamage = 30;
 var blockDamage = 20;
 
 //Status Effect
