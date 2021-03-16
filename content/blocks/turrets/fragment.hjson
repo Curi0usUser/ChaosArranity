@@ -1,0 +1,86 @@
+type: ItemTurret
+name: Fragment
+description: Fires frag bullets at nearby ground targets.
+health: 1800
+size: 2
+reloadTime: 36
+range: 144
+shots: 5
+burstSpacing:  150
+targetAir: false
+targetGround: true
+ammoUseEffect: casing2
+inaccuracy: 10
+rotateSpeed: 12
+coolantMultiplier: 2.5
+coolantUsage: 1
+ammoTypes: {
+ metaglass: {
+    speed: 5
+    lifetime: 30
+    damage: 7
+    reloadMultiplier: 0.9
+    fragBullets: 5
+    fragBullet: fragGlassFrag
+    width: 6
+    height: 8
+   }
+ scrap: {
+    speed: 4
+    lifetime: 34
+    damage: 5
+    reloadMultiplier: 0.5
+    fragBullets: 8
+    fragBullet: {
+       width: 5
+       height: 12
+       shrinkY: 1
+       lifetime: 20
+       despawnEffect: none
+    }
+    width: 8
+    height: 10
+   }
+ ice: {
+    speed: 5
+    lifetime: 30
+    damage: 4
+    frontColor: b7cbf4
+    backColor: 9db5e5
+    fragBullets: 6
+    fragBullet: {
+        lifetime: 12
+        speed: 5
+        damage: 6
+        width: 4
+        height: 5
+        despawnEffect: freezing
+        frontColor: b7cbf4
+        backColor: 9db5e5
+    }
+    width: 5
+    height: 6
+   }
+ odium: {
+    speed: 6
+    lifetime: 25
+    damage: 13
+    fragBullets: 5
+    fragBullet: {
+       width: 5
+       height: 6
+       lifetime: 20
+       frontColor: 676593
+       backColor: 5C567A
+    }
+    width: 6
+    height: 8
+   }
+}
+requirements: [
+   metaglass/300
+   lead/180
+   odium/ 60
+]
+category: turret
+research: scatter

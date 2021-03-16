@@ -1,4 +1,4 @@
-type: Floor
+//type: Floor
 name: Scale
 solid: false
 variants: 1
@@ -8,8 +8,7 @@ canOverdrive: false
 cacheLayer: tar
 hasShadow: false
 destructible: false
-speedMultiplier: 0.6
-damageTaken: 0
+statusDuration: 240
 drownTime: 180
 isLiquid: true
 liquidDrop: scale

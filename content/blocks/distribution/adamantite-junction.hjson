@@ -10,9 +10,9 @@ outlineColor: c30d40
 canOverdrive: false
 requirements: [
      adamantite/1
-     lead/30
-     titanium/30
-     thorium/30
+     surge-alloy/1
+     phase-fabric/2
+     silicon/2
 ]
 group: transportation
 category: distribution

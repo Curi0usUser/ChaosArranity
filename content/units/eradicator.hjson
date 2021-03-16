@@ -1,0 +1,135 @@
+type: legs
+name: The Eradicator
+speed: 0.2
+itemCapacity: 200
+commandLimit: 10
+canDrown: false
+hitSize: 72
+allowLegStep: true
+hovering: true
+legCount: 6
+legLength: 100
+legExtension: -20
+landShake: 12
+rippleScale: 4
+legSplashDamage: 5000
+legSplashRange: 32
+flying: false
+health: 1000000
+armor: 5000
+weapons: [
+{
+  name: eradicator-large-weapon
+  x: 19
+  y: -6
+  reload: 180
+  rotate: true
+  rotateSpeed: 3
+  alternate: false
+  inaccuracy: 0
+  recoil: 8
+  shake: 12
+  bullet: {
+      type: ArtilleryBulletType
+      sprite: chaos-arranity-energy-orb
+      hitEffect: massiveExplosion
+      despawnEffect: massiveExplosion
+      speed: 5
+      width: 30
+      height: 30
+      shrinkX: 0
+      shrinkY: 0
+      lifetime: 72
+      splashDamage: 70000
+      splashDamageRadius: 80
+      fragBullets: 35
+      fragBullet: {
+         sprite: chaos-arranity-spike1
+         speed: 4
+         width: 8
+         height: 8
+         lifetime: 40
+         damage: 500
+      }
+   }
+}
+{
+  name: eradicator-medium-weapon
+  x: 40
+  y: -4
+  reload: 6
+  rotate: true
+  rotateSpeed: 4
+  alternate: true
+  inaccuracy: 0
+  recoil: 5
+  shake: 4
+  shootSound: bang
+  bullet: {
+      speed: 4
+      width: 15
+      height: 15
+      lifetime: 40
+      pierce: true
+      damage: 3000
+   }
+}
+{
+  name: eradicator-small-weapon
+  x: 7
+  y: 7
+  reload: 6
+  rotate: true
+  rotateSpeed: 5
+  alternate: false
+  inaccuracy: 0
+  recoil: 3
+  shake: 2
+  shootSound: missile
+  bullet: {
+      type: MissileBulletType
+      speed: 4
+      width: 12
+      height: 12
+      shrinkY: 0
+      lifetime: 70
+      pierce: true
+      damage: 350
+      hitEffect: none
+      despawnEffect: blastExplosion
+      splashDamage: 1500
+      splashDamageRadius: 40
+      homingPower: 0.05
+      homingRange: 64
+   }
+}
+{
+  name: eradicator-small-weapon
+  x: 20
+  y: 17
+  reload: 6
+  rotate: true
+  rotateSpeed: 5
+  alternate: true
+  inaccuracy: 0
+  recoil: 3
+  shake: 2
+  shootSound: missile
+  bullet: {
+      type: MissileBulletType
+      speed: 4
+      width: 12
+      height: 12
+      shrinkY: 0
+      lifetime: 70
+      pierce: true
+      damage: 350
+      hitEffect: none
+      despawnEffect: blastExplosion
+      splashDamage: 1500
+      splashDamageRadius: 40
+      homingPower: 0.05
+      homingRange: 64
+   }
+}
+]

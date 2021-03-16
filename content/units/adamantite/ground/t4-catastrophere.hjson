@@ -3,12 +3,9 @@ name: Catastrophere
 description: Fires a massive barrage of high damaging bullets, and has a hail mounted on for extra damage.
 speed: 0.3
 canDrown: false
-buildSpeed: 3
-mineSpeed: 6
-mineTier: 3
 itemCapacity: 150
 commandLimit: 10
-hitSize: 25
+hitSize: 45
 legLength: 16
 accel: 10
 flying: false

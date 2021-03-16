@@ -1,7 +1,8 @@
 name: Odium
-description: A Highly brittle yet durable material, can be synthesized easily with Metaglass and Spores.
+description: A highly brittle, light and durable material, can easily be smelted with spores, ice, and metaglass.
 flammability: 0
 radioactivity: 0.6
 explosiveness: 0
 cost: 1
 color: 676593
+research: metaglass

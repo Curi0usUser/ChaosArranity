@@ -1,0 +1,14 @@
+name: Unit Reconsention Point
+description: Increases your max amount of allowed units at a time by 10.
+size: 2
+researchCostMultiplier: 5.4
+buildCostMultiplier: 5
+unitCapModifier: 10
+health: 980
+requirements: [
+   silicon/3000
+   phase-fabric/800
+   odium-refined/500
+]
+category: units
+research: command-center

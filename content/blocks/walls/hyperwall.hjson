@@ -3,18 +3,17 @@ description: Utilizes the power of odium to create a form of hyperwall that has 
 size: 2
 update: true
 health: 4800
-buildCostMultiplier: 0.45
-lightningChance: 1
-lightningDamage: 14
-lightningLength: 8
-chanceDeflect: 35
+buildCostMultiplier: 1
+lightningChance: 0.15
+lightningDamage: 25
+lightningLength: 16
+chanceDeflect: 20
 absorbLasers: true
 requirements: [
-   phase-fabric/24
-   odium/24
-   odium-refined/24
-   surge-alloy/24
-   ice/24
+   phase-fabric/48
+   odium/48
+   odium-refined/48
+   surge-alloy/48
 ]
 group: walls
 category: defense

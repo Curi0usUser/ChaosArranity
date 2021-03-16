@@ -9,7 +9,9 @@ canOverdrive: false
 buildCostMultiplier: 0.5
 requirements: [
      adamantite/3
-     metaglass/30
+     surge-alloy/3
+     phase-fabric/3
+     metaglass/3
 ]
 group: liquids
 category: liquid

@@ -3,7 +3,7 @@ name: Ridge
 description: A better, larger advanced duo.
 health: 1600
 size: 2
-reloadTime: 12
+reloadTime: 15
 range: 216
 shots: 2
 spread: 2
@@ -11,6 +11,7 @@ alternate: true
 targetAir: true
 targetGround: true
 ammoUseEffect: casing1
+canOverdrive: false
 inaccuracy: 2
 rotateSpeed: 8
 coolantMultiplier: 1

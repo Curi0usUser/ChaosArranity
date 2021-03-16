@@ -18,7 +18,7 @@ heating: 0.1
 consumes: {
   items: {
     items: [
-          fireatite/1
+          detonatite/1
     ]
   }
   liquid: {

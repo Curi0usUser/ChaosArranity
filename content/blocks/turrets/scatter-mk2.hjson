@@ -92,7 +92,7 @@ ammoTypes: {
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 2
   }
- fireatite: {
+ detonatite: {
     speed: 8
     damage: 30
     ammoMultiplier: 2

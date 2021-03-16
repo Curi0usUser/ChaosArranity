@@ -2,9 +2,6 @@ type: naval
 name: Paralysis
 description: Fires a large barrage of missles and bullets.
 speed: 1.3
-buildSpeed: 3
-mineSpeed: 8
-mineTier: 4
 itemCapacity: 80
 commandLimit: 10
 flying: false

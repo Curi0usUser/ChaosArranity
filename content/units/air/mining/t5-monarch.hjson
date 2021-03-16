@@ -1,0 +1,26 @@
+type: flying
+name: Monarch
+description: Automatically mines copper, lead, titanium, and thorium, depositing it into the core. Protected by a small shield. Self-repairing.
+speed: 2.4
+accel: 0.1
+drag: 0.04
+flying: true
+health: 24000
+armor: 16
+mineSpeed: 20
+mineTier: 4
+itemCapacity: 420
+lowAltitude: true
+engineOffset: 15
+engineSize: 6
+hitSize: 24
+weapons: [ ]
+
+research: {
+    parent: t1-magine
+    requirements:
+    [
+        {item: titanium, amount: 2000},
+        {item: silicon, amount: 1000},
+    ]
+}

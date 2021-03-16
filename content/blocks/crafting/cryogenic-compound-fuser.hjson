@@ -8,13 +8,13 @@ health: 310
 hasPower: true
 hasLiquids: true
 hasItems: true
-craftTime: 120
+craftTime: 60
 updateEffect: smeltsmoke
 consumes: {
   power: 5
 items: {
     items: [
-   ice/8
+   ice/3
   ]
 }
   liquid: {
@@ -30,4 +30,4 @@ requirements: [
 ]
 category: crafting
 research: cryofluid-mixer
-outputLiquid: cryogenic-fluid/24
+outputLiquid: cryogenic-fluid/12

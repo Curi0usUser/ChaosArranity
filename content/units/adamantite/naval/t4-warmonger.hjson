@@ -3,9 +3,6 @@ name: Warmonger
 description: Fires high damaging peircing bullets at enemies. Has an enhanced lancer to start fires.
 speed: 0.5
 commandLimit: 10
-buildSpeed: 4
-mineSpeed: 10
-mineTier: 6
 itemCapacity: 150
 flying: false
 hitSize: 20

@@ -1,5 +1,10 @@
-require("abilities");
+require("units");
 require("launchpadadamantite");
 require("hyperwall");
-require("ejectors");
+require("multi-crafters");
 require("odium-mine");
+require("recon-point");
+require("scale-effect");
+require("ice-blocks");
+require("weather");
+//require("lava-script");

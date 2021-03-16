@@ -1,0 +1,4 @@
+type: StaticWall
+name: Adamantite Plating Wall  (Middle)
+variants: 2
+solid: true

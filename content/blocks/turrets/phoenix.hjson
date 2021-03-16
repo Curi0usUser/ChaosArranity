@@ -37,7 +37,7 @@ ammoTypes: {
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
    }
- fireatite: {
+ detonatite: {
     speed: 6
     lifetime: 30
     ammoMultiplier: 1
