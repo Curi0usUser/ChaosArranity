@@ -14,6 +14,8 @@ Sprites made by Duvent
 
 Special Thanks to Skared Kat/LostCause
 
+Translations by 569747257512165377
+
 Ejectors, Multimixer, Alloy Refinery use younggam's MultiLib
 
 # Extras

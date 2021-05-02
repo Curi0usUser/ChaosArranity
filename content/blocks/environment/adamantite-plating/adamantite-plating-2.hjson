@@ -1,6 +1,0 @@
-type: Floor
-name: Adamantite Plating 2
-variants: 0
-solid: false
-placeableOn: true
-isLiquid: false

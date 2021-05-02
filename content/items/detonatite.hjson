@@ -1,7 +1,0 @@
-name: Detonatite
-description: An extremely flammable and explosive substance. Handle with extreme care.
-flammability: 3.8
-explosiveness: 7.3
-color: FF3232
-hardness: 4
-research: blast-compound
