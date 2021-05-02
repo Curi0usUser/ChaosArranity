@@ -19,6 +19,6 @@ Translations by 569747257512165377
 Ejectors, Multimixer, Alloy Refinery use younggam's MultiLib
 
 # Extras
-Join our Discord to report bugs, be notified of updates, or make suggestions.
+Join our Discord to report bugs, see development previews, be notified of updates, or make suggestions.
 
 discord.gg/6y6HAqTrkJ
